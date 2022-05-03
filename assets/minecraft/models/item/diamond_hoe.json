@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_hoe"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "cannon/cannon"},
+		{ "predicate": {"custom_model_data": 2}, "model": "cannon/gp_left1"},
+		{ "predicate": {"custom_model_data": 3}, "model": "cannon/gp_left2"},
+		{ "predicate": {"custom_model_data": 4}, "model": "cannon/gp_left3"},
+		{ "predicate": {"custom_model_data": 5}, "model": "cannon/gp_left4"},
+		{ "predicate": {"custom_model_data": 6}, "model": "cannon/gp_left5"},
+		{ "predicate": {"custom_model_data": 7}, "model": "cannon/gp_left6"},
+		{ "predicate": {"custom_model_data": 8}, "model": "cannon/gp_left7"},
+		{ "predicate": {"custom_model_data": 9}, "model": "cannon/gp_right1"},
+		{ "predicate": {"custom_model_data": 10}, "model": "cannon/gp_right2"},
+		{ "predicate": {"custom_model_data": 11}, "model": "cannon/gp_right3"},
+		{ "predicate": {"custom_model_data": 12}, "model": "cannon/gp_right4"},
+		{ "predicate": {"custom_model_data": 13}, "model": "cannon/gp_right5"},
+		{ "predicate": {"custom_model_data": 14}, "model": "cannon/gp_right6"},
+		{ "predicate": {"custom_model_data": 15}, "model": "cannon/gp_right7"},
+		{ "predicate": {"custom_model_data": 16}, "model": "cannon/cannonball"},
+		{ "predicate": {"custom_model_data": 17}, "model": "custom/orangehat"},
+		{ "predicate": {"custom_model_data": 18}, "model": "custom/purplehat"},
+		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
+	]
+}

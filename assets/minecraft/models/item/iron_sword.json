@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/cutlass"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [80, 77, 0],
+			"translation": [0.25, 3.25, 5.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [80, -77, 0],
+			"translation": [-0.25, 3.25, 5.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [25, 90, 0],
+			"translation": [4.25, 4.75, -0.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [25, -90, 0],
+			"translation": [4.5, 4.75, -0.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"translation": [0, 7, 0],
+			"scale": [0.74, 0.74, 0.74]
+		}
+	}
+}

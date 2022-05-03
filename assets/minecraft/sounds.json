@@ -1,0 +1,25 @@
+{
+	"cannonload": {
+		"sounds": [
+			"cannon/cannonload"
+		]
+	},
+	
+	"cannonshot": {
+		"sounds": [
+			"cannon/cannonshot"
+		]
+	},
+	
+	"cannonshot_distant": {
+		"sounds": [
+			"cannon/cannonshot_distant"
+		]
+	},
+	
+	"cannonprime": {
+		"sounds": [
+			"cannon/cannonprime"
+		]
+	}
+}
