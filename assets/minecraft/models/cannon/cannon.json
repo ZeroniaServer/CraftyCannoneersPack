@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "block/basalt_side",
 		"3": "block/iron_block",
-		"4": "block/hopper_inside",
+		"4": "block/cauldron_inner",
 		"5": "block/andesite",
 		"6": "block/black_concrete",
 		"7": "block/oak_log",
