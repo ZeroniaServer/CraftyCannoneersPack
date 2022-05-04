@@ -2,32 +2,35 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "item/cutlass"
+		"layer0": "item/boarding_axe"
 	},
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [60, 77, 0],
-			"translation": [0.25, 4.75, 4.25],
+			"rotation": [45, -90, 0],
+			"translation": [0.25, 3.5, 1],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [60, -77, 0],
-			"translation": [-0.25, 4.5, 4],
+			"rotation": [45, 90, 0],
+			"translation": [-0.25, 3.5, 1],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_righthand": {
-			"rotation": [9, 90, 0],
-			"translation": [4.25, 4.75, -0.75],
+			"rotation": [30, -96, 0],
+			"translation": [4.25, 6, -0.75],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_lefthand": {
-			"rotation": [7, -90, 0],
-			"translation": [4.5, 4.75, -1.25],
+			"rotation": [30, 96, 0],
+			"translation": [4.25, 6, -0.75],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"ground": {
 			"translation": [0, 7, 0],
 			"scale": [0.74, 0.74, 0.74]
+		},
+		"gui": {
+			"rotation": [0, 0, -90]
 		}
 	}
 }
