@@ -25,12 +25,15 @@
 		{ "predicate": {"custom_model_data": 19}, "model": "chest/common/closed"},
 		{ "predicate": {"custom_model_data": 20}, "model": "chest/common/open_full"},
 		{ "predicate": {"custom_model_data": 21}, "model": "chest/common/open_empty"},
+		{ "predicate": {"custom_model_data": 22}, "model": "cannon/hot_cannonball"},
 		{ "predicate": {"custom_model_data": 23}, "model": "chest/uncommon/closed"},
 		{ "predicate": {"custom_model_data": 24}, "model": "chest/uncommon/open_full"},
 		{ "predicate": {"custom_model_data": 25}, "model": "chest/uncommon/open_empty"},
 		{ "predicate": {"custom_model_data": 26}, "model": "chest/rare/closed"},
 		{ "predicate": {"custom_model_data": 27}, "model": "chest/rare/open_full"},
 		{ "predicate": {"custom_model_data": 28}, "model": "chest/rare/open_empty"},
+		{ "predicate": {"custom_model_data": 29}, "model": "cannon/cluster_cannonball"},
+		{ "predicate": {"custom_model_data": 30}, "model": "cannon/cluster_cannonball_single"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }

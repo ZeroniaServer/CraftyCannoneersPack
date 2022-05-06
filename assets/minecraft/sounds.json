@@ -11,6 +11,18 @@
 		]
 	},
 	
+	"fireshot": {
+		"sounds": [
+			"cannon/fireshot"
+		]
+	},
+	
+	"cluster": {
+		"sounds": [
+			"cannon/cluster"
+		]
+	},
+	
 	"cannonshot_distant": {
 		"sounds": [
 			"cannon/cannonshot_distant"

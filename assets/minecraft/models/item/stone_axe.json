@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "item/boarding_axe"
+		"layer0": "custom/boarding_axe"
 	},
 	"display": {
 		"thirdperson_righthand": {
