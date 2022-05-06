@@ -33,5 +33,17 @@
 		"sounds": [
 			"cannon/cannonprime"
 		]
+	},
+	
+	"shipdamage1": {
+		"sounds": [
+			"ship/damage1"
+		]
+	},
+	
+	"shipdamage2": {
+		"sounds": [
+			"ship/damage2"
+		]
 	}
 }
