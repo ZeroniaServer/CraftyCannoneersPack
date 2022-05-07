@@ -45,5 +45,17 @@
 		"sounds": [
 			"ship/damage2"
 		]
+	},
+	
+	"gasshot": {
+		"sounds": [
+			"cannon/gasshot"
+		]
+	},
+	
+	"gas": {
+		"sounds": [
+			"cannon/gas"
+		]
 	}
 }
