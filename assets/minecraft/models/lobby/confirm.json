@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "lobby/confirm"
+	},
+	"display": {
+		"head": {
+			"translation": [0, -39.25, -10.75],
+			"scale": [0.8, 0.8, 1]
+		}
+	}
+}

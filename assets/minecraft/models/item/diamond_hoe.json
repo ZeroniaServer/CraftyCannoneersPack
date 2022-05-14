@@ -37,6 +37,11 @@
 		{ "predicate": {"custom_model_data": 31}, "model": "cannon/gas_cannonball"},
 		{ "predicate": {"custom_model_data": 32}, "model": "cannon/chain_cannonball"},
 		{ "predicate": {"custom_model_data": 33}, "model": "cannon/gascloud"},
+		{ "predicate": {"custom_model_data": 34}, "model": "custom/map"},
+		{ "predicate": {"custom_model_data": 35}, "model": "lobby/time"},
+		{ "predicate": {"custom_model_data": 36}, "model": "lobby/shiphp"},
+		{ "predicate": {"custom_model_data": 37}, "model": "lobby/confirm"},
+		{ "predicate": {"custom_model_data": 38}, "model": "lobby/defaults"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
