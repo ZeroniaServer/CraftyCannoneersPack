@@ -1,0 +1,81 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"8": "block/black_wool",
+		"9": "block/gray_wool",
+		"10": "entity/skeleton/skeleton"
+	},
+	"elements": [
+		{
+			"from": [4, 12, 3],
+			"to": [12, 15, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 20, 11]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 3], "texture": "#8"},
+				"east": {"uv": [0, 0, 10, 3], "texture": "#8"},
+				"south": {"uv": [0, 0, 8, 3], "texture": "#8"},
+				"west": {"uv": [0, 0, 10, 3], "texture": "#8"},
+				"up": {"uv": [0, 0, 8, 10], "texture": "#8"},
+				"down": {"uv": [0, 0, 8, 10], "texture": "#8"}
+			}
+		},
+		{
+			"from": [-4, 15, 4],
+			"to": [-2, 19, 12],
+			"rotation": {"angle": 45, "axis": "z", "origin": [4, 22, 11]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#9"},
+				"east": {"uv": [0, 0, 8, 4], "texture": "#8"},
+				"south": {"uv": [0, 0, 2, 4], "texture": "#9"},
+				"west": {"uv": [0, 0, 8, 4], "texture": "#8"},
+				"up": {"uv": [0, 0, 2, 8], "texture": "#9"},
+				"down": {"uv": [0, 0, 2, 8], "texture": "#8"}
+			}
+		},
+		{
+			"from": [14, 4, 4],
+			"to": [16, 8, 12],
+			"rotation": {"angle": -45, "axis": "z", "origin": [23, 12, 11]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#9"},
+				"east": {"uv": [0, 0, 8, 4], "texture": "#8"},
+				"south": {"uv": [0, 0, 2, 4], "texture": "#9"},
+				"west": {"uv": [0, 0, 8, 4], "texture": "#8"},
+				"up": {"uv": [0, 0, 2, 8], "texture": "#9"},
+				"down": {"uv": [0, 0, 2, 8], "texture": "#8"}
+			}
+		},
+		{
+			"from": [4.1, 14, -1],
+			"to": [11.9, 19, 0],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [12, 22, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 7.8, 5], "texture": "#8"},
+				"east": {"uv": [0, 0, 1, 5], "texture": "#9"},
+				"south": {"uv": [0, 0, 7.8, 5], "texture": "#8"},
+				"west": {"uv": [0, 0, 1, 5], "texture": "#9"},
+				"up": {"uv": [0, 0, 7.8, 1], "texture": "#9"},
+				"down": {"uv": [0, 0, 7.8, 1], "texture": "#8"}
+			}
+		},
+		{
+			"from": [6, 14.5, -1.5],
+			"to": [10, 18.5, -1.4],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [12, 23, 6.1]},
+			"faces": {
+				"north": {"uv": [2, 4.13889, 4, 8], "texture": "#10"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [36, 149, 0],
+			"translation": [-0.25, -2.75, 0],
+			"scale": [0.73, 0.73, 0.73]
+		},
+		"head": {
+			"translation": [0, 1.25, -0.5],
+			"scale": [1.27, 1.27, 1.27]
+		}
+	}
+}
