@@ -43,6 +43,7 @@
 		{ "predicate": {"custom_model_data": 37}, "model": "lobby/confirm"},
 		{ "predicate": {"custom_model_data": 38}, "model": "lobby/defaults"},
 		{ "predicate": {"custom_model_data": 39}, "model": "custom/blackhat"},
+		{ "predicate": {"custom_model_data": 40}, "model": "cannon/chain_cannonball_projectile"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
