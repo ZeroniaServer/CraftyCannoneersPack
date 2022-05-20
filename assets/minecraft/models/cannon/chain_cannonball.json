@@ -3336,8 +3336,8 @@
 			"rotation": [0, -180, 0]
 		},
 		"head": {
-			"rotation": [90, 92, 0],
-			"translation": [3.25, -30.5, 6],
+			"rotation": [-90, 0, 0],
+			"translation": [3.25, -31.5, 6],
 			"scale": [2.57, 2.57, 4]
 		}
 	},
