@@ -6267,8 +6267,8 @@
 			"scale": [1, 1, 1.5]
 		},
 		"ground": {
-			"translation": [-9.25, 3.25, 0],
-			"scale": [1, 1, 0]
+			"translation": [-4.75, 3.25, 7],
+			"scale": [0.65, 0.65, 0.8]
 		},
 		"gui": {
 			"translation": [-9, 0, 0]

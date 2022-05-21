@@ -724,6 +724,10 @@
 			"translation": [-2.5, 1, -0.5],
 			"scale": [0.6, 0.6, 0.6]
 		},
+		"ground": {
+			"translation": [0, 4, -2.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
 		"gui": {
 			"rotation": [-11, 146, 0],
 			"translation": [-0.75, -0.5, 0],
