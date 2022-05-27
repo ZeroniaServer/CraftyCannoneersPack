@@ -57,5 +57,17 @@
 		"sounds": [
 			"cannon/gas"
 		]
+	},
+	
+	"cannonball": {
+		"sounds": [
+			"cannon/cannonball"
+		]
+	},
+	
+	"cannonball_distant": {
+		"sounds": [
+			"cannon/cannonball_distant"
+		]
 	}
 }
