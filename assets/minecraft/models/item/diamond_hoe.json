@@ -45,6 +45,13 @@
 		{ "predicate": {"custom_model_data": 39}, "model": "custom/blackhat"},
 		{ "predicate": {"custom_model_data": 40}, "model": "cannon/chain_cannonball_projectile"},
 		{ "predicate": {"custom_model_data": 41}, "model": "cannon/firework"},
+		{ "predicate": {"custom_model_data": 42}, "model": "custom/killmvp"},
+		{ "predicate": {"custom_model_data": 43}, "model": "custom/killdeathmvp"},
+		{ "predicate": {"custom_model_data": 44}, "model": "custom/cannondeathmvp"},
+		{ "predicate": {"custom_model_data": 45}, "model": "custom/cannonmvp"},
+		{ "predicate": {"custom_model_data": 46}, "model": "custom/allmvp"},
+		{ "predicate": {"custom_model_data": 47}, "model": "custom/alldeathmvp"},
+		{ "predicate": {"custom_model_data": 48}, "model": "custom/deathmvp"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
