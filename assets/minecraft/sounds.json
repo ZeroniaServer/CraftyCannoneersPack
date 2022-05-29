@@ -69,5 +69,17 @@
 		"sounds": [
 			"cannon/cannonball_distant"
 		]
+	},
+	
+	"chestlock": {
+		"sounds": [
+			"ship/chestlock"
+		]
+	},
+	
+	"chestunlock": {
+		"sounds": [
+			"ship/chestunlock"
+		]
 	}
 }
