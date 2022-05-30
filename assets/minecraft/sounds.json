@@ -81,5 +81,17 @@
 		"sounds": [
 			"ship/chestunlock"
 		]
+	},
+	
+	"bounce": {
+		"sounds": [
+			"cannon/bounce"
+		]
+	},
+	
+	"bounceshot": {
+		"sounds": [
+			"cannon/bounceshot"
+		]
 	}
 }

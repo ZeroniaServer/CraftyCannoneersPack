@@ -58,6 +58,7 @@
 		{ "predicate": {"custom_model_data": 52}, "model": "chest/team/orange/closed"},
 		{ "predicate": {"custom_model_data": 53}, "model": "chest/team/orange/locked"},
 		{ "predicate": {"custom_model_data": 54}, "model": "chest/team/orange/opened"},
+		{ "predicate": {"custom_model_data": 55}, "model": "cannon/bouncy_cannonball"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
