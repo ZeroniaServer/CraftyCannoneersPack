@@ -297,7 +297,13 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
+		"gui": {
+			"rotation": [34, 146, 0],
+			"translation": [0.75, 0, 0],
+			"scale": [0.51, 0.51, 0.51]
+		},
 		"head": {
 			"translation": [0.5, -23.25, 1.75]
 		}
