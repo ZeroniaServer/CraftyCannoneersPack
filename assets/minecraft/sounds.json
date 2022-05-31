@@ -77,6 +77,12 @@
 		]
 	},
 	
+	"key_turn": {
+		"sounds": [
+			"ship/key_turn"
+		]
+	},
+	
 	"chestunlock": {
 		"sounds": [
 			"ship/chestunlock"
