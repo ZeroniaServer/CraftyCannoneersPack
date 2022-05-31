@@ -59,6 +59,9 @@
 		{ "predicate": {"custom_model_data": 53}, "model": "chest/team/orange/locked"},
 		{ "predicate": {"custom_model_data": 54}, "model": "chest/team/orange/opened"},
 		{ "predicate": {"custom_model_data": 55}, "model": "cannon/bouncy_cannonball"},
+		{ "predicate": {"custom_model_data": 56}, "model": "cannon/player_cannonball"},
+		{ "predicate": {"custom_model_data": 57}, "model": "cannon/pcannonball_purple"},
+		{ "predicate": {"custom_model_data": 58}, "model": "cannon/pcannonball_orange"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
