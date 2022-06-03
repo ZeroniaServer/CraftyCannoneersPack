@@ -2,102 +2,160 @@
 	"cannonload": {
 		"sounds": [
 			"cannon/cannonload"
-		]
+		],
+		"subtitle": "subtitles.cannon.load"
 	},
-	
+
 	"cannonshot": {
 		"sounds": [
 			"cannon/cannonshot"
-		]
+		],
+		"subtitle": "subtitles.cannon.shot"
 	},
-	
+
 	"fireshot": {
 		"sounds": [
 			"cannon/fireshot"
-		]
+		],
+		"subtitle": "subtitles.cannon.fire_shot"
 	},
-	
+
 	"cluster": {
 		"sounds": [
 			"cannon/cluster"
-		]
+		],
+		"subtitle": "subtitles.cannon.cluster"
 	},
-	
+
 	"cannonshot_distant": {
 		"sounds": [
 			"cannon/cannonshot_distant"
-		]
+		],
+		"subtitle": "subtitles.cannon.distant"
 	},
-	
+
 	"cannonprime": {
 		"sounds": [
 			"cannon/cannonprime"
-		]
+		],
+		"subtitle": "subtitles.cannon.prime"
 	},
-	
+
 	"shipdamage1": {
 		"sounds": [
 			"ship/damage1"
-		]
+		],
+		"subtitle": "subtitles.ship.damage1"
 	},
-	
+
 	"shipdamage2": {
 		"sounds": [
 			"ship/damage2"
-		]
+		],
+		"subtitle": "subtitles.ship.damage2"
 	},
-	
+
 	"gasshot": {
 		"sounds": [
 			"cannon/gasshot"
-		]
+		],
+		"subtitle": "subtitles.cannon.gas_shot"
 	},
-	
+
 	"gas": {
 		"sounds": [
 			"cannon/gas"
-		]
+		],
+		"subtitle": "subtitles.cannonball.gas"
 	},
-	
+
 	"cannonball": {
 		"sounds": [
 			"cannon/cannonball"
-		]
+		],
+		"subtitle": "subtitles.cannonball.explode"
 	},
-	
+
 	"cannonball_distant": {
 		"sounds": [
 			"cannon/cannonball_distant"
-		]
+		],
+		"subtitle": "subtitles.cannonball.distant"
 	},
-	
+
 	"chestlock": {
 		"sounds": [
 			"ship/chestlock"
-		]
+		],
+		"subtitle": "subtitles.teamchest.lock"
 	},
-	
+
 	"key_turn": {
 		"sounds": [
 			"ship/key_turn"
-		]
+		],
+		"subtitle": "subtitles.teamchest.key_turn"
 	},
-	
+
 	"chestunlock": {
 		"sounds": [
 			"ship/chestunlock"
-		]
+		],
+		"subtitle": "subtitles.teamchest.unlock"
 	},
-	
+
 	"bounce": {
 		"sounds": [
 			"cannon/bounce"
-		]
+		],
+		"subtitle": "subtitles.cannon.bounce"
 	},
-	
+
 	"bounceshot": {
 		"sounds": [
 			"cannon/bounceshot"
-		]
+		],
+		"subtitle": "subtitles.cannon.bounce_shot"
+	},
+
+	"chestspawn": {
+		"sounds": [
+			"dig/gravel1",
+			"dig/gravel2",
+			"dig/gravel3",
+			"dig/gravel4"
+		],
+		"subtitle": "subtitles.chest.spawn"
+	},
+
+	"chestrise": {
+		"sounds": [
+			"dig/sand1",
+			"dig/sand2",
+			"dig/sand3",
+			"dig/sand4"
+		],
+		"subtitle": "subtitles.chest.rise"
+	},
+
+	"gunpowder": {
+		"sounds": [
+			"dig/sand1",
+			"dig/sand2",
+			"dig/sand3",
+			"dig/sand4"
+		],
+		"subtitle": "subtitles.cannon.gunpowder"
+	},
+
+	"takegunpowder": {
+		"sounds": [
+			"step/sand1",
+			"step/sand2",
+			"step/sand3",
+			"step/sand4",
+			"step/sand5"
+		],
+		"subtitle": "subtitles.cannon.gunpowder_take"
 	}
 }
