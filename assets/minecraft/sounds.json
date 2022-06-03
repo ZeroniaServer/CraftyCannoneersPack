@@ -157,5 +157,12 @@
 			"step/sand5"
 		],
 		"subtitle": "subtitles.cannon.gunpowder_take"
+	},
+
+	"weakpointspot": {
+		"sounds": [
+			"note/hat"
+		],
+		"subtitle": "subtitles.weakpoint.spot"
 	}
 }

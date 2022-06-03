@@ -4215,6 +4215,7 @@
   "subtitles.teamchest.lock": "Team Chest locks",
   "subtitles.teamchest.unlock": "Team Chest unlocks",
   "subtitles.teamchest.key_turn": "Skeleton Key turns",
+  "subtitles.weakpoint.spot": "Weakpoint spotted",
   "debug.prefix": "[Debug]:",
   "debug.reload_chunks.help": "F3 + A = Reload chunks",
   "debug.show_hitboxes.help": "F3 + B = Show hitboxes",
