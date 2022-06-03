@@ -31,7 +31,7 @@
 		"sounds": [
 			"cannon/cannonshot_distant"
 		],
-		"subtitle": "subtitles.cannon.distant"
+		"subtitle": "subtitles.cannon.shot"
 	},
 
 	"cannonprime": {
@@ -80,7 +80,7 @@
 		"sounds": [
 			"cannon/cannonball_distant"
 		],
-		"subtitle": "subtitles.cannonball.distant"
+		"subtitle": "subtitles.cannonball.explode"
 	},
 
 	"chestlock": {
