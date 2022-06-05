@@ -2687,7 +2687,7 @@
   "advancements.sad_label": ":(",
   "advancements.toast.task": "Objective Complete!",
   "advancements.toast.challenge": "Challenge Complete!",
-  "advancements.toast.goal": "Goal Reached!",
+  "advancements.toast.goal": "Bonus Objective Complete!",
   "stats.tooltip.type.statistic": "Statistic",
   "stat.generalButton": "General",
   "stat.itemsButton": "Items",
