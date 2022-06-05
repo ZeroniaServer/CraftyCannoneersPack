@@ -65,6 +65,8 @@
 		{ "predicate": {"custom_model_data": 59}, "model": "custom/seagull"},
 		{ "predicate": {"custom_model_data": 60}, "model": "cannon/tracer_cannonball"},
 		{ "predicate": {"custom_model_data": 61}, "model": "custom/parkour_hat"},
+		{ "predicate": {"custom_model_data": 62}, "model": "cannon/cannon_recoil1"},
+		{ "predicate": {"custom_model_data": 63}, "model": "cannon/cannon_recoil2"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
