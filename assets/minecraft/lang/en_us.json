@@ -4209,6 +4209,8 @@
   "subtitles.cannon.cluster": "Cannonball Cluster launches",
   "subtitles.cannonball.explode": "Cannonball explodes",
   "subtitles.cannonball.gas": "Gas leaks",
+  "subtitles.cannonball.gasexplode": "Gas explodes",
+  "subtitles.cannonball.gasexplode_distant": "Gas explodes",
   "subtitles.cannonball.bounce": "Cannonball bounces",
   "subtitles.ship.damage1": "Ship damaged",
   "subtitles.ship.damage2": "Ship damaged",

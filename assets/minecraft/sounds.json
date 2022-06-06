@@ -69,6 +69,20 @@
 		"subtitle": "subtitles.cannonball.gas"
 	},
 
+	"gasexplode": {
+		"sounds": [
+			"cannon/gasexplode"
+		],
+		"subtitle": "subtitles.cannonball.gasexplode"
+	},
+
+	"gasexplode_distant": {
+		"sounds": [
+			"cannon/gasexplode_distant"
+		],
+		"subtitle": "subtitles.cannonball.gasexplode_distant"
+	},
+
 	"cannonball": {
 		"sounds": [
 			"cannon/cannonball"
