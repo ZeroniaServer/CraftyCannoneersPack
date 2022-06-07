@@ -185,5 +185,19 @@
 		"sounds": [
     ],
     "subtitle": ""
+	},
+
+	"parrot": {
+		"sounds": [
+			"lobby/parrot"
+		],
+		"subtitle": "*happy parrot noises*"
+	},
+
+	"parrot2": {
+		"sounds": [
+			"lobby/parrot2"
+		],
+		"subtitle": ""
 	}
 }
