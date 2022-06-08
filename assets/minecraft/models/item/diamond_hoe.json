@@ -69,6 +69,8 @@
 		{ "predicate": {"custom_model_data": 63}, "model": "cannon/cannon_recoil2"},
 		{ "predicate": {"custom_model_data": 64}, "model": "cannon/gasbubble"},
 		{ "predicate": {"custom_model_data": 65}, "model": "custom/parrot"},
+		{ "predicate": {"custom_model_data": 66}, "model": "custom/sandman"},
+		{ "predicate": {"custom_model_data": 67}, "model": "custom/snowman"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
