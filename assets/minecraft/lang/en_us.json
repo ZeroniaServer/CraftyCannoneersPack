@@ -37,5 +37,6 @@
   "subtitles.teamchest.lock": "Team Chest locks",
   "subtitles.teamchest.unlock": "Team Chest unlocks",
   "subtitles.teamchest.key_turn": "Skeleton Key turns",
-  "subtitles.weakpoint.spot": "Weakpoint spotted"
+  "subtitles.weakpoint.spot": "Weakpoint spotted",
+  "subtitles.parrot.pet": "Happy Parrot noises",
 }

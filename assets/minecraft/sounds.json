@@ -180,6 +180,14 @@
 		"subtitle": "subtitles.weakpoint.spot"
 	},
 
+	"parrot": {
+		"sounds": [
+			"lobby/parrot",
+			"lobby/parrot2"
+		],
+		"subtitle": "subtitles.parrot.pet"
+	},
+
 	"entity.minecart.riding": {
 		"replace": true,
 		"sounds": [
@@ -187,17 +195,10 @@
     "subtitle": ""
 	},
 
-	"parrot": {
+	"block.lantern.break": {
+		"replace": true,
 		"sounds": [
-			"lobby/parrot"
-		],
-		"subtitle": "*happy parrot noises*"
-	},
-
-	"parrot2": {
-		"sounds": [
-			"lobby/parrot2"
-		],
-		"subtitle": ""
+    ],
+    "subtitle": ""
 	}
 }
