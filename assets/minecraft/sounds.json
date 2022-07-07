@@ -45,14 +45,14 @@
 		"sounds": [
 			"ship/damage1"
 		],
-		"subtitle": "subtitles.ship.damage1"
+		"subtitle": "subtitles.ship.damage"
 	},
 
 	"shipdamage2": {
 		"sounds": [
 			"ship/damage2"
 		],
-		"subtitle": "subtitles.ship.damage2"
+		"subtitle": "subtitles.ship.damage"
 	},
 
 	"gasshot": {
@@ -80,7 +80,7 @@
 		"sounds": [
 			"cannon/gasexplode_distant"
 		],
-		"subtitle": "subtitles.cannonball.gasexplode_distant"
+		"subtitle": "subtitles.cannonball.gasexplode"
 	},
 
 	"cannonball": {
