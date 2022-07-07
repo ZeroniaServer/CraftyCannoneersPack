@@ -188,6 +188,34 @@
 		"subtitle": "subtitles.parrot.pet"
 	},
 
+	"shipbell": {
+		"sounds": [
+			"ship/bell"
+		],
+		"subtitle": "subtitles.shipbell.ring"
+	},
+
+	"shipbell_distant": {
+		"sounds": [
+			"ship/bell_distant"
+		],
+		"subtitle": "subtitles.shipbell.ring_distant"
+	},
+
+	"shipbell_echo": {
+		"sounds": [
+			"ship/bell_echo"
+		],
+		"subtitle": "subtitles.shipbell.echo"
+	},
+
+	"shipbell_resonate": {
+		"sounds": [
+			"ship/bell_resonate"
+		],
+		"subtitle": "subtitles.shipbell.resonate"
+	},
+
 	"entity.minecart.riding": {
 		"replace": true,
 		"sounds": [
@@ -200,5 +228,12 @@
 		"sounds": [
     ],
     "subtitle": ""
+	},
+
+	"playershot": {
+		"sounds": [
+			"cannon/playershot"
+		],
+		"subtitle": "subtitles.cannon.player_shot"
 	}
 }
