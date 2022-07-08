@@ -235,5 +235,12 @@
 			"cannon/playershot"
 		],
 		"subtitle": "subtitles.cannon.player_shot"
+	},
+
+	"raidhorn": {
+		"sounds": [
+			"item/raidhorn"
+		],
+		"subtitle": "Raid Horn blows"
 	}
 }
