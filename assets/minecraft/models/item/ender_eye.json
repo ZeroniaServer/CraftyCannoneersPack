@@ -5,6 +5,7 @@
 	},
 	"overrides": [
 		{ "predicate": {"custom_model_data": 1}, "model": "chest/skeleton_key"},
+		{ "predicate": {"custom_model_data": 2}, "model": "custom/bomb"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/ender_eye"}
 	]
 }
