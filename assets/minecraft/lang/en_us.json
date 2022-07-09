@@ -4,6 +4,7 @@
   "language.code": "en_us",
   "death.attack.indirectMagic": "%1$s was blown up by %2$s",
   "death.attack.indirectMagic.item": "%1$s was blown up by %2$s",
+  "death.attack.mob": "%1$s was blasted by %2$s",
   "item.minecraft.trident": "Harpoon",
   "advancements.toast.task": "Objective Complete!",
   "advancements.toast.challenge": "Easter Egg Discovered!",
