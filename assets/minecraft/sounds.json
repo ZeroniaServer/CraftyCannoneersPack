@@ -230,20 +230,6 @@
     "subtitle": ""
 	},
 
-	"item.goat_horn.play": {
-		"replace": true,
-		"sounds": [
-		],
-		"subtitle": ""
-	},
-
-	"entity.goat.screaming.horn_break": {
-		"replace": true,
-		"sounds": [
-		],
-		"subtitle": ""
-	},
-
 	"playershot": {
 		"sounds": [
 			"cannon/playershot"
