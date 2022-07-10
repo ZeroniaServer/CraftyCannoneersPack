@@ -242,5 +242,19 @@
 			"item/raidhorn"
 		],
 		"subtitle": "subtitles.raidhorn.blow"
+	},
+
+	"blastbombexplode": {
+		"sounds": [
+			"item/bomb"
+		],
+		"subtitle": "subtitles.blastbomb.explode"
+	},
+
+	"blastbombfuse": {
+		"sounds": [
+			"item/bombfuse"
+		],
+		"subtitle": "subtitles.blastbomb.fuse"
 	}
 }
