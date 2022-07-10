@@ -199,7 +199,7 @@
 		"sounds": [
 			"ship/bell_distant"
 		],
-		"subtitle": "subtitles.shipbell.ring_distant"
+		"subtitle": "subtitles.shipbell.ring"
 	},
 
 	"shipbell_echo": {
@@ -230,6 +230,20 @@
     "subtitle": ""
 	},
 
+	"item.goat_horn.play": {
+		"replace": true,
+		"sounds": [
+		],
+		"subtitle": ""
+	},
+
+	"entity.goat.screaming.horn_break": {
+		"replace": true,
+		"sounds": [
+		],
+		"subtitle": ""
+	},
+
 	"playershot": {
 		"sounds": [
 			"cannon/playershot"
@@ -241,6 +255,6 @@
 		"sounds": [
 			"item/raidhorn"
 		],
-		"subtitle": "Raid Horn blows"
+		"subtitle": "subtitles.raidhorn.blow"
 	}
 }

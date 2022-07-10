@@ -23,7 +23,7 @@
   "subtitles.cannon.load": "Cannonball loaded",
   "subtitles.cannon.prime": "Cannon primes",
   "subtitles.cannon.shot": "Cannon shoots",
-  "subtitles.cannon.player_shot": "Player Cannonball launches",
+  "subtitles.cannon.player_shot": "Player launches",
   "subtitles.cannon.fire_shot": "Hot Cannonball launches",
   "subtitles.cannon.gas_shot": "Gas Cannonball launches",
   "subtitles.cannon.bounce_shot": "Bouncy Cannonball launches",
@@ -38,5 +38,8 @@
   "subtitles.teamchest.key_turn": "Skeleton Key turns",
   "subtitles.weakpoint.spot": "Weakpoint spotted",
   "subtitles.parrot.pet": "Happy parrot noises",
-  "subtitles.cannon.player_shot": "Player launches"
+  "subtitles.shipbell.ring": "Ship Bell rings",
+  "subtitles.shipbell.echo": "Ship Bell echoes",
+  "subtitles.shipbell.resonate": "Ship Bell resonates",
+  "subtitles.raidhorn.blow": "Raid Horn blows"
 }
