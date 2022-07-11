@@ -152,6 +152,13 @@
 		"subtitle": "subtitles.chest.rise"
 	},
 
+	"chestempty": {
+		"sounds": [
+      "random/pop"
+    ],
+		"subtitle": "subtitles.chest.empty"
+	},
+
 	"gunpowder": {
 		"sounds": [
 			"dig/sand1",
@@ -256,5 +263,197 @@
 			"item/bombfuse"
 		],
 		"subtitle": "subtitles.blastbomb.fuse"
-	}
+	},
+
+  "cannonshot2": {
+    "sounds": [
+      {
+        "name": "block/chain/break1",
+        "volume": 0.5
+      },
+      {
+        "name": "block/chain/break2",
+        "volume": 0.5
+      },
+      {
+        "name": "block/chain/break3",
+        "volume": 0.5
+      },
+      {
+        "name": "block/chain/break4",
+        "volume": 0.5
+      }
+    ]
+  },
+
+	"arrowbreak": {
+		"sounds": [
+      "dig/wood1",
+      "dig/wood2",
+      "dig/wood3",
+      "dig/wood4"
+    ],
+    "subtitle": "subtitles.arrow.break"
+	},
+
+	"wingame": {
+		"sounds": [
+			{
+				"name": "ui/toast/challenge_complete",
+				"volume": 0.6
+			}
+		],
+		"subtitle": "subtitles.game.win"
+	},
+
+  "item.goat_horn.sound.0": {
+		"replace": true,
+    "sounds": [
+    ],
+    "subtitle": ""
+  },
+
+	"item.armor.equip_generic": {
+		"replace": true,
+    "sounds": [
+    ],
+    "subtitle": ""
+  },
+
+  "item.armor.equip_leather": {
+		"replace": true,
+    "sounds": [
+    ],
+    "subtitle": ""
+  },
+
+  "item.armor.equip_netherite": {
+		"replace": true,
+    "sounds": [
+    ],
+    "subtitle": ""
+  },
+
+  "block.note_block.flute": {
+		"replace": true,
+    "sounds": [
+      "note/flute"
+    ],
+    "subtitle": "subtitles.raidhorn.activate"
+  },
+
+	"confirmsettings": {
+		"sounds": [
+      "random/levelup"
+    ],
+    "subtitle": "subtitles.settings.confirm"
+	},
+
+  "clickcredits": {
+    "sounds": [
+      "block/end_portal/eyeplace1",
+      "block/end_portal/eyeplace2",
+      "block/end_portal/eyeplace3"
+    ]
+  },
+
+  "clickzeronia": {
+    "sounds": [
+      "note/bit"
+    ]
+  },
+
+  "snowmandig": {
+    "sounds": [
+      "dig/sand1",
+      "dig/sand2",
+      "dig/sand3",
+      "dig/sand4"
+    ],
+    "subtitle": "subtitles.snowman.dig"
+  },
+
+	"snowmanemerge": {
+    "sounds": [
+      "entity/snowman/death1",
+      "entity/snowman/death2",
+      "entity/snowman/death3"
+    ],
+    "subtitle": "subtitles.snowman.emerge"
+  },
+
+	"snowmanspeak": {
+    "sounds": [
+      "entity/snowman/hurt1",
+      "entity/snowman/hurt2",
+      "entity/snowman/hurt3"
+    ],
+    "subtitle": "subtitles.snowman.speak"
+  },
+
+  "snowmanleave": {
+    "sounds": [
+      "entity/snowman/death1",
+      "entity/snowman/death2",
+      "entity/snowman/death3"
+    ],
+    "subtitle": "subtitles.snowman.leave"
+  },
+
+	"rockhit": {
+		"sounds": [
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
+    ],
+    "subtitle": "subtitles.rock.hit"
+	},
+
+	"parkourstart": {
+		"sounds": [
+      "random/levelup"
+    ],
+    "subtitle": "subtitles.parkour.start"
+	},
+
+	"parkourstart2": {
+    "sounds": [
+      "fireworks/twinkle_far1"
+    ],
+		"subtitle": "subtitles.parkour.start"
+  },
+
+	"parkourcancel": {
+		"sounds": [
+      "random/orb"
+    ],
+    "subtitle": "subtitles.parkour.cancel"
+	},
+
+  "parkourfinish1": {
+    "sounds": [
+      "random/levelup"
+    ],
+    "subtitle": "subtitles.parkour.finish"
+  },
+
+	"parkourfinish2": {
+    "sounds": [
+      "fireworks/twinkle_far1"
+    ],
+    "subtitle": "subtitles.parkour.finish"
+  },
+
+	"parkourfinish3": {
+    "sounds": [
+			{
+				"name": "ui/toast/challenge_complete",
+				"volume": 0.6
+			}
+    ],
+    "subtitle": "subtitles.parkour.finish"
+  }
 }
