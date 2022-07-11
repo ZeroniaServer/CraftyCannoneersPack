@@ -1,0 +1,25 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/normal_hitmarker.png",
+            "ascent": 1,
+            "height": 8,
+            "chars": ["\uE000"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/critical_hitmarker.png",
+            "ascent": 1,
+            "height": 8,
+            "chars": ["\uE001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/playerkill_hitmarker.png",
+            "ascent": 1,
+            "height": 8,
+            "chars": ["\uE002"]
+        }
+    ]
+}
