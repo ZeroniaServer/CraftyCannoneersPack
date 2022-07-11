@@ -41,5 +41,8 @@
   "subtitles.shipbell.ring": "Ship Bell rings",
   "subtitles.shipbell.echo": "Ship Bell echoes",
   "subtitles.shipbell.resonate": "Ship Bell resonates",
-  "subtitles.raidhorn.blow": "Raid Horn blows"
+  "subtitles.raidhorn.blow": "Raid Horn blows",
+  "subtitles.blastbomb.fuse": "Blast Bomb charges",
+  "subtitles.blastbomb.explode": "Blast Bomb explodes",
+  "subtitles.entity.witch.throw": "Blast Bomb thrown"
 }
