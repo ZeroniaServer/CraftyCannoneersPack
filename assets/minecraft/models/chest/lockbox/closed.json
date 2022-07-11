@@ -1,14 +1,14 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "Documents/Minecraft Textures/block/bone_block_side",
-		"1": "Documents/Minecraft Textures/block/anvil",
-		"2": "Documents/Minecraft Textures/block/black_glazed_terracotta",
-		"3": "Documents/Minecraft Textures/block/emerald_block",
+		"0": "block/bone_block_side",
+		"1": "block/anvil",
+		"2": "block/black_glazed_terracotta",
+		"3": "block/emerald_block",
 		"4": "custom/skull",
-		"5": "Documents/Minecraft Textures/block/andesite",
-		"6": "Documents/Minecraft Textures/block/coal_block",
-		"particle": "Documents/Minecraft Textures/block/bone_block_side"
+		"5": "block/andesite",
+		"6": "block/coal_block",
+		"particle": "block/bone_block_side"
 	},
 	"elements": [
 		{

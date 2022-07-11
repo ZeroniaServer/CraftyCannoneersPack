@@ -72,6 +72,10 @@
 		{ "predicate": {"custom_model_data": 66}, "model": "custom/sandman"},
 		{ "predicate": {"custom_model_data": 67}, "model": "custom/snowman"},
 		{ "predicate": {"custom_model_data": 68}, "model": "custom/ship_bell"},
+		{ "predicate": {"custom_model_data": 69}, "model": "chest/lockbox/closed"},
+		{ "predicate": {"custom_model_data": 70}, "model": "chest/lockbox/closed_unlocked"},
+		{ "predicate": {"custom_model_data": 71}, "model": "chest/lockbox/opened"},
+		{ "predicate": {"custom_model_data": 72}, "model": "chest/lockbox/opened_empty"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
