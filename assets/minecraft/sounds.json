@@ -101,21 +101,27 @@
 		"sounds": [
 			"ship/chestlock"
 		],
-		"subtitle": "subtitles.teamchest.lock"
+		"subtitle": "subtitles.chest.lock"
+	},
+
+	"chestlock2": {
+		"sounds": [
+			"ship/chestlock"
+		]
 	},
 
 	"key_turn": {
 		"sounds": [
 			"ship/key_turn"
 		],
-		"subtitle": "subtitles.teamchest.key_turn"
+		"subtitle": "subtitles.chest.key_turn"
 	},
 
 	"chestunlock": {
 		"sounds": [
 			"ship/chestunlock"
 		],
-		"subtitle": "subtitles.teamchest.unlock"
+		"subtitle": "subtitles.chest.unlock"
 	},
 
 	"bounce": {
@@ -483,5 +489,15 @@
 		  "cannon/hitmarker_kill"
 	  ],
 	  "subtitle": "subtitles.cannon.hitmarker_kill"
+  },
+
+  "lockedtreasureopen": {
+		"replace": true,
+    "sounds": [
+      "mob/skeleton/hurt1",
+      "mob/skeleton/hurt2",
+      "mob/skeleton/hurt3",
+      "mob/skeleton/hurt4"
+    ]
   }
 }

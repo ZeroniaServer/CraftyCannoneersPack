@@ -15,10 +15,13 @@
   "subtitles.item.trident.riptide": "Harpoon zooms",
   "subtitles.item.trident.throw": "Harpoon clangs",
   "subtitles.item.trident.thunder": "Harpoon thunder cracks",
-  "subtitles.block.composter.fill": "Chest buries",
+  "subtitles.block.composter.fill": "Treasure Chest buries",
   "subtitles.chest.spawn": "Chest spawns",
   "subtitles.chest.rise": "Chest rises",
   "subtitles.chest.empty": "Chest empties",
+  "subtitles.chest.lock": "Chest locks",
+  "subtitles.chest.unlock": "Chest unlocks",
+  "subtitles.chest.key_turn": "Skeleton Key turns",
   "subtitles.cannon.gunpowder": "Gunpowder loaded",
   "subtitles.cannon.gunpowder_take": "Gunpowder removed",
   "subtitles.cannon.load": "Cannonball loaded",
@@ -38,9 +41,6 @@
   "subtitles.cannonball.gasexplode": "Gas explodes",
   "subtitles.cannonball.bounce": "Cannonball bounces",
   "subtitles.ship.damage": "Ship damaged",
-  "subtitles.teamchest.lock": "Team Chest locks",
-  "subtitles.teamchest.unlock": "Team Chest unlocks",
-  "subtitles.teamchest.key_turn": "Skeleton Key turns",
   "subtitles.weakpoint.spot": "Weakpoint spotted",
   "subtitles.parrot.pet": "Happy parrot noises",
   "subtitles.shipbell.ring": "Ship Bell rings",
@@ -69,5 +69,7 @@
   "subtitles.rock.hit": "Rock hits",
   "subtitles.parkour.start": "Parkour started",
   "subtitles.parkour.cancel": "Parkour canceled",
-  "subtitles.parkour.finish": "Parkour completed"
+  "subtitles.parkour.finish": "Parkour completed",
+  "subtitles.entity.skeleton.ambient": "Chest rattles",
+  "subtitles.entity.stray.ambient": "Chest rattles"
 }
