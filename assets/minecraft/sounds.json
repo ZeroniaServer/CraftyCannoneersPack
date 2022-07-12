@@ -455,5 +455,12 @@
 			}
     ],
     "subtitle": "subtitles.parkour.finish"
+  },
+
+  "goldshot": {
+	  "sounds": [
+		  "cannon/goldshot"
+	  ],
+	  "subtitle": "subtitles.cannon.gold_shot"
   }
 }
