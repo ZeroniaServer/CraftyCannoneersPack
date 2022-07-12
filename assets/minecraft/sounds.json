@@ -462,5 +462,26 @@
 		  "cannon/goldshot"
 	  ],
 	  "subtitle": "subtitles.cannon.gold_shot"
+  },
+
+  "hitmarker_normal": {
+	  "sounds": [
+		  "cannon/hitmarker_normal"
+	  ],
+	  "subtitle": "subtitles.cannon.hitmarker_normal"
+  },
+
+  "hitmarker_critical": {
+	  "sounds": [
+		  "cannon/hitmarker_critical"
+	  ],
+	  "subtitle": "subtitles.cannon.hitmarker_critical"
+  },
+
+  "hitmarker_kill": {
+	  "sounds": [
+		  "cannon/hitmarker_kill"
+	  ],
+	  "subtitle": "subtitles.cannon.hitmarker_kill"
   }
 }
