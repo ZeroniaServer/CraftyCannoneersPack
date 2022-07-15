@@ -499,5 +499,19 @@
       "mob/skeleton/hurt3",
       "mob/skeleton/hurt4"
     ]
+  },
+
+	"readyup": {
+    "sounds": [
+      "fire/ignite"
+    ],
+    "subtitle": "subtitles.game.ready"
+  },
+
+	"unready": {
+    "sounds": [
+      "fire/ignite"
+    ],
+    "subtitle": "subtitles.game.not_ready"
   }
 }

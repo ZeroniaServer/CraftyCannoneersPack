@@ -71,5 +71,7 @@
   "subtitles.parkour.cancel": "Parkour canceled",
   "subtitles.parkour.finish": "Parkour completed",
   "subtitles.entity.skeleton.ambient": "Chest rattles",
-  "subtitles.entity.stray.ambient": "Chest rattles"
+  "subtitles.entity.stray.ambient": "Chest rattles",
+  "subtitles.game.ready": "Team ready",
+  "subtitles.game.not_ready": "Team not ready"
 }
