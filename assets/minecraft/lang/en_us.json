@@ -73,5 +73,6 @@
   "subtitles.entity.skeleton.ambient": "Chest rattles",
   "subtitles.entity.stray.ambient": "Chest rattles",
   "subtitles.game.ready": "Team ready",
-  "subtitles.game.not_ready": "Team not ready"
+  "subtitles.game.not_ready": "Team not ready",
+  "subtitles.cannon.blank": "Gunpowder burns up"
 }

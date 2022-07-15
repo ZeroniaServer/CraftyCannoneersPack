@@ -513,5 +513,12 @@
       "fire/ignite"
     ],
     "subtitle": "subtitles.game.not_ready"
+  },
+
+  "cannonshot_blank": {
+	  "sounds": [
+		  "cannon/cannonshot_blank"
+	  ],
+	  "subtitle": "subtitles.cannon.blank"
   }
 }
