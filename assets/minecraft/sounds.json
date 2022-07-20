@@ -257,6 +257,13 @@
 		"subtitle": "subtitles.raidhorn.blow"
 	},
 
+	"raidhornenemy": {
+		"sounds": [
+			"item/raidhorn_enemy"
+		],
+		"subtitle": "subtitles.raidhorn.enemy"
+	},
+
 	"blastbombexplode": {
 		"sounds": [
 			"item/bomb"
