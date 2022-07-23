@@ -1039,12 +1039,12 @@
 		"thirdperson_righthand": {
 			"rotation": [0, 80, 0],
 			"translation": [0, 1.75, 0.25],
-			"scale": [0.24, 0.24, 0.3]
+			"scale": [0.31, 0.31, 0.39]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 80, 0],
 			"translation": [0.25, 1.75, 1],
-			"scale": [0.24, 0.24, 0.3]
+			"scale": [0.31, 0.31, 0.39]
 		},
 		"firstperson_righthand": {
 			"rotation": [-43, 128, 28],
