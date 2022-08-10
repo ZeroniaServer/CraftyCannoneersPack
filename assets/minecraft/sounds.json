@@ -527,5 +527,49 @@
 		  "cannon/cannonshot_blank"
 	  ],
 	  "subtitle": "subtitles.cannon.blank"
-  }
+  },
+
+	"trader_ambient": {
+    "sounds": [
+			{
+				"name": "mob/pillager/idle1",
+				"pitch": 1.3
+			},
+			{
+				"name": "mob/pillager/idle2",
+				"pitch": 1.3
+			},
+			{
+				"name": "mob/pillager/idle3",
+				"pitch": 1.3
+			},
+			{
+				"name": "mob/pillager/idle4",
+				"pitch": 1.3
+			}
+    ],
+    "subtitle": "subtitles.trader.ambient"
+  },
+
+	"teacher_ambient": {
+		"sounds": [
+			{
+				"name": "mob/pillager/idle1",
+				"pitch": 1.3
+			},
+			{
+				"name": "mob/pillager/idle2",
+				"pitch": 1.3
+			},
+			{
+				"name": "mob/pillager/idle3",
+				"pitch": 1.3
+			},
+			{
+				"name": "mob/pillager/idle4",
+				"pitch": 1.3
+			}
+    ],
+    "subtitle": "subtitles.teacher.ambient"
+	}
 }

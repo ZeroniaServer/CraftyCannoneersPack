@@ -75,5 +75,7 @@
   "subtitles.entity.stray.ambient": "Chest rattles",
   "subtitles.game.ready": "Team ready",
   "subtitles.game.not_ready": "Team not ready",
-  "subtitles.cannon.blank": "Gunpowder burns up"
+  "subtitles.cannon.blank": "Gunpowder burns up",
+  "subtitles.trader.ambient": "Pirate Trader talks",
+  "subtitles.teacher.ambient": "Pirate Teacher talks"
 }
