@@ -536,6 +536,35 @@
 	  "subtitle": "subtitles.cannon.blank"
   },
 
+	"trainingdummy_hit1": {
+		"sounds": [
+      "step/cloth1",
+      "step/cloth2",
+      "step/cloth3",
+      "step/cloth4"
+    ],
+		"subtitle": "subtitles.trainingdummy.hit"
+	},
+
+	"trainingdummy_hit2": {
+		"sounds": [
+      "entity/armorstand/hit1",
+      "entity/armorstand/hit2",
+      "entity/armorstand/hit3",
+      "entity/armorstand/hit4"
+    ]
+	},
+
+	"trainingdummy_hit3": {
+		"sounds": [
+      "step/cloth1",
+      "step/cloth2",
+      "step/cloth3",
+      "step/cloth4"
+    ],
+		"subtitle": "subtitles.trainingdummy.die"
+	},
+
 	"trader_ambient": {
     "sounds": [
 			{
@@ -578,5 +607,50 @@
 			}
     ],
     "subtitle": "subtitles.teacher.ambient"
-	}
+	},
+
+	"ding": {
+		"sounds": [
+      "random/orb"
+    ]
+	},
+
+	"chesttutorial": {
+    "sounds": [
+      {
+        "name": "block/mud/break1",
+        "volume": 0.5
+      },
+      {
+        "name": "block/mud/break2",
+        "volume": 0.5
+      },
+      {
+        "name": "block/mud/break3",
+        "volume": 0.5
+      },
+      {
+        "name": "block/mud/break4",
+        "volume": 0.5
+      },
+      {
+        "name": "block/mud/break5",
+        "volume": 0.5
+      },
+      {
+        "name": "block/mud/break6",
+        "volume": 0.5
+      }
+    ]
+  },
+
+	"chestbury": {
+    "sounds": [
+      "dig/sand1",
+      "dig/sand2",
+      "dig/sand3",
+      "dig/sand4"
+    ],
+    "subtitle": "subtitles.block.composter.fill"
+  }
 }
