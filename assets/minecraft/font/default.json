@@ -29,6 +29,7 @@
             "chars": ["\uE003"]
         },
         {
+            "type": "bitmap",
             "file": "space:font/space_split.png",
             "ascent": -32768,
             "height": -3,
