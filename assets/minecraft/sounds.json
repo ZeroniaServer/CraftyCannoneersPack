@@ -652,5 +652,12 @@
       "dig/sand4"
     ],
     "subtitle": "subtitles.block.composter.fill"
+  },
+	
+  "block.chest.locked": {
+		"replace": true,
+    "sounds": [
+    ],
+    "subtitle": ""
   }
 }

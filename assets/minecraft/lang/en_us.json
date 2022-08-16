@@ -79,5 +79,6 @@
   "subtitles.trader.ambient": "Pirate Trader talks",
   "subtitles.teacher.ambient": "Pirate Teacher talks",
   "subtitles.trainingdummy.hit": "Training Dummy hit",
-  "subtitles.trainingdummy.die": "Training Dummy dies"
+  "subtitles.trainingdummy.die": "Training Dummy dies",
+  "container.isLocked": ""
 }
