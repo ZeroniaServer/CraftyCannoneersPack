@@ -81,5 +81,6 @@
   "subtitles.teacher.ambient": "Pirate Teacher talks",
   "subtitles.trainingdummy.hit": "Training Dummy hit",
   "subtitles.trainingdummy.die": "Training Dummy dies",
-  "container.isLocked": ""
+  "container.isLocked": "",
+  "%1$s": "%2$s"
 }
