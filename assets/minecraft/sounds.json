@@ -128,7 +128,7 @@
 		"sounds": [
 			"cannon/bounce"
 		],
-		"subtitle": "subtitles.cannon.bounce"
+		"subtitle": "subtitles.cannonball.bounce"
 	},
 
 	"bounceshot": {
@@ -660,7 +660,7 @@
     ],
     "subtitle": "subtitles.block.composter.fill"
   },
-	
+
   "block.chest.locked": {
 		"replace": true,
     "sounds": [
