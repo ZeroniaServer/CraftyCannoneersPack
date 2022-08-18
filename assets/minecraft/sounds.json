@@ -536,6 +536,13 @@
 	  "subtitle": "subtitles.cannon.blank"
   },
 
+  "goldy": {
+	  "sounds": [
+		  "lobby/goldy"
+	  ],
+	  "subtitle": "subtitles.goldy"
+  },
+
 	"trainingdummy_hit1": {
 		"sounds": [
       "step/cloth1",
