@@ -82,6 +82,6 @@
   "subtitles.trainingdummy.hit": "Training Dummy hit",
   "subtitles.trainingdummy.die": "Training Dummy dies",
   "container.isLocked": "",
-  "block.minecraft.set_spawn": "",
+  "block.minecraft.bed.occupied": "",
   "%1$s": "%2$s"
 }
