@@ -666,5 +666,12 @@
     "sounds": [
     ],
     "subtitle": ""
+  },
+
+	"ui.toast.challenge_complete": {
+		"replace": true,
+    "sounds": [
+    ],
+		"subtitle": ""
   }
 }
