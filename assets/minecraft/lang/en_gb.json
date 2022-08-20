@@ -83,5 +83,6 @@
   "subtitles.trainingdummy.die": "Training Dummy dies",
   "container.isLocked": "",
   "block.minecraft.bed.occupied": "",
+  "container.spectatorCantOpen": "",
   "%1$s": "%2$s"
 }
