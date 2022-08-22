@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "custom/map_2",
+		"0": "custom/map_modifiers",
 		"1": "custom/map_blank",
 		"particle": "custom/map"
 	},
