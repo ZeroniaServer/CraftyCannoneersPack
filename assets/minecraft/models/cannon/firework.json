@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/firework_rocket",
-		"particle": "item/firework_rocket"
+		"0": "custom/firework_rocket",
+		"particle": "custom/firework_rocket"
 	},
 	"elements": [
 		{
