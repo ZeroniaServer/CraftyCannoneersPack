@@ -673,5 +673,14 @@
     "sounds": [
     ],
 		"subtitle": ""
+  },
+
+	"ripsail": {
+    "sounds": [
+      "cannon/ripsail1",
+      "cannon/ripsail2",
+      "cannon/ripsail3"
+    ],
+    "subtitle": "subtitles.sails.rip"
   }
 }
