@@ -2,7 +2,7 @@
 
 #moj_import <light.glsl>
 #moj_import <fog.glsl>
-#moj_import <emissive_utils.glsl>
+#moj_import <emissive_utils.vsh>
 
 in vec3 Position;
 in vec4 Color;
