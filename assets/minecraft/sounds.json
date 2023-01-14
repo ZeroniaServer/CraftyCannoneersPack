@@ -232,6 +232,7 @@
 	"entity.minecart.riding": {
 		"replace": true,
 		"sounds": [
+			"silent"
     ],
     "subtitle": ""
 	},
@@ -239,6 +240,7 @@
 	"block.lantern.break": {
 		"replace": true,
 		"sounds": [
+			"silent"
     ],
     "subtitle": ""
 	},
@@ -246,6 +248,7 @@
   "block.ladder.break": {
 		"replace": true,
     "sounds": [
+			"silent"
     ],
     "subtitle": ""
   },
@@ -329,6 +332,7 @@
   "item.goat_horn.sound.0": {
 		"replace": true,
     "sounds": [
+			"silent"
     ],
     "subtitle": ""
   },
@@ -336,6 +340,7 @@
 	"item.armor.equip_generic": {
 		"replace": true,
     "sounds": [
+			"silent"
     ],
     "subtitle": ""
   },
@@ -343,6 +348,7 @@
   "item.armor.equip_leather": {
 		"replace": true,
     "sounds": [
+			"silent"
     ],
     "subtitle": ""
   },
@@ -350,6 +356,7 @@
   "item.armor.equip_netherite": {
 		"replace": true,
     "sounds": [
+			"silent"
     ],
     "subtitle": ""
   },
@@ -664,6 +671,7 @@
   "block.chest.locked": {
 		"replace": true,
     "sounds": [
+			"silent"
     ],
     "subtitle": ""
   },
@@ -671,6 +679,7 @@
 	"ui.toast.challenge_complete": {
 		"replace": true,
     "sounds": [
+			"silent"
     ],
 		"subtitle": ""
   },
@@ -682,5 +691,11 @@
       "cannon/ripsail3"
     ],
     "subtitle": "subtitles.sails.rip"
-  }
+  },
+
+	"error": {
+		"sounds": [
+			"note/bassattack"
+		]
+	}
 }

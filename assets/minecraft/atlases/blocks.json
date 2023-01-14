@@ -1,53 +1,184 @@
 {
-  "sources": [
-    {
-      "type": "directory",
-      "source": "block",
-      "prefix": "block/"
-    },
-    {
-      "type": "directory",
-      "source": "custom",
-      "prefix": "custom/"
-    },
-    {
-      "type": "directory",
-      "source": "entity",
-      "prefix": "entity/"
-    },
-    {
-      "type": "directory",
-      "source": "font",
-      "prefix": "font/"
-    },
-    {
-      "type": "directory",
-      "source": "gui",
-      "prefix": "gui/"
-    },
-    {
-      "type": "directory",
-      "source": "item",
-      "prefix": "item/"
-    },
-    {
-      "type": "directory",
-      "source": "lobby",
-      "prefix": "lobby/"
-    },
-    {
-      "type": "directory",
-      "source": "misc",
-      "prefix": "misc/"
-    },
-    {
-      "type": "directory",
-      "source": "particle",
-      "prefix": "particle/"
-    },
-    {
-      "type": "single",
-      "resource": "entity/chicken"
-    }
-  ]
+    "sources": [
+        {
+            "type": "single",
+            "resource": "minecraft:custom/bouncy_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/chain_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/cluster_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/firework_rocket"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/gasbubble"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/gascloud"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/gas_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/golden_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/hot_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/player_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:entity/skeleton/skeleton"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/tracer_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/skeleton_key"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/golden_coin"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/skull"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/boarding_axe"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/bomb"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:entity/skeleton/wither_skeleton"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/black"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/cutlass"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/map"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/map_blank"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/map_2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/map_modifiers"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/particle_canister"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:entity/skeleton/stray"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/parkour_quit"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/parkour_restart"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/yzero"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/evtema"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/chronos"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/rrsmall"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/battleaxe"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/claymore"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/goat_horn"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/hook"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/mace"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/rock"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/confirm"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/restore_defaults"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/cclogo"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:entity/signs/oak"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/shiphp"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/watch"
+        }
+    ]
 }
