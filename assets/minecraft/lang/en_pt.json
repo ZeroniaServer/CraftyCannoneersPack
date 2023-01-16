@@ -533,5 +533,8 @@
   "lobby.label.parkour.1": "Parkour Area",
   "lobby.label.parkour.2": "(complete the course as fast as possible)",
   "lobby.label.credits.1": "This game was made by ",
-  "lobby.label.credits.2": "(interact with the armor stands to read the credits)"
+  "lobby.label.credits.2": "(interact with the armor stands to read the credits)",
+  "modifier.no_tracers": "No Tracers",
+  "modifier.no_tracers.description": "Removes Tracer Cannonballs from player loadouts, forcing players to learn how to aim without them.",
+  "modifier.experienced_pirates": "Recommended for experienced pirates."
 }
