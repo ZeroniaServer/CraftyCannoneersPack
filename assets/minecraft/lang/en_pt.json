@@ -462,6 +462,7 @@
   "customizer.minutes": "Minutes",
   "customizer.restore_default": "Restore Defaults",
   "customizer.confirm": "Confirm Settings",
+  "customizer.modifiers": "Modifiers",
   "customizer.game_time": "Game Time:",
   "customizer.ship_health": "Ship Health:",
   "customizer.confirmed": "Settings Confirmed!",

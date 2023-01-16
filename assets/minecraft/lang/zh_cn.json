@@ -467,6 +467,7 @@
   "customizer.minutes": " 分钟",
   "customizer.restore_default": "恢复默认设置",
   "customizer.confirm": "确认设置",
+  "customizer.modifiers": "Modifiers",
   "customizer.game_time": "游戏时长:",
   "customizer.ship_health": "船只生命值:",
   "customizer.confirmed": "设置确认!",
