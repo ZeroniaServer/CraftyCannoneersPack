@@ -110,5 +110,5 @@
   "weakpoint.destroyed.unexposed": "unexposed",
   "weakpoint.destroyed.weakpoint": " Weakpoint.",
   "weakpoint.destroyed.own": " destroyed one of your ship's Weakpoints!",
-  "weakpoint.destroyed.no_bonus": " Weakpoint. No bonus damage dealt.",
+  "weakpoint.destroyed.no_bonus": " Weakpoint. No bonus damage dealt."
 }
