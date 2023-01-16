@@ -106,6 +106,30 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/seagull_anim"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/seagull_beak"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/seagull_eye"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/seagull_feather"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/seagull_wing_cut"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/seagull_wing"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:entity/skeleton/stray"
         },
         {
