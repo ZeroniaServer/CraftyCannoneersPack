@@ -202,22 +202,19 @@
         "replace": true,
         "sounds": [
             "silent"
-        ],
-        "subtitle": ""
+        ]
     },
     "block.lantern.break": {
         "replace": true,
         "sounds": [
             "silent"
-        ],
-        "subtitle": ""
+        ]
     },
     "block.ladder.break": {
         "replace": true,
         "sounds": [
             "silent"
-        ],
-        "subtitle": ""
+        ]
     },
     "playershot": {
         "sounds": [
@@ -291,29 +288,25 @@
         "replace": true,
         "sounds": [
             "silent"
-        ],
-        "subtitle": ""
+        ]
     },
     "item.armor.equip_generic": {
         "replace": true,
         "sounds": [
             "silent"
-        ],
-        "subtitle": ""
+        ]
     },
     "item.armor.equip_leather": {
         "replace": true,
         "sounds": [
             "silent"
-        ],
-        "subtitle": ""
+        ]
     },
     "item.armor.equip_netherite": {
         "replace": true,
         "sounds": [
             "silent"
-        ],
-        "subtitle": ""
+        ]
     },
     "block.note_block.flute": {
         "replace": true,
@@ -594,15 +587,13 @@
         "replace": true,
         "sounds": [
             "silent"
-        ],
-        "subtitle": ""
+        ]
     },
     "ui.toast.challenge_complete": {
         "replace": true,
         "sounds": [
             "silent"
-        ],
-        "subtitle": ""
+        ]
     },
     "ripsail": {
         "sounds": [
