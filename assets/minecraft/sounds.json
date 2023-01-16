@@ -607,5 +607,17 @@
         "sounds": [
             "note/bassattack"
         ]
+    },
+    "modifier.open": {
+        "sounds": [
+            "mob/evocation_illager/prepare_summon"
+        ],
+        "subtitle": "subtitles.settings.modifier_open"
+    },
+    "modifier.close": {
+        "sounds": [
+            "mob/evocation_illager/prepare_summon"
+        ],
+        "subtitle": "subtitles.settings.modifier_close"
     }
 }

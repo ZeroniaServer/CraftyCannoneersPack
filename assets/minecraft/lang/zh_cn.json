@@ -59,6 +59,8 @@
   "subtitles.game.win": "游戏胜利!",
   "subtitles.entity.villager.work_cartographer": "设置地图声明",
   "subtitles.settings.confirm": "设置确认",
+  "subtitles.settings.modifier_open": "Modifiers opened",
+  "subtitles.settings.modifier_close": "Modifiers closed",
   "subtitles.entity.ender_eye.death": "教程进展",
   "subtitles.snowman.dig": "雪人挖掘",
   "subtitles.snowman.emerge": "雪人出现",

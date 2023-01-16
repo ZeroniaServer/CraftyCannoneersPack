@@ -61,6 +61,8 @@
   "subtitles.game.win": "Game Won!",
   "subtitles.entity.villager.work_cartographer": "Settings Map claimed",
   "subtitles.settings.confirm": "Settings confirmed",
+  "subtitles.settings.modifier_open": "Modifiers opened",
+  "subtitles.settings.modifier_close": "Modifiers closed",
   "subtitles.entity.ender_eye.death": "Tutorial advances",
   "subtitles.snowman.dig": "Snowman digs",
   "subtitles.snowman.emerge": "Snowman emerges",
