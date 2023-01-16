@@ -207,6 +207,10 @@
         {
             "type": "single",
             "resource": "minecraft:lobby/watch"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/notracers"
         }
     ]
 }
