@@ -1,701 +1,620 @@
 {
-	"cannonload": {
-		"sounds": [
-			"cannon/cannonload"
-		],
-		"subtitle": "subtitles.cannon.load"
-	},
-
-	"cannonshot": {
-		"sounds": [
-			"cannon/cannonshot"
-		],
-		"subtitle": "subtitles.cannon.shot"
-	},
-
-	"fireshot": {
-		"sounds": [
-			"cannon/fireshot"
-		],
-		"subtitle": "subtitles.cannon.fire_shot"
-	},
-
-	"cluster": {
-		"sounds": [
-			"cannon/cluster"
-		],
-		"subtitle": "subtitles.cannon.cluster"
-	},
-
-	"cannonshot_distant": {
-		"sounds": [
-			"cannon/cannonshot_distant"
-		],
-		"subtitle": "subtitles.cannon.shot"
-	},
-
-	"cannonprime": {
-		"sounds": [
-			"cannon/cannonprime"
-		],
-		"subtitle": "subtitles.cannon.prime"
-	},
-
-	"shipdamage1": {
-		"sounds": [
-			"ship/damage1"
-		],
-		"subtitle": "subtitles.ship.damage"
-	},
-
-	"shipdamage2": {
-		"sounds": [
-			"ship/damage2"
-		],
-		"subtitle": "subtitles.ship.damage"
-	},
-
-	"gasshot": {
-		"sounds": [
-			"cannon/gasshot"
-		],
-		"subtitle": "subtitles.cannon.gas_shot"
-	},
-
-	"gas": {
-		"sounds": [
-			"cannon/gas"
-		],
-		"subtitle": "subtitles.cannonball.gas"
-	},
-
-	"gasexplode": {
-		"sounds": [
-			"cannon/gasexplode"
-		],
-		"subtitle": "subtitles.cannonball.gasexplode"
-	},
-
-	"gasexplode_distant": {
-		"sounds": [
-			"cannon/gasexplode_distant"
-		],
-		"subtitle": "subtitles.cannonball.gasexplode"
-	},
-
-	"cannonball": {
-		"sounds": [
-			"cannon/cannonball"
-		],
-		"subtitle": "subtitles.cannonball.explode"
-	},
-
-	"cannonball_distant": {
-		"sounds": [
-			"cannon/cannonball_distant"
-		],
-		"subtitle": "subtitles.cannonball.explode"
-	},
-
-	"chestlock": {
-		"sounds": [
-			"ship/chestlock"
-		],
-		"subtitle": "subtitles.chest.lock"
-	},
-
-	"chestlock2": {
-		"sounds": [
-			"ship/chestlock"
-		]
-	},
-
-	"key_turn": {
-		"sounds": [
-			"ship/key_turn"
-		],
-		"subtitle": "subtitles.chest.key_turn"
-	},
-
-	"chestunlock": {
-		"sounds": [
-			"ship/chestunlock"
-		],
-		"subtitle": "subtitles.chest.unlock"
-	},
-
-	"bounce": {
-		"sounds": [
-			"cannon/bounce"
-		],
-		"subtitle": "subtitles.cannonball.bounce"
-	},
-
-	"bounceshot": {
-		"sounds": [
-			"cannon/bounceshot"
-		],
-		"subtitle": "subtitles.cannon.bounce_shot"
-	},
-
-	"chestspawn": {
-		"sounds": [
-			"dig/gravel1",
-			"dig/gravel2",
-			"dig/gravel3",
-			"dig/gravel4"
-		],
-		"subtitle": "subtitles.chest.spawn"
-	},
-
-	"chestrise": {
-		"sounds": [
-			"dig/sand1",
-			"dig/sand2",
-			"dig/sand3",
-			"dig/sand4"
-		],
-		"subtitle": "subtitles.chest.rise"
-	},
-
-	"chestempty": {
-		"sounds": [
-      "random/pop"
-    ],
-		"subtitle": "subtitles.chest.empty"
-	},
-
-	"gunpowder": {
-		"sounds": [
-			"dig/sand1",
-			"dig/sand2",
-			"dig/sand3",
-			"dig/sand4"
-		],
-		"subtitle": "subtitles.cannon.gunpowder"
-	},
-
-	"takegunpowder": {
-		"sounds": [
-			"step/sand1",
-			"step/sand2",
-			"step/sand3",
-			"step/sand4",
-			"step/sand5"
-		],
-		"subtitle": "subtitles.cannon.gunpowder_take"
-	},
-
-	"weakpointspot": {
-		"sounds": [
-			"note/hat"
-		],
-		"subtitle": "subtitles.weakpoint.spot"
-	},
-
-	"parrot": {
-		"sounds": [
-			"lobby/parrot",
-			"lobby/parrot2"
-		],
-		"subtitle": "subtitles.parrot.pet"
-	},
-
-	"shipbell": {
-		"sounds": [
-			"ship/bell"
-		],
-		"subtitle": "subtitles.shipbell.ring"
-	},
-
-	"shipbell_distant": {
-		"sounds": [
-			"ship/bell_distant"
-		],
-		"subtitle": "subtitles.shipbell.ring"
-	},
-
-	"shipbell_echo": {
-		"sounds": [
-			"ship/bell_echo"
-		],
-		"subtitle": "subtitles.shipbell.echo"
-	},
-
-	"shipbell_resonate": {
-		"sounds": [
-			"ship/bell_resonate"
-		],
-		"subtitle": "subtitles.shipbell.resonate"
-	},
-
-	"entity.minecart.riding": {
-		"replace": true,
-		"sounds": [
-			"silent"
-    ],
-    "subtitle": ""
-	},
-
-	"block.lantern.break": {
-		"replace": true,
-		"sounds": [
-			"silent"
-    ],
-    "subtitle": ""
-	},
-
-  "block.ladder.break": {
-		"replace": true,
-    "sounds": [
-			"silent"
-    ],
-    "subtitle": ""
-  },
-
-	"playershot": {
-		"sounds": [
-			"cannon/playershot"
-		],
-		"subtitle": "subtitles.cannon.player_shot"
-	},
-
-	"raidhorn": {
-		"sounds": [
-			"item/raidhorn"
-		],
-		"subtitle": "subtitles.raidhorn.blow"
-	},
-
-	"raidhornenemy": {
-		"sounds": [
-			"item/raidhorn_enemy"
-		],
-		"subtitle": "subtitles.raidhorn.enemy"
-	},
-
-	"blastbombexplode": {
-		"sounds": [
-			"item/bomb"
-		],
-		"subtitle": "subtitles.blastbomb.explode"
-	},
-
-	"blastbombfuse": {
-		"sounds": [
-			"item/bombfuse"
-		],
-		"subtitle": "subtitles.blastbomb.fuse"
-	},
-
-  "cannonshot2": {
-    "sounds": [
-      {
-        "name": "block/chain/break1",
-        "volume": 0.5
-      },
-      {
-        "name": "block/chain/break2",
-        "volume": 0.5
-      },
-      {
-        "name": "block/chain/break3",
-        "volume": 0.5
-      },
-      {
-        "name": "block/chain/break4",
-        "volume": 0.5
-      }
-    ]
-  },
-
-	"arrowbreak": {
-		"sounds": [
-      "dig/wood1",
-      "dig/wood2",
-      "dig/wood3",
-      "dig/wood4"
-    ],
-    "subtitle": "subtitles.arrow.break"
-	},
-
-	"wingame": {
-		"sounds": [
-			{
-				"name": "ui/toast/challenge_complete",
-				"volume": 0.6
-			}
-		],
-		"subtitle": "subtitles.game.win"
-	},
-
-  "item.goat_horn.sound.0": {
-		"replace": true,
-    "sounds": [
-			"silent"
-    ],
-    "subtitle": ""
-  },
-
-	"item.armor.equip_generic": {
-		"replace": true,
-    "sounds": [
-			"silent"
-    ],
-    "subtitle": ""
-  },
-
-  "item.armor.equip_leather": {
-		"replace": true,
-    "sounds": [
-			"silent"
-    ],
-    "subtitle": ""
-  },
-
-  "item.armor.equip_netherite": {
-		"replace": true,
-    "sounds": [
-			"silent"
-    ],
-    "subtitle": ""
-  },
-
-  "block.note_block.flute": {
-		"replace": true,
-    "sounds": [
-      "note/flute"
-    ],
-    "subtitle": "subtitles.raidhorn.activate"
-  },
-
-	"confirmsettings": {
-		"sounds": [
-      "random/levelup"
-    ],
-    "subtitle": "subtitles.settings.confirm"
-	},
-
-  "clickcredits": {
-    "sounds": [
-      "block/end_portal/eyeplace1",
-      "block/end_portal/eyeplace2",
-      "block/end_portal/eyeplace3"
-    ]
-  },
-
-  "clickzeronia": {
-    "sounds": [
-      "note/bit"
-    ]
-  },
-
-  "snowmandig": {
-    "sounds": [
-      "dig/sand1",
-      "dig/sand2",
-      "dig/sand3",
-      "dig/sand4"
-    ],
-    "subtitle": "subtitles.snowman.dig"
-  },
-
-	"snowmanemerge": {
-    "sounds": [
-      "entity/snowman/death1",
-      "entity/snowman/death2",
-      "entity/snowman/death3"
-    ],
-    "subtitle": "subtitles.snowman.emerge"
-  },
-
-	"snowmanspeak": {
-    "sounds": [
-      "entity/snowman/hurt1",
-      "entity/snowman/hurt2",
-      "entity/snowman/hurt3"
-    ],
-    "subtitle": "subtitles.snowman.speak"
-  },
-
-  "snowmanleave": {
-    "sounds": [
-      "entity/snowman/death1",
-      "entity/snowman/death2",
-      "entity/snowman/death3"
-    ],
-    "subtitle": "subtitles.snowman.leave"
-  },
-
-	"rockhit": {
-		"sounds": [
-      "block/basalt/step1",
-      "block/basalt/step2",
-      "block/basalt/step3",
-      "block/basalt/step4",
-      "block/basalt/step5",
-      "block/basalt/step6"
-    ],
-    "subtitle": "subtitles.rock.hit"
-	},
-
-	"parkourstart": {
-		"sounds": [
-      "random/levelup"
-    ],
-    "subtitle": "subtitles.parkour.start"
-	},
-
-	"parkourstart2": {
-    "sounds": [
-      "fireworks/twinkle_far1"
-    ],
-		"subtitle": "subtitles.parkour.start"
-  },
-
-	"parkourcancel": {
-		"sounds": [
-      "random/orb"
-    ],
-    "subtitle": "subtitles.parkour.cancel"
-	},
-
-  "parkourfinish1": {
-    "sounds": [
-      "random/levelup"
-    ],
-    "subtitle": "subtitles.parkour.finish"
-  },
-
-	"parkourfinish2": {
-    "sounds": [
-      "fireworks/twinkle_far1"
-    ],
-    "subtitle": "subtitles.parkour.finish"
-  },
-
-	"parkourfinish3": {
-    "sounds": [
-			{
-				"name": "ui/toast/challenge_complete",
-				"volume": 0.6
-			}
-    ],
-    "subtitle": "subtitles.parkour.finish"
-  },
-
-  "goldshot": {
-	  "sounds": [
-		  "cannon/goldshot"
-	  ],
-	  "subtitle": "subtitles.cannon.gold_shot"
-  },
-
-  "hitmarker_normal": {
-	  "sounds": [
-		  "cannon/hitmarker_normal"
-	  ],
-	  "subtitle": "subtitles.cannon.hitmarker_normal"
-  },
-
-  "hitmarker_critical": {
-	  "sounds": [
-		  "cannon/hitmarker_critical"
-	  ],
-	  "subtitle": "subtitles.cannon.hitmarker_critical"
-  },
-
-  "hitmarker_kill": {
-	  "sounds": [
-		  "cannon/hitmarker_kill"
-	  ],
-	  "subtitle": "subtitles.cannon.hitmarker_kill"
-  },
-
-  "lockedtreasureopen": {
-		"replace": true,
-    "sounds": [
-      "mob/skeleton/hurt1",
-      "mob/skeleton/hurt2",
-      "mob/skeleton/hurt3",
-      "mob/skeleton/hurt4"
-    ]
-  },
-
-	"readyup": {
-    "sounds": [
-      "fire/ignite"
-    ],
-    "subtitle": "subtitles.game.ready"
-  },
-
-	"unready": {
-    "sounds": [
-      "fire/ignite"
-    ],
-    "subtitle": "subtitles.game.not_ready"
-  },
-
-  "cannonshot_blank": {
-	  "sounds": [
-		  "cannon/cannonshot_blank"
-	  ],
-	  "subtitle": "subtitles.cannon.blank"
-  },
-
-  "goldy": {
-	  "sounds": [
-		  "lobby/goldy"
-	  ],
-	  "subtitle": "subtitles.goldy"
-  },
-
-	"trainingdummy_hit1": {
-		"sounds": [
-      "step/cloth1",
-      "step/cloth2",
-      "step/cloth3",
-      "step/cloth4"
-    ],
-		"subtitle": "subtitles.trainingdummy.hit"
-	},
-
-	"trainingdummy_hit2": {
-		"sounds": [
-      "entity/armorstand/hit1",
-      "entity/armorstand/hit2",
-      "entity/armorstand/hit3",
-      "entity/armorstand/hit4"
-    ]
-	},
-
-	"trainingdummy_hit3": {
-		"sounds": [
-      "step/cloth1",
-      "step/cloth2",
-      "step/cloth3",
-      "step/cloth4"
-    ],
-		"subtitle": "subtitles.trainingdummy.die"
-	},
-
-	"trader_ambient": {
-    "sounds": [
-			{
-				"name": "mob/pillager/idle1",
-				"pitch": 1.3
-			},
-			{
-				"name": "mob/pillager/idle2",
-				"pitch": 1.3
-			},
-			{
-				"name": "mob/pillager/idle3",
-				"pitch": 1.3
-			},
-			{
-				"name": "mob/pillager/idle4",
-				"pitch": 1.3
-			}
-    ],
-    "subtitle": "subtitles.trader.ambient"
-  },
-
-	"teacher_ambient": {
-		"sounds": [
-			{
-				"name": "mob/pillager/idle1",
-				"pitch": 1.3
-			},
-			{
-				"name": "mob/pillager/idle2",
-				"pitch": 1.3
-			},
-			{
-				"name": "mob/pillager/idle3",
-				"pitch": 1.3
-			},
-			{
-				"name": "mob/pillager/idle4",
-				"pitch": 1.3
-			}
-    ],
-    "subtitle": "subtitles.teacher.ambient"
-	},
-
-	"ding": {
-		"sounds": [
-      "random/orb"
-    ]
-	},
-
-	"chesttutorial": {
-    "sounds": [
-      {
-        "name": "block/mud/break1",
-        "volume": 0.5
-      },
-      {
-        "name": "block/mud/break2",
-        "volume": 0.5
-      },
-      {
-        "name": "block/mud/break3",
-        "volume": 0.5
-      },
-      {
-        "name": "block/mud/break4",
-        "volume": 0.5
-      },
-      {
-        "name": "block/mud/break5",
-        "volume": 0.5
-      },
-      {
-        "name": "block/mud/break6",
-        "volume": 0.5
-      }
-    ]
-  },
-
-	"chestbury": {
-    "sounds": [
-      "dig/sand1",
-      "dig/sand2",
-      "dig/sand3",
-      "dig/sand4"
-    ],
-    "subtitle": "subtitles.block.composter.fill"
-  },
-
-  "block.chest.locked": {
-		"replace": true,
-    "sounds": [
-			"silent"
-    ],
-    "subtitle": ""
-  },
-
-	"ui.toast.challenge_complete": {
-		"replace": true,
-    "sounds": [
-			"silent"
-    ],
-		"subtitle": ""
-  },
-
-	"ripsail": {
-    "sounds": [
-      "cannon/ripsail1",
-      "cannon/ripsail2",
-      "cannon/ripsail3"
-    ],
-    "subtitle": "subtitles.sails.rip"
-  },
-
-	"error": {
-		"sounds": [
-			"note/bassattack"
-		]
-	}
+    "cannonload": {
+        "sounds": [
+            "cannon/cannonload"
+        ],
+        "subtitle": "subtitles.cannon.load"
+    },
+    "cannonshot": {
+        "sounds": [
+            "cannon/cannonshot"
+        ],
+        "subtitle": "subtitles.cannon.shot"
+    },
+    "fireshot": {
+        "sounds": [
+            "cannon/fireshot"
+        ],
+        "subtitle": "subtitles.cannon.fire_shot"
+    },
+    "cluster": {
+        "sounds": [
+            "cannon/cluster"
+        ],
+        "subtitle": "subtitles.cannon.cluster"
+    },
+    "cannonshot_distant": {
+        "sounds": [
+            "cannon/cannonshot_distant"
+        ],
+        "subtitle": "subtitles.cannon.shot"
+    },
+    "cannonprime": {
+        "sounds": [
+            "cannon/cannonprime"
+        ],
+        "subtitle": "subtitles.cannon.prime"
+    },
+    "shipdamage1": {
+        "sounds": [
+            "ship/damage1"
+        ],
+        "subtitle": "subtitles.ship.damage"
+    },
+    "shipdamage2": {
+        "sounds": [
+            "ship/damage2"
+        ],
+        "subtitle": "subtitles.ship.damage"
+    },
+    "gasshot": {
+        "sounds": [
+            "cannon/gasshot"
+        ],
+        "subtitle": "subtitles.cannon.gas_shot"
+    },
+    "gas": {
+        "sounds": [
+            "cannon/gas"
+        ],
+        "subtitle": "subtitles.cannonball.gas"
+    },
+    "gasexplode": {
+        "sounds": [
+            "cannon/gasexplode"
+        ],
+        "subtitle": "subtitles.cannonball.gasexplode"
+    },
+    "gasexplode_distant": {
+        "sounds": [
+            "cannon/gasexplode_distant"
+        ],
+        "subtitle": "subtitles.cannonball.gasexplode"
+    },
+    "cannonball": {
+        "sounds": [
+            "cannon/cannonball"
+        ],
+        "subtitle": "subtitles.cannonball.explode"
+    },
+    "cannonball_distant": {
+        "sounds": [
+            "cannon/cannonball_distant"
+        ],
+        "subtitle": "subtitles.cannonball.explode"
+    },
+    "chestlock": {
+        "sounds": [
+            "ship/chestlock"
+        ],
+        "subtitle": "subtitles.chest.lock"
+    },
+    "chestlock2": {
+        "sounds": [
+            "ship/chestlock"
+        ]
+    },
+    "key_turn": {
+        "sounds": [
+            "ship/key_turn"
+        ],
+        "subtitle": "subtitles.chest.key_turn"
+    },
+    "chestunlock": {
+        "sounds": [
+            "ship/chestunlock"
+        ],
+        "subtitle": "subtitles.chest.unlock"
+    },
+    "bounce": {
+        "sounds": [
+            "cannon/bounce"
+        ],
+        "subtitle": "subtitles.cannonball.bounce"
+    },
+    "bounceshot": {
+        "sounds": [
+            "cannon/bounceshot"
+        ],
+        "subtitle": "subtitles.cannon.bounce_shot"
+    },
+    "chestspawn": {
+        "sounds": [
+            "dig/gravel1",
+            "dig/gravel2",
+            "dig/gravel3",
+            "dig/gravel4"
+        ],
+        "subtitle": "subtitles.chest.spawn"
+    },
+    "chestrise": {
+        "sounds": [
+            "dig/sand1",
+            "dig/sand2",
+            "dig/sand3",
+            "dig/sand4"
+        ],
+        "subtitle": "subtitles.chest.rise"
+    },
+    "chestempty": {
+        "sounds": [
+            "random/pop"
+        ],
+        "subtitle": "subtitles.chest.empty"
+    },
+    "gunpowder": {
+        "sounds": [
+            "dig/sand1",
+            "dig/sand2",
+            "dig/sand3",
+            "dig/sand4"
+        ],
+        "subtitle": "subtitles.cannon.gunpowder"
+    },
+    "takegunpowder": {
+        "sounds": [
+            "step/sand1",
+            "step/sand2",
+            "step/sand3",
+            "step/sand4",
+            "step/sand5"
+        ],
+        "subtitle": "subtitles.cannon.gunpowder_take"
+    },
+    "weakpointspot": {
+        "sounds": [
+            "note/hat"
+        ],
+        "subtitle": "subtitles.weakpoint.spot"
+    },
+    "parrot": {
+        "sounds": [
+            "lobby/parrot",
+            "lobby/parrot2"
+        ],
+        "subtitle": "subtitles.parrot.pet"
+    },
+    "shipbell": {
+        "sounds": [
+            "ship/bell"
+        ],
+        "subtitle": "subtitles.shipbell.ring"
+    },
+    "shipbell_distant": {
+        "sounds": [
+            "ship/bell_distant"
+        ],
+        "subtitle": "subtitles.shipbell.ring"
+    },
+    "shipbell_echo": {
+        "sounds": [
+            "ship/bell_echo"
+        ],
+        "subtitle": "subtitles.shipbell.echo"
+    },
+    "shipbell_resonate": {
+        "sounds": [
+            "ship/bell_resonate"
+        ],
+        "subtitle": "subtitles.shipbell.resonate"
+    },
+    "entity.minecart.riding": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ],
+        "subtitle": ""
+    },
+    "block.lantern.break": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ],
+        "subtitle": ""
+    },
+    "block.ladder.break": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ],
+        "subtitle": ""
+    },
+    "playershot": {
+        "sounds": [
+            "cannon/playershot"
+        ],
+        "subtitle": "subtitles.cannon.player_shot"
+    },
+    "raidhorn": {
+        "sounds": [
+            "item/raidhorn"
+        ],
+        "subtitle": "subtitles.raidhorn.blow"
+    },
+    "raidhornenemy": {
+        "sounds": [
+            "item/raidhorn_enemy"
+        ],
+        "subtitle": "subtitles.raidhorn.enemy"
+    },
+    "blastbombexplode": {
+        "sounds": [
+            "item/bomb"
+        ],
+        "subtitle": "subtitles.blastbomb.explode"
+    },
+    "blastbombfuse": {
+        "sounds": [
+            "item/bombfuse"
+        ],
+        "subtitle": "subtitles.blastbomb.fuse"
+    },
+    "cannonshot2": {
+        "sounds": [
+            {
+                "name": "block/chain/break1",
+                "volume": 0.5
+            },
+            {
+                "name": "block/chain/break2",
+                "volume": 0.5
+            },
+            {
+                "name": "block/chain/break3",
+                "volume": 0.5
+            },
+            {
+                "name": "block/chain/break4",
+                "volume": 0.5
+            }
+        ]
+    },
+    "arrowbreak": {
+        "sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+        ],
+        "subtitle": "subtitles.arrow.break"
+    },
+    "wingame": {
+        "sounds": [
+            {
+                "name": "ui/toast/challenge_complete",
+                "volume": 0.6
+            }
+        ],
+        "subtitle": "subtitles.game.win"
+    },
+    "item.goat_horn.sound.0": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ],
+        "subtitle": ""
+    },
+    "item.armor.equip_generic": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ],
+        "subtitle": ""
+    },
+    "item.armor.equip_leather": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ],
+        "subtitle": ""
+    },
+    "item.armor.equip_netherite": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ],
+        "subtitle": ""
+    },
+    "block.note_block.flute": {
+        "replace": true,
+        "sounds": [
+            "note/flute"
+        ],
+        "subtitle": "subtitles.raidhorn.activate"
+    },
+    "confirmsettings": {
+        "sounds": [
+            "random/levelup"
+        ],
+        "subtitle": "subtitles.settings.confirm"
+    },
+    "clickcredits": {
+        "sounds": [
+            "block/end_portal/eyeplace1",
+            "block/end_portal/eyeplace2",
+            "block/end_portal/eyeplace3"
+        ]
+    },
+    "clickzeronia": {
+        "sounds": [
+            "note/bit"
+        ]
+    },
+    "snowmandig": {
+        "sounds": [
+            "dig/sand1",
+            "dig/sand2",
+            "dig/sand3",
+            "dig/sand4"
+        ],
+        "subtitle": "subtitles.snowman.dig"
+    },
+    "snowmanemerge": {
+        "sounds": [
+            "entity/snowman/death1",
+            "entity/snowman/death2",
+            "entity/snowman/death3"
+        ],
+        "subtitle": "subtitles.snowman.emerge"
+    },
+    "snowmanspeak": {
+        "sounds": [
+            "entity/snowman/hurt1",
+            "entity/snowman/hurt2",
+            "entity/snowman/hurt3"
+        ],
+        "subtitle": "subtitles.snowman.speak"
+    },
+    "snowmanleave": {
+        "sounds": [
+            "entity/snowman/death1",
+            "entity/snowman/death2",
+            "entity/snowman/death3"
+        ],
+        "subtitle": "subtitles.snowman.leave"
+    },
+    "rockhit": {
+        "sounds": [
+            "block/basalt/step1",
+            "block/basalt/step2",
+            "block/basalt/step3",
+            "block/basalt/step4",
+            "block/basalt/step5",
+            "block/basalt/step6"
+        ],
+        "subtitle": "subtitles.rock.hit"
+    },
+    "parkourstart": {
+        "sounds": [
+            "random/levelup"
+        ],
+        "subtitle": "subtitles.parkour.start"
+    },
+    "parkourstart2": {
+        "sounds": [
+            "fireworks/twinkle_far1"
+        ],
+        "subtitle": "subtitles.parkour.start"
+    },
+    "parkourcancel": {
+        "sounds": [
+            "random/orb"
+        ],
+        "subtitle": "subtitles.parkour.cancel"
+    },
+    "parkourfinish1": {
+        "sounds": [
+            "random/levelup"
+        ],
+        "subtitle": "subtitles.parkour.finish"
+    },
+    "parkourfinish2": {
+        "sounds": [
+            "fireworks/twinkle_far1"
+        ],
+        "subtitle": "subtitles.parkour.finish"
+    },
+    "parkourfinish3": {
+        "sounds": [
+            {
+                "name": "ui/toast/challenge_complete",
+                "volume": 0.6
+            }
+        ],
+        "subtitle": "subtitles.parkour.finish"
+    },
+    "goldshot": {
+        "sounds": [
+            "cannon/goldshot"
+        ],
+        "subtitle": "subtitles.cannon.gold_shot"
+    },
+    "hitmarker_normal": {
+        "sounds": [
+            "cannon/hitmarker_normal"
+        ],
+        "subtitle": "subtitles.cannon.hitmarker_normal"
+    },
+    "hitmarker_critical": {
+        "sounds": [
+            "cannon/hitmarker_critical"
+        ],
+        "subtitle": "subtitles.cannon.hitmarker_critical"
+    },
+    "hitmarker_kill": {
+        "sounds": [
+            "cannon/hitmarker_kill"
+        ],
+        "subtitle": "subtitles.cannon.hitmarker_kill"
+    },
+    "lockedtreasureopen": {
+        "replace": true,
+        "sounds": [
+            "mob/skeleton/hurt1",
+            "mob/skeleton/hurt2",
+            "mob/skeleton/hurt3",
+            "mob/skeleton/hurt4"
+        ]
+    },
+    "readyup": {
+        "sounds": [
+            "fire/ignite"
+        ],
+        "subtitle": "subtitles.game.ready"
+    },
+    "unready": {
+        "sounds": [
+            "fire/ignite"
+        ],
+        "subtitle": "subtitles.game.not_ready"
+    },
+    "cannonshot_blank": {
+        "sounds": [
+            "cannon/cannonshot_blank"
+        ],
+        "subtitle": "subtitles.cannon.blank"
+    },
+    "goldy": {
+        "sounds": [
+            "lobby/goldy"
+        ],
+        "subtitle": "subtitles.goldy"
+    },
+    "trainingdummy_hit1": {
+        "sounds": [
+            "step/cloth1",
+            "step/cloth2",
+            "step/cloth3",
+            "step/cloth4"
+        ],
+        "subtitle": "subtitles.trainingdummy.hit"
+    },
+    "trainingdummy_hit2": {
+        "sounds": [
+            "entity/armorstand/hit1",
+            "entity/armorstand/hit2",
+            "entity/armorstand/hit3",
+            "entity/armorstand/hit4"
+        ]
+    },
+    "trainingdummy_hit3": {
+        "sounds": [
+            "step/cloth1",
+            "step/cloth2",
+            "step/cloth3",
+            "step/cloth4"
+        ],
+        "subtitle": "subtitles.trainingdummy.die"
+    },
+    "trader_ambient": {
+        "sounds": [
+            {
+                "name": "mob/pillager/idle1",
+                "pitch": 1.3
+            },
+            {
+                "name": "mob/pillager/idle2",
+                "pitch": 1.3
+            },
+            {
+                "name": "mob/pillager/idle3",
+                "pitch": 1.3
+            },
+            {
+                "name": "mob/pillager/idle4",
+                "pitch": 1.3
+            }
+        ],
+        "subtitle": "subtitles.trader.ambient"
+    },
+    "teacher_ambient": {
+        "sounds": [
+            {
+                "name": "mob/pillager/idle1",
+                "pitch": 1.3
+            },
+            {
+                "name": "mob/pillager/idle2",
+                "pitch": 1.3
+            },
+            {
+                "name": "mob/pillager/idle3",
+                "pitch": 1.3
+            },
+            {
+                "name": "mob/pillager/idle4",
+                "pitch": 1.3
+            }
+        ],
+        "subtitle": "subtitles.teacher.ambient"
+    },
+    "ding": {
+        "sounds": [
+            "random/orb"
+        ]
+    },
+    "chesttutorial": {
+        "sounds": [
+            {
+                "name": "block/mud/break1",
+                "volume": 0.5
+            },
+            {
+                "name": "block/mud/break2",
+                "volume": 0.5
+            },
+            {
+                "name": "block/mud/break3",
+                "volume": 0.5
+            },
+            {
+                "name": "block/mud/break4",
+                "volume": 0.5
+            },
+            {
+                "name": "block/mud/break5",
+                "volume": 0.5
+            },
+            {
+                "name": "block/mud/break6",
+                "volume": 0.5
+            }
+        ]
+    },
+    "chestbury": {
+        "sounds": [
+            "dig/sand1",
+            "dig/sand2",
+            "dig/sand3",
+            "dig/sand4"
+        ],
+        "subtitle": "subtitles.block.composter.fill"
+    },
+    "block.chest.locked": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ],
+        "subtitle": ""
+    },
+    "ui.toast.challenge_complete": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ],
+        "subtitle": ""
+    },
+    "ripsail": {
+        "sounds": [
+            "cannon/ripsail1",
+            "cannon/ripsail2",
+            "cannon/ripsail3"
+        ],
+        "subtitle": "subtitles.sails.rip"
+    },
+    "error": {
+        "sounds": [
+            "note/bassattack"
+        ]
+    }
 }
