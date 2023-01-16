@@ -166,6 +166,10 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:lobby/modifiers"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:lobby/cclogo"
         },
         {
