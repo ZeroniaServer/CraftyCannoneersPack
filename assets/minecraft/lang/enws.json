@@ -435,7 +435,7 @@
   "game.game_over": "Game Over!",
   "game.applied_updates": "Successfully applied updates from ",
   "game.mob_warn": "This server does not allow hostile mobs to spawn. Please enable this in server properties before changing settings!",
-  "mvp.death": " visited Davy Jones' Locker!",
+  "mvp.death": " visited Davy Jones' Locker! ",
   "mvp.death.single": " pathetic death!",
   "mvp.death.plural": " pathetic deaths!",
   "mvp.death.single_each": " pathetic death each!",
