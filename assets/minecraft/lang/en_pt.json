@@ -1,7 +1,4 @@
 {
-  "language.name": "Pirate Speak",
-  "language.region": "The Seven Seas",
-  "language.code": "qpe",
   "death.attack.indirectMagic": "%1$s was exploded by Pirate %2$s",
   "death.attack.indirectMagic.item": "%1$s was exploded by Pirate %2$s",
   "death.attack.mob": "%1$s was blasted by %2$s",

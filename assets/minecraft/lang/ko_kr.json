@@ -1,8 +1,5 @@
 {
   "translated_by": "m_jang and TBD",
-  "language.name": "한국어",
-  "language.region": "대한민국",
-  "language.code": "ko_kr",
   "death.attack.indirectMagic": "%1$가 %2$에게 빵 터졌습니다!",
   "death.attack.indirectMagic.item": "%1$가 %2$에게 빵 터졌습니다!",
   "death.attack.mob": "%1$가 %2$에게 그만 당해버렸습니다...",
