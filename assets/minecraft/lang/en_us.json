@@ -412,7 +412,7 @@
   "game.spectator_bounds": "Unable to spectate outside of the arena!",
   "game.crafty": "Crafty ",
   "game.cannoneers": "Cannoneers",
-  "game.made_by": "Made by ",
+  "game.made_by": "Made by %1$s",
   "game.ending": "A game is currently ending!",
   "game.in_progress": "A game is currently in progress!",
   "game.bubble_column": "A bubble column blocks your path...",
