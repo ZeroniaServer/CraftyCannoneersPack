@@ -59,6 +59,8 @@
   "subtitles.game.win": "승리!",
   "subtitles.entity.villager.work_cartographer": "설정 맵이 요청됨",
   "subtitles.settings.confirm": "설정 확인",
+  "subtitles.settings.modifier_open": "Modifiers opened",
+  "subtitles.settings.modifier_close": "Modifiers closed",
   "subtitles.entity.ender_eye.death": "고급 튜토리얼",
   "subtitles.snowman.dig": "눈사람이 파는중",
   "subtitles.snowman.emerge": "눈사람이다!",
