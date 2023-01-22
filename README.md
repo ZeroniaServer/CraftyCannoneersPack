@@ -5,6 +5,7 @@ Resource pack for Crafty Cannoneers. Made by Zeronia.
 
 ### Credits
 - [ShockMicro's VanillaDynamicEmissives](https://github.com/ShockMicro/VanillaDynamicEmissives)
+- [AAAA's Perspective Models with Dynamic Emissives](https://cdn.discordapp.com/attachments/157097006500806656/996446571178754189/PerspectiveModelsWithDynamicEmissives_119.zip)
 - [Echonix's Transparent Textures Fix](https://www.planetminecraft.com/texture-pack/mc-164001-transparent-textures-bug-fix-see-through-paintings-beds-amp-shields/)
 - [Minecraft Dungeons (base weapon textures)](https://dungeons.minecraft.net/)
 - [Quark Mod (ladder texture)](https://quarkmod.net/)
