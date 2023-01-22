@@ -90,6 +90,10 @@
 		{ "predicate": {"custom_model_data": 84}, "model": "lobby/notracers"},
 		{ "predicate": {"custom_model_data": 85}, "model": "lobby/sharks"},
 		{ "predicate": {"custom_model_data": 86}, "model": "lobby/seastorms"},
+		{ "predicate": {"custom_model_data": 87}, "model": "custom/shark_swim"},
+		{ "predicate": {"custom_model_data": 88}, "model": "custom/shark"},
+		{ "predicate": {"custom_model_data": 89}, "model": "custom/shark_openmouth1"},
+		{ "predicate": {"custom_model_data": 90}, "model": "custom/shark_openmouth2"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }

@@ -219,6 +219,10 @@
         {
             "type": "single",
             "resource": "minecraft:lobby/seastorms"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:shark/shark_swim"
         }
     ]
 }
