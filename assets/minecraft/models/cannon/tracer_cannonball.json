@@ -649,12 +649,12 @@
 			"scale": [0.33, 0.33, 0.33]
 		},
 		"firstperson_righthand": {
-			"rotation": [-18, -57, 0],
+			"rotation": [-20, -50, 0],
 			"translation": [1.75, 2.75, 0.75],
 			"scale": [0.33, 0.33, 0.33]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-18, -57, 0],
+			"rotation": [-20, -50, 0],
 			"translation": [0.5, 3.5, 1.75],
 			"scale": [0.33, 0.33, 0.33]
 		},
