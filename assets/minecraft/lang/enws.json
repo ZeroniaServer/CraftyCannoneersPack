@@ -545,5 +545,7 @@
   "modifier.sharks.description": "Adds pesky Sharks who lurk the waters in search of prey. Don't stay underwater too long or they'll bite!",
   "modifier.sea_storms": "Sea Storms",
   "modifier.sea_storms.description": "Let it rain! In the heavy downpour and winds, your Cannonballs will become wildly inaccurate. Beware of lightning on the central island!",
+  "modifier.lost_cargo": "Lost Cargo",
+  "modifier.lost_cargo.description": "Barrels of loot emerge from the waters around your ship! If you can't make it to the central island, you'll still be able to obtain materials somehow.",
   "modifier.experienced_pirates": "Recommended for experienced pirates."
 }
