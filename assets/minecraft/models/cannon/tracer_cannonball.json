@@ -1309,12 +1309,12 @@
 			"scale": [0.3, 0.3, 0.3]
 		},
 		"firstperson_righthand": {
-			"rotation": [-10, 13, 0],
+			"rotation": [-20, 30, 0],
 			"translation": [-0.75, 3.75, 2.75],
 			"scale": [0.2, 0.2, 0.2]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-10, 13, 0],
+			"rotation": [-20, 30, 0],
 			"translation": [-0.25, 3.5, 2.25],
 			"scale": [0.2, 0.2, 0.2]
 		},
