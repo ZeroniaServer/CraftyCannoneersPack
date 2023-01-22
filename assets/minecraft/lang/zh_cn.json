@@ -543,5 +543,9 @@
   "lobby.label.credits.2": "(与盔甲架互动来阅读制作组)",
   "modifier.no_tracers": "没有示踪炮弹",
   "modifier.no_tracers.description": "从玩家装备中移除示踪炮弹, 迫使玩家学习如何在没有它们的情况下瞄准.",
+  "modifier.sharks": "Sharks",
+  "modifier.sharks.description": "Adds pesky Sharks who lurk the waters in search of prey. Don't stay underwater too long or they'll bite!",
+  "modifier.sea_storms": "Sea Storms",
+  "modifier.sea_storms.description": "Let it rain! In the heavy downpour and winds, your Cannonballs will become wildly inaccurate. Beware of lightning on the central island!",
   "modifier.experienced_pirates": "推荐给有经验的海盗."
 }
