@@ -14,12 +14,13 @@ uniform sampler2D Sampler2;
 
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
-uniform int FogShape;
 uniform mat3 IViewRotMat;
+uniform int FogShape;
 
 uniform vec3 Light0_Direction;
 uniform vec3 Light1_Direction;
 
+out float zPos;
 out float vertexDistance;
 out vec4 vertexColor;
 out vec4 lightColor;
@@ -30,11 +31,13 @@ out vec2 texCoord2;
 out vec4 normal;
 
 void main() {
+    zPos = Position.z;
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
     vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Position, FogShape);
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
-	lightColor = minecraft_sample_lightmap(Sampler2, UV2);
+	lightColor = vertexDistance <= 800 ? minecraft_sample_lightmap(Sampler2, UV2) : texelFetch(Sampler2, UV2 / 16, 0);
+    //lightColor = minecraft_sample_lightmap(Sampler2, UV2);
 	maxLightColor = minecraft_sample_lightmap(Sampler2, ivec2(240.0, 240.0));
     texCoord0 = UV0;
     texCoord1 = UV1;
