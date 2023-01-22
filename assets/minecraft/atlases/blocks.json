@@ -110,6 +110,10 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/chain"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:entity/skeleton/wither_skeleton"
         },
         {
