@@ -6,7 +6,15 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/bouncy_cannonball_gui"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/cannonball_gui"
         },
         {
             "type": "single",
@@ -14,7 +22,15 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/chain_cannonball_gui"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/cluster_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/cluster_cannonball_gui"
         },
         {
             "type": "single",
@@ -34,7 +50,15 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/gas_cannonball_gui"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/golden_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/golden_cannonball_gui"
         },
         {
             "type": "single",
@@ -42,7 +66,15 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/hot_cannonball_gui"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/player_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/player_cannonball_gui"
         },
         {
             "type": "single",
