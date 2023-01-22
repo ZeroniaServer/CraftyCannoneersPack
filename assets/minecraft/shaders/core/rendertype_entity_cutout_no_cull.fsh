@@ -1,7 +1,7 @@
 #version 150
 
 #moj_import <fog.glsl>
-#moj_import <emissive_utils.vsh>
+#moj_import <utils.vsh>
 
 uniform sampler2D Sampler0;
 
