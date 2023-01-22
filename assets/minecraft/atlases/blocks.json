@@ -255,6 +255,22 @@
         {
             "type": "single",
             "resource": "minecraft:shark/shark_swim"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:shark/shark_belly"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:shark/shark_eye"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:shark/shark_mouth"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:shark/shark_skin"
         }
     ]
 }
