@@ -88,6 +88,8 @@
 		{ "predicate": {"custom_model_data": 82}, "model": "custom/mapmodifiers"},
 		{ "predicate": {"custom_model_data": 83}, "model": "lobby/modifiers"},
 		{ "predicate": {"custom_model_data": 84}, "model": "lobby/notracers"},
+		{ "predicate": {"custom_model_data": 85}, "model": "lobby/sharks"},
+		{ "predicate": {"custom_model_data": 86}, "model": "lobby/seastorms"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }

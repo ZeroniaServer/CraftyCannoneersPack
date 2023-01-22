@@ -211,6 +211,14 @@
         {
             "type": "single",
             "resource": "minecraft:lobby/notracers"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/sharks"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/seastorms"
         }
     ]
 }
