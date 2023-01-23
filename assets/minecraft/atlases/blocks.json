@@ -110,6 +110,14 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/bomb_back"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/bomb_gui"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/chain"
         },
         {
