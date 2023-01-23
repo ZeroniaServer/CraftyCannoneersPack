@@ -85,6 +85,7 @@
   "block.minecraft.bed.occupied": "",
   "container.spectatorCantOpen": "",
   "%1$s%9376642$s": "%2$s",
+  "%1$s": "%2$s",
   "teamchest.orange": "Orange Team Chest",
   "teamchest.purple": "Purple Team Chest",
   "teamchest.locked": "CHEST LOCKED",
