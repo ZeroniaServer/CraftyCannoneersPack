@@ -114,6 +114,14 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/bomb_top"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/bomb_bottom"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/bomb_gui"
         },
         {
