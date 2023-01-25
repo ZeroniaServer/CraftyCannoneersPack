@@ -121,7 +121,7 @@
   "gas_explosion.possessive": "'s Gas Explosion",
   "weakpoint.destroyed.enemy": "Enemy Weakpoint destroyed!",
   "weakpoint.destroyed.something": "Something",
-  "weakpoint.destroyed_an": " destroyed an ",
+  "weakpoint.destroyed.an": " destroyed an ",
   "weakpoint.destroyed.exposed": "exposed",
   "weakpoint.destroyed.unexposed": "unexposed",
   "weakpoint.destroyed.weakpoint": " Weakpoint.",
