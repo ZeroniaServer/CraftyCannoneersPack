@@ -29,4 +29,8 @@ void main() {
     vertexColor = Color;
 	lightColor = minecraft_sample_lightmap(Sampler2, UV2);
 	maxLightColor = minecraft_sample_lightmap(Sampler2, ivec2(240.0, 240.0));
+
+    if (Color == vec4(0/255., 0/255., 0/255., Color.a)) {
+      vertexColor = vec4(0);
+    }
 }
