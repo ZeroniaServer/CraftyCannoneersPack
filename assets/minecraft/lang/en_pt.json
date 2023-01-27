@@ -406,7 +406,7 @@
   "game.crafty": "Crafty",
   "game.cannoneers": "Cannoneers",
   "game.name": "%1$s %2$s",
-  "game.made_by": "Made by %1$s",
+  "game.made_by": "%1$s Made by %2$s",
   "game.ending": "A game is currently ending!",
   "game.in_progress": "A game is currently in progress!",
   "game.bubble_column": "A bubble column blocks your path...",

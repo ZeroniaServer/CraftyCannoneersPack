@@ -404,7 +404,7 @@
   "game.spectator_bounds": "不能在场外观看比赛!",
   "game.crafty": "狡猾",
   "game.cannoneers": "炮手",
-  "game.made_by": "由 %1$s 制作!",
+  "game.made_by": "%1$s 由 %2$s 制作!",
   "game.ending": "游戏即将结束!",
   "game.in_progress": "游戏正在进行中!",
   "game.bubble_column": "一连串的气泡柱挡住了你的路...",
