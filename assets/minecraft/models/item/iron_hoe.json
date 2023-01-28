@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/hook",
+		"1": "custom/hook_gui",
 		"particle": "custom/hook"
 	},
 	"elements": [
@@ -653,6 +654,13 @@
 				"east": {"uv": [1, 9, 2, 10], "texture": "#0"},
 				"south": {"uv": [1, 9, 2, 10], "texture": "#0"},
 				"up": {"uv": [1, 9, 2, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 4],
+			"to": [16, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"}
 			}
 		}
 	],

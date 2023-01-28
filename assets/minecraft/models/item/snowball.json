@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/rock",
+		"1": "custom/rock_gui",
 		"particle": "custom/rock"
 	},
 	"elements": [
@@ -1395,6 +1396,13 @@
 				"west": {"uv": [3, 13, 4, 14], "texture": "#0"},
 				"up": {"uv": [3, 13, 4, 14], "texture": "#0"},
 				"down": {"uv": [3, 13, 4, 14], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 4],
+			"to": [16, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"}
 			}
 		}
 	],

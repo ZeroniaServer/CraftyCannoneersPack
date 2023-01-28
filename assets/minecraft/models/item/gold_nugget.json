@@ -1,7 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "custom/golden_coin"
+		"0": "custom/golden_coin",
+		"1": "custom/golden_coin_gui",
+		"particle": "custom/golden_coin_gui"
 	},
 	"elements": [
 		{
@@ -495,6 +497,13 @@
 				"up": {"uv": [7, 9, 9, 10], "texture": "#0"},
 				"down": {"uv": [7, 9, 9, 10], "texture": "#0"}
 			}
+		},
+		{
+			"from": [0, 0, 4],
+			"to": [16, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
 		}
 	],
 	"gui_light": "front",
@@ -523,7 +532,7 @@
 			"scale": [0.45, 0.45, 0.45]
 		},
 		"gui": {
-			"rotation": [90, 0, 0]
+			"rotation": [0, -180, 0]
 		},
 		"head": {
 			"rotation": [-90, 0, 0],

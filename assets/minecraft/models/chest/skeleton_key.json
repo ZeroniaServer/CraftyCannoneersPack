@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/skeleton_key",
+		"1": "custom/skeleton_key_gui",
 		"particle": "custom/skeleton_key"
 	},
 	"elements": [
@@ -641,6 +642,13 @@
 			"faces": {
 				"north": {"uv": [11, 4, 12, 5], "texture": "#0"},
 				"south": {"uv": [11, 4, 12, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 4],
+			"to": [16, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"}
 			}
 		}
 	],

@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"1": "custom/mace_gui",
 		"particle": "custom/mace",
 		"layer0": "custom/mace"
 	},
@@ -412,6 +413,13 @@
 				"up": {"uv": [8, 8, 9, 9], "texture": "#layer0"},
 				"down": {"uv": [8, 8, 9, 9], "texture": "#layer0"}
 			}
+		},
+		{
+			"from": [0, 0, 4],
+			"to": [16, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
 		}
 	],
 	"gui_light": "front",
@@ -435,6 +443,9 @@
 			"rotation": [7, -90, 0],
 			"translation": [5.75, 4.75, -2.5],
 			"scale": [0.8, 0.8, 0.8]
+		},
+        "gui": {
+			"rotation": [0, -180, 0]
 		},
 		"ground": {
 			"translation": [0, 7, 0],

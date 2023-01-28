@@ -1,7 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "custom/goat_horn"
+		"0": "custom/goat_horn",
+		"1": "custom/goat_horn_gui",
+		"particle": "custom/goat_horn_gui"
 	},
 	"elements": [
 		{
@@ -174,6 +176,13 @@
 				"north": {"uv": [11, 10, 12, 12], "texture": "#0"},
 				"south": {"uv": [11, 10, 12, 12], "texture": "#0"},
 				"up": {"uv": [11, 10, 12, 12], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 4],
+			"to": [16, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"}
 			}
 		}
 	],
