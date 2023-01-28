@@ -98,7 +98,15 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/skeleton_key_gui"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/golden_coin"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/golden_coin_gui"
         },
         {
             "type": "single",
@@ -230,7 +238,15 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/goat_horn_gui"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/hook"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/hook_gui"
         },
         {
             "type": "single",
@@ -238,7 +254,15 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/mace_gui"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/rock"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/rock_gui"
         },
         {
             "type": "single",
