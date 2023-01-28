@@ -88,6 +88,10 @@
             "type": "single",
             "resource": "minecraft:custom/tracer_cannonball_gui"
         },
+		{
+            "type": "single",
+            "resource": "minecraft:custom/tracer_cannonball_red_gui"
+        },
         {
             "type": "single",
             "resource": "minecraft:custom/skeleton_key"
