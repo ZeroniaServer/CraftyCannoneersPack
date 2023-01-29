@@ -595,6 +595,36 @@
             "silent"
         ]
     },
+    "entity.witch.ambient": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ]
+    },
+    "entity.witch.celebrate": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ]
+    },
+    "entity.witch.death": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ]
+    },
+    "entity.witch.drink": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ]
+    },
+    "entity.witch.hurt": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ]
+    },
     "ripsail": {
         "sounds": [
             "cannon/ripsail1",
