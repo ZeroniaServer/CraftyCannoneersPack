@@ -275,7 +275,7 @@
   "tip.21": "Chain Cannonballs are a little less accurate than the other Cannonball types, but can deal a lot of damage to a ship's sails.",
   "tip.tip": "TIP!",
   "tip.games": "(Play %s more games to be able to hide tips.)",
-  "tip.game": "(Play 1 more game to be able to hide tips.)",
+  "tip.game": "(Play %s more game to be able to hide tips.)",
   "tip.click": "(Click %s to disable tips!)",
   "tip.here": "[HERE]",
   "tip.here.hover": "Click to disable tips!",
