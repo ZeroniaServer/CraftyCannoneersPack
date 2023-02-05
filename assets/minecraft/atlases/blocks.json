@@ -266,6 +266,10 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/shark_tooth"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:lobby/confirm"
         },
         {
