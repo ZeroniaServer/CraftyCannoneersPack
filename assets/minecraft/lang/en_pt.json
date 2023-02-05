@@ -479,6 +479,7 @@
   "customizer.current": "Current Game Settings",
   "customizer.current_time": "Game Time:   \uF811%s",
   "customizer.current_health": "Ship Health: %s",
+  "customizer.current_modifiers": "Modifiers:    \uF812%s",
   "customizer.map_owner": "%s be in control of game settings!",
   "chat.confirm": "Please confirm game settings at the %s!",
   "chat.settings_map": "Settings Map",
