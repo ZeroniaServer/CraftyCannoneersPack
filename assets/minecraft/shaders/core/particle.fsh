@@ -21,7 +21,13 @@ out vec4 fragColor;
 void main() {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
 	float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
-    color = apply_global_emissive(color, lightColor, maxLightColor, vertexDistance, alpha);
+    
+    vec4 lc = lightColor;
+    // if (Color == vec4(78/255., 92/255., 36/255., Color.a))
+    // {
+    //     lc = maxLightColor;
+    // }
+    color = apply_global_emissive(color, lc, maxLightColor, vertexDistance, alpha);
     if (color.a < 0.1) {
         discard;
     }
