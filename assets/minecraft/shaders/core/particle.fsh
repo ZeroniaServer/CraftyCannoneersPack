@@ -22,12 +22,10 @@ void main() {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
 	float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
     
-    vec4 lc = lightColor;
-    // if (Color == vec4(78/255., 92/255., 36/255., Color.a))
-    // {
-    //     lc = maxLightColor;
-    // }
-    color = apply_global_emissive(color, lc, maxLightColor, vertexDistance, alpha);
+    // discards minecraft lighting with desired opacity
+    bool emissive = check_alpha(alpha, 250.0);
+    color = apply_global_emissive(color, emissive ? maxLightColor : lightColor, maxLightColor, vertexDistance, emissive ? 255.0 : alpha);
+
     if (color.a < 0.1) {
         discard;
     }
