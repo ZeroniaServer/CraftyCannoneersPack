@@ -121,6 +121,7 @@
   "cannon.on_fire": "这门大炮现在着火了!",
   "cannon.possessive": "%s的大炮",
   "gas_explosion": "瓦斯爆炸",
+  "gas_explosion.generic": "瓦斯爆炸",
   "gas_explosion.possessive": "%s的瓦斯爆炸",
   "weakpoint.destroyed": "%1$s摧毁了%2$s弱点. %3$s",
   "weakpoint.destroyed.enemy": "敌方弱点被摧毁!",
