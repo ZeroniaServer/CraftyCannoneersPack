@@ -339,6 +339,18 @@
         {
             "type": "single",
             "resource": "minecraft:shark/shark_skin"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:custom/black_flag"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:custom/purple_flag"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:custom/orange_flag"
         }
     ]
 }

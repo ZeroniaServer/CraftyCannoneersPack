@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "custom/black_flag"
+		"1": "custom/purple_flag"
 	},
 	"elements": [
 		{
@@ -69,7 +69,7 @@
 			"scale": [0.46, 0.47, 0.49]
 		},
 		"head": {
-			"translation": [0, -23, -31],
+			"translation": [0, -19, -44.75],
 			"scale": [1.95, 1.95, 1.95]
 		}
 	}

@@ -1,4 +1,5 @@
 {
+  "death.attack.magic": "%1$s was devoured by a Shark",
   "death.attack.indirectMagic": "%1$s was blown up by %2$s",
   "death.attack.indirectMagic.item": "%1$s was blown up by %2$s",
   "death.attack.mob": "%1$s was blasted by %2$s",
@@ -202,6 +203,7 @@
   "item.raid_horn.lore.2": "give your entire crew a buff.",
   "item.mace": "Mace",
   "item.hook": "Hook",
+  "item.shark_tooth": "Shark Tooth",
   "item.harpoon.lore.1": "You can use this weapon to",
   "item.harpoon.lore.2": "dash forward once every",
   "item.harpoon.lore.3": "time you enter the water.",
