@@ -655,5 +655,35 @@
             "modifiers/seastorm"
         ],
         "subtitle": "subtitles.wind"
+    },
+    "blastbarrelplace": {
+        "sounds": [
+            "item/blastbarrelplace"
+        ],
+        "subtitle": "subtitles.blastbarrel.place"
+    },
+    "blastbarrelignite": {
+        "sounds": [
+            "item/blastbarrelignite"
+        ],
+        "subtitle": "subtitles.blastbarrel.ignite"
+    },
+    "blastbarrelburn": {
+        "sounds": [
+            "item/blastbarrelburn"
+        ],
+        "subtitle": "subtitles.blastbarrel.burn"
+    },
+    "blastbarrelcharge": {
+        "sounds": [
+            "item/blastbarrelcharge"
+        ],
+        "subtitle": "subtitles.blastbarrel.charge"
+    },
+    "blastbarrelexplode": {
+        "sounds": [
+            "item/blastbarrelexplode"
+        ],
+        "subtitle": "subtitles.blastbarrel.explode"
     }
 }
