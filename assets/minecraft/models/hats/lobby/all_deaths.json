@@ -4,7 +4,7 @@
 		"0": "hat/diamond_block",
 		"4": "hat/hat_skull_mvp",
 		"5": "hat/blackhat_ui",
-		"6": "hat/vanilla_skull",
+		"8": "hat/cannonball",
 		"9": "hat/battleaxe",
 		"1_0": "hat/gold_block",
 		"1_6": "hat/vanilla_skull",
@@ -425,8 +425,8 @@
 			"to": [-7.6, 11.1, 6.4],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [-4.6, 0, -1]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#1_6"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#1_6"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#8"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#8"}
 			}
 		},
 		{
@@ -940,8 +940,8 @@
 			"to": [24.4, 1.4, 6.6],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [-4.6, 0, -1]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#1_6"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#1_6"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#8"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#8"}
 			}
 		},
 		{
@@ -962,12 +962,12 @@
 			"to": [9.5, 10.3, 4.5],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [0, 0, 0]},
 			"faces": {
-				"north": {"uv": [0, 8, 8, 16], "texture": "#6"},
-				"east": {"uv": [16, 8, 8, 16], "texture": "#6"},
-				"south": {"uv": [8, 0, 16, 8], "texture": "#6"},
-				"west": {"uv": [8, 8, 16, 16], "texture": "#6"},
-				"up": {"uv": [0, 0, 8, 8], "rotation": 180, "texture": "#6"},
-				"down": {"uv": [8, 0, 16, 8], "texture": "#6"}
+				"north": {"uv": [0, 8, 8, 16], "texture": "#1_6"},
+				"east": {"uv": [16, 8, 8, 16], "texture": "#1_6"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#1_6"},
+				"west": {"uv": [8, 8, 16, 16], "texture": "#1_6"},
+				"up": {"uv": [0, 0, 8, 8], "rotation": 180, "texture": "#1_6"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#1_6"}
 			}
 		},
 		{
