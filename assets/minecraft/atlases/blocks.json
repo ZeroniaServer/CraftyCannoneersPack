@@ -351,6 +351,82 @@
 		{
             "type": "single",
             "resource": "minecraft:custom/orange_flag"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/black_wool"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/gray_wool"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/hat_skull"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/orange_wool"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/yellow_wool"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/purple_wool"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/magenta_wool"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/red_wool"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/gold_block"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/parkour_log"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/blackhat_ui"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/purplehat_ui"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/orangehat_ui"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/parkourhat_ui"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/vanilla_skull"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/cannonball"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/cutlass"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/battleaxe"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:hat/basalt_side"
         }
     ]
 }
