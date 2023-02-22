@@ -1,0 +1,9 @@
+{
+	"parent": "cannon/player_cannonball",
+	"display": {
+		"head": {
+			"translation": [0, 8.5, 0],
+            "scale": [1.7, 1.7, 1.7]
+		}
+	}
+}
