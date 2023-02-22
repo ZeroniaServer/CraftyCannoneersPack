@@ -435,6 +435,10 @@
 		{
             "type": "single",
             "resource": "minecraft:hat/basalt_side"
+        },
+		{
+            "type": "single",
+            "resource": "minecraft:custom/burning_powder"
         }
     ]
 }
