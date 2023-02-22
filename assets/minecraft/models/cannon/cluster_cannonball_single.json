@@ -465,12 +465,12 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [-0.25, 2.5, 2.25],
-			"scale": [0.32, 0.32, 0.32]
+			"translation": [-0.25, -0.5, 2.25],
+			"scale": [0.94, 0.94, 0.93]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 2.75, 2.5],
-			"scale": [0.32, 0.32, 0.32]
+			"translation": [0, -1, 2.5],
+			"scale": [0.94, 0.94, 0.94]
 		},
 		"firstperson_righthand": {
 			"rotation": [-19, -52, 14],
