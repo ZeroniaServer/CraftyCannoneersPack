@@ -211,6 +211,15 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, vec4 
 	return remappingColor;
 }
 
+// for third person glowing
+vec4 apply_emissive_perspective_glowing(vec4 inputColor, float inputAlpha) {
+	vec4 remappingColor = inputColor;
+	if(check_alpha(inputAlpha, 243.0) || check_alpha(inputAlpha, 252.0) || check_alpha(inputAlpha, 253.0)) {
+		remappingColor.a = 0.0;
+    }
+	return remappingColor;
+}
+
 // for block
 vec4 apply_emissive_for_block(vec4 inputColor, vec4 lightColor, vec4 maxLightColor, vec3 normal, float vertexDistance, float inputAlpha, float dimension) {
 	vec4 remappingColor = inputColor * lightColor / face_lighting_check(normal, inputAlpha, dimension);
