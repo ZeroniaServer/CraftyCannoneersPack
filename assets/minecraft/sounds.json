@@ -662,6 +662,12 @@
         ],
         "subtitle": "subtitles.blastbarrel.place"
     },
+    "blastbarrelbreak": {
+        "sounds": [
+            "item/blastbarrelignite"
+        ],
+        "subtitle": "subtitles.blastbarrel.break"
+    },
     "blastbarrelignite": {
         "sounds": [
             "item/blastbarrelignite"
