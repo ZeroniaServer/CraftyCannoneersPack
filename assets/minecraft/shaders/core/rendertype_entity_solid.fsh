@@ -25,6 +25,6 @@ void main() {
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
     if ( color.a == 0.0 ) discard;
     float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
-    color = apply_global_emissive(color, lightColor, maxLightColor, vertexDistance, alpha);
+    color = apply_global_emissive(color, lightColor, alpha);
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }
