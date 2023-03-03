@@ -440,6 +440,7 @@
   "game.ready_up": "Ready Up!",
   "game.game_over": "Game Over!",
   "game.applied_updates": "Successfully applied updates from %1$s %2$s",
+  "game.updating_to": "UPDATING TO %1$s %2$s",
   "game.mob_warn": "This server does not allow hostile mobs to spawn. Please enable this in server properties before changing settings!",
   "mvp.death.1": "%1$s visited Davy Jones' Locker! %2$s",
   "mvp.death.2": "%1$s and %2$s visited Davy Jones' Locker! %3$s",

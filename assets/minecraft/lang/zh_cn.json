@@ -441,6 +441,7 @@
   "game.ready_up": "准备就绪!",
   "game.game_over": "游戏结束!",
   "game.applied_updates": "成功应用更新来自 %1$s %2$s",
+  "game.updating_to": "UPDATING TO %1$s %2$s",
   "game.mob_warn": "这个服务器不允许敌对生物产生. 请在更改设置之前在服务器属性中启用此功能!",
   "mvp.death.1": "%1$s 参观了戴维琼斯的黄金柜! %2$s",
   "mvp.death.2": "%1$s 和 %2$s 参观了戴维琼斯的黄金柜! %3$s",
