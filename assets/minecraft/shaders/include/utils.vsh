@@ -58,24 +58,24 @@ vec4 face_lighting_check(vec3 normal, float inputAlpha, float dimension) {
 }
 
 // for item
-vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, vec4 maxLightColor, float vertexDistance, float zPos, float FogStart, float FogEnd, float inputAlpha) {
+vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int isGUI, float zPos, float FogStart, float FogEnd, float inputAlpha) {
 	vec4 remappingColor = inputColor * lightColor;
 
 	if(check_alpha(inputAlpha, 255.0)) {        // GUI O | FirstPerson O | ThirdPerson O | Emssive X
 		// Default
 	} else if(check_alpha(inputAlpha, 254.0)) { // GUI O | FirstPerson O | ThirdPerson O | Emssive O
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 1.0;
 		} else {
 			remappingColor = inputColor;
 			remappingColor.a = 1.0;
 		}
 	} else if(check_alpha(inputAlpha, 253.0)) { // GUI O | FirstPerson O | ThirdPerson X | Emssive X
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 1.0;
 		} else {
 			if(FogStart > FogEnd) {
-				if(vertexDistance < 800) {
+				if(isGUI == 0) {
 					remappingColor.a = 1.0;
 				} else {
 					remappingColor.a = 0.0;
@@ -85,11 +85,11 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, vec4 
 			}
 		}
 	} else if(check_alpha(inputAlpha, 252.0)) { // GUI O | FirstPerson O | ThirdPerson X | Emssive O
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 1.0;
 		} else {
 			if(FogStart > FogEnd) {
-				if(vertexDistance < 800) {
+				if(isGUI == 0) {
 					remappingColor = inputColor;
 					remappingColor.a = 1.0;
 				} else {
@@ -100,11 +100,11 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, vec4 
 			}
 		}
 	} else if(check_alpha(inputAlpha, 251.0)) { // GUI O | FirstPerson X | ThirdPerson O | Emssive X
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 1.0;
 		} else {
 			if(FogStart > FogEnd) {
-				if(vertexDistance < 800) {
+				if(isGUI == 0) {
 					remappingColor.a = 0.0;
 				} else {
 					remappingColor.a = 1.0;
@@ -114,11 +114,11 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, vec4 
 			}
 		}
 	} else if(check_alpha(inputAlpha, 250.0)) { // GUI O | FirstPerson X | ThirdPerson O | Emssive O
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 1.0;
 		} else {
 			if(FogStart > FogEnd) {
-				if(vertexDistance < 800) {
+				if(isGUI == 0) {
 					remappingColor.a = 0.0;
 				} else {
 					remappingColor.a = 1.0;
@@ -130,24 +130,24 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, vec4 
 			}
 		}
 	} else if(check_alpha(inputAlpha, 249.0)) { // GUI X | FirstPerson O | ThirdPerson O | Emssive X
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 0.0;
 		} else {
 			remappingColor.a = 1.0;
 		}
 	} else if(check_alpha(inputAlpha, 248.0)) {	// GUI X | FirstPerson O | ThirdPerson O | Emssive O
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 0.0;
 		} else {
 			remappingColor = inputColor;
 			remappingColor.a = 1.0;
 		}
 	} else if(check_alpha(inputAlpha, 247.0)) {	// GUI X | FirstPerson O | ThirdPerson X | Emssive X
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 0.0;
 		} else {
 			if(FogStart > FogEnd) {
-				if(vertexDistance < 800) {
+				if(isGUI == 0) {
 					remappingColor.a = 1.0;
 				} else {
 					remappingColor.a = 0.0;
@@ -157,11 +157,11 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, vec4 
 			}
 		}
 	} else if(check_alpha(inputAlpha, 246.0)) {	// GUI X | FirstPerson O | ThirdPerson X | Emssive O
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 0.0;
 		} else {
 			if(FogStart > FogEnd) {
-				if(vertexDistance < 800) {
+				if(isGUI == 0) {
 					remappingColor = inputColor;
 					remappingColor.a = 1.0;
 				} else {
@@ -172,11 +172,11 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, vec4 
 			}
 		}
 	} else if(check_alpha(inputAlpha, 245.0)) {	// GUI X | FirstPerson X | ThirdPerson O | Emssive X
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 0.0;
 		} else {
 			if(FogStart > FogEnd) {
-				if(vertexDistance < 800) {
+				if(isGUI == 0) {
 					remappingColor.a = 0.0;
 				} else {
 					remappingColor.a = 1.0;
@@ -186,11 +186,11 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, vec4 
 			}
 		}
 	} else if(check_alpha(inputAlpha, 244.0)) {	// GUI X | FirstPerson X | ThirdPerson O | Emssive O
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 0.0;
 		} else {
 			if(FogStart > FogEnd) {
-				if(vertexDistance < 800) {
+				if(isGUI == 0) {
 					remappingColor.a = 0.0;
 				} else {
 					remappingColor.a = 1.0;
@@ -202,7 +202,7 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, vec4 
 			}
 		}
 	} else if(check_alpha(inputAlpha, 243.0)) { // GUI O | FirstPerson X | ThirdPerson X | Emssive - (only GUI don't need Emssive setting)
-		if(vertexDistance >= 800 && zPos < 2.0) {
+		if(isGUI == 1 && zPos >= 125.0) {
 			remappingColor.a = 1.0;
 		} else {
 			remappingColor.a = 0.0;
@@ -221,7 +221,7 @@ vec4 apply_emissive_perspective_glowing(vec4 inputColor, float inputAlpha) {
 }
 
 // for block
-vec4 apply_emissive_for_block(vec4 inputColor, vec4 lightColor, vec4 maxLightColor, vec3 normal, float vertexDistance, float inputAlpha, float dimension) {
+vec4 apply_emissive_for_block(vec4 inputColor, vec4 lightColor, vec3 normal, float inputAlpha, float dimension) {
 	vec4 remappingColor = inputColor * lightColor / face_lighting_check(normal, inputAlpha, dimension);
 	if(check_alpha(inputAlpha, 242.0)) {
 		remappingColor = inputColor / face_lighting_check(normal, inputAlpha, dimension);
@@ -231,7 +231,7 @@ vec4 apply_emissive_for_block(vec4 inputColor, vec4 lightColor, vec4 maxLightCol
 }
 
 // for particle, entitiy, entity block and item(player head, banner, ...)
-vec4 apply_global_emissive(vec4 inputColor, vec4 lightColor, vec4 maxLightColor, float vertexDistance, float inputAlpha) {
+vec4 apply_global_emissive(vec4 inputColor, vec4 lightColor, float inputAlpha) {
 	vec4 remappingColor = inputColor * lightColor;
 	if(check_alpha(inputAlpha, 242.0)) {
 		remappingColor = inputColor;

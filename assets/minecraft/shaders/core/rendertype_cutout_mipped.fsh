@@ -24,7 +24,7 @@ out vec4 fragColor;
 void main() {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
 	float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
-	color = apply_emissive_for_block(color, lightColor, maxLightColor, faceLightingNormal, vertexDistance, alpha, dimension);
+	color = apply_emissive_for_block(color, lightColor, faceLightingNormal, alpha, dimension);
     if (color.a < 0.5) {
         discard;
     }

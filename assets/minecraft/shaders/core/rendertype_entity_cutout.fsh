@@ -19,6 +19,8 @@ in vec4 overlayColor;
 in vec2 texCoord0;
 in vec4 normal;
 
+flat in int isGUI;
+
 out vec4 fragColor;
 
 void main() {
@@ -26,7 +28,7 @@ void main() {
     color *= vertexColor * ColorModulator;
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
 	float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
-    color = apply_emissive_perspective_for_item(color, lightColor, maxLightColor, vertexDistance, zPos, FogStart, FogEnd, alpha);
+    color = apply_emissive_perspective_for_item(color, lightColor, isGUI, zPos, FogStart, FogEnd, alpha);
     if (color.a < 0.1) {
         discard;
     }

@@ -30,7 +30,15 @@ out vec2 texCoord1;
 out vec2 texCoord2;
 out vec4 normal;
 
+flat out int isGUI;
+
+//gui item model detection from Onnowhere
+bool isgui(mat4 ProjMat) {
+    return ProjMat[3][2] == -2.0;
+}
+
 void main() {
+    isGUI = int(isgui(ProjMat));
     zPos = Position.z;
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
     

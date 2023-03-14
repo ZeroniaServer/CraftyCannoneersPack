@@ -24,7 +24,7 @@ void main() {
     
     // discards minecraft lighting with desired opacity
     bool emissive = check_alpha(alpha, 250.0);
-    color = apply_global_emissive(color, emissive ? maxLightColor : lightColor, maxLightColor, vertexDistance, emissive ? 255.0 : alpha);
+    color = apply_global_emissive(color, emissive ? maxLightColor : lightColor, emissive ? 255.0 : alpha);
 
     if (color.a < 0.1) {
         discard;

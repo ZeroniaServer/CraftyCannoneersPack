@@ -19,6 +19,8 @@ in vec2 texCoord0;
 in vec2 texCoord1;
 in vec4 normal;
 
+flat in int isGUI;
+
 out vec4 fragColor;
 
 void main() {
@@ -28,7 +30,7 @@ void main() {
     if (!check_alpha(alpha, 250.0)) {
         color *= vertexColor;
     }
-    color = apply_emissive_perspective_for_item(color, lightColor, maxLightColor, vertexDistance, zPos, FogStart, FogEnd, alpha);
+    color = apply_emissive_perspective_for_item(color, lightColor, isGUI, zPos, FogStart, FogEnd, alpha);
     if (color.a < 0.1) {
         discard;
     }
