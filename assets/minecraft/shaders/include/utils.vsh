@@ -64,14 +64,14 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int i
 	if(check_alpha(inputAlpha, 255.0)) {        // GUI O | FirstPerson O | ThirdPerson O | Emssive X
 		// Default
 	} else if(check_alpha(inputAlpha, 254.0)) { // GUI O | FirstPerson O | ThirdPerson O | Emssive O
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 1.0;
 		} else {
 			remappingColor = inputColor;
 			remappingColor.a = 1.0;
 		}
 	} else if(check_alpha(inputAlpha, 253.0)) { // GUI O | FirstPerson O | ThirdPerson X | Emssive X
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 1.0;
 		} else {
 			if(FogStart > FogEnd) {
@@ -85,7 +85,7 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int i
 			}
 		}
 	} else if(check_alpha(inputAlpha, 252.0)) { // GUI O | FirstPerson O | ThirdPerson X | Emssive O
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 1.0;
 		} else {
 			if(FogStart > FogEnd) {
@@ -100,7 +100,7 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int i
 			}
 		}
 	} else if(check_alpha(inputAlpha, 251.0)) { // GUI O | FirstPerson X | ThirdPerson O | Emssive X
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 1.0;
 		} else {
 			if(FogStart > FogEnd) {
@@ -114,7 +114,7 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int i
 			}
 		}
 	} else if(check_alpha(inputAlpha, 250.0)) { // GUI O | FirstPerson X | ThirdPerson O | Emssive O
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 1.0;
 		} else {
 			if(FogStart > FogEnd) {
@@ -130,20 +130,20 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int i
 			}
 		}
 	} else if(check_alpha(inputAlpha, 249.0)) { // GUI X | FirstPerson O | ThirdPerson O | Emssive X
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 0.0;
 		} else {
 			remappingColor.a = 1.0;
 		}
 	} else if(check_alpha(inputAlpha, 248.0)) {	// GUI X | FirstPerson O | ThirdPerson O | Emssive O
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 0.0;
 		} else {
 			remappingColor = inputColor;
 			remappingColor.a = 1.0;
 		}
 	} else if(check_alpha(inputAlpha, 247.0)) {	// GUI X | FirstPerson O | ThirdPerson X | Emssive X
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 0.0;
 		} else {
 			if(FogStart > FogEnd) {
@@ -157,7 +157,7 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int i
 			}
 		}
 	} else if(check_alpha(inputAlpha, 246.0)) {	// GUI X | FirstPerson O | ThirdPerson X | Emssive O
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 0.0;
 		} else {
 			if(FogStart > FogEnd) {
@@ -172,7 +172,7 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int i
 			}
 		}
 	} else if(check_alpha(inputAlpha, 245.0)) {	// GUI X | FirstPerson X | ThirdPerson O | Emssive X
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 0.0;
 		} else {
 			if(FogStart > FogEnd) {
@@ -186,7 +186,7 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int i
 			}
 		}
 	} else if(check_alpha(inputAlpha, 244.0)) {	// GUI X | FirstPerson X | ThirdPerson O | Emssive O
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 0.0;
 		} else {
 			if(FogStart > FogEnd) {
@@ -202,7 +202,7 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int i
 			}
 		}
 	} else if(check_alpha(inputAlpha, 243.0)) { // GUI O | FirstPerson X | ThirdPerson X | Emssive - (only GUI don't need Emssive setting)
-		if(isGUI == 1 && zPos >= 125.0) {
+		if(isGUI == 1 && -zPos <= 2.0) {
 			remappingColor.a = 1.0;
 		} else {
 			remappingColor.a = 0.0;
