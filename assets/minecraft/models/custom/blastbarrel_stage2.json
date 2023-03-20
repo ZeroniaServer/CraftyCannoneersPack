@@ -3,7 +3,6 @@
 	"textures": {
 		"0": "custom/blast_barrel",
 		"2": "custom/blast_barrel_wood",
-		"3": "custom/blast_barrel_gui",
 		"4": "block/gray_concrete_powder",
 		"particle": "custom/blast_barrel_wood"
 	},
@@ -1699,13 +1698,6 @@
 			}
 		},
 		{
-			"from": [0, 0, 16],
-			"to": [16, 16, 16],
-			"faces": {
-				"south": {"uv": [0, 0, 16, 16], "texture": "#3"}
-			}
-		},
-		{
 			"from": [11, 3, 5],
 			"to": [12, 6, 10],
 			"faces": {
@@ -1960,7 +1952,6 @@
 		186,
 		187,
 		188,
-		189,
-		190
+		189
 	]
 }

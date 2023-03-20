@@ -5,8 +5,9 @@
 	},
 	"elements": [
 		{
-			"from": [0, 0, 0],
-			"to": [16, 16, 0],
+			"name": "ICON",
+			"from": [0, 2, 8],
+			"to": [16, 18, 8],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
 			}
@@ -1437,7 +1438,8 @@
 			"scale": [0.68, 0.68, 0.68]
 		},
 		"gui": {
-			"rotation": [0, 180, 0]
+			"rotation": [0, 180, 0],
+			"translation": [0, -2, 0]
 		},
 		"head": {
 			"translation": [0, -18, 0],

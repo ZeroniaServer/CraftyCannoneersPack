@@ -397,8 +397,9 @@
 			}
 		},
 		{
-			"from": [0, 0, 0],
-			"to": [16, 16, 0],
+			"name": "ICON",
+			"from": [4, 0, 3.5],
+			"to": [12, 8, 3.5],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#5"}
 			}
@@ -407,7 +408,9 @@
 	"gui_light": "front",
 	"display": {
 		"gui": {
-			"rotation": [0, 180, 0]
+			"rotation": [0, 180, 0],
+			"translation": [0, 8, 0],
+			"scale": [2, 2, 2]
 		},
 		"head": {
 			"translation": [0, 12.5, 0],
