@@ -125,7 +125,7 @@
             "dig/gravel3",
             "dig/gravel4"
         ],
-        "subtitle": "subtitles.chest.spawn"
+        "subtitle": "subtitles.chest.rise"
     },
     "chestrise": {
         "sounds": [
@@ -196,7 +196,7 @@
         "sounds": [
             "ship/bell_resonate"
         ],
-        "subtitle": "subtitles.shipbell.resonate"
+        "subtitle": "subtitles.shipbell.echo"
     },
     "entity.minecart.riding": {
         "replace": true,
@@ -672,13 +672,13 @@
         "sounds": [
             "item/blastbarrelignite"
         ],
-        "subtitle": "subtitles.blastbarrel.ignite"
+        "subtitle": "subtitles.blastbarrel.charge"
     },
     "blastbarrelburn": {
         "sounds": [
             "item/blastbarrelburn"
         ],
-        "subtitle": "subtitles.blastbarrel.burn"
+        "subtitle": "subtitles.blastbarrel.charge"
     },
     "blastbarrelcharge": {
         "sounds": [
