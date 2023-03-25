@@ -312,8 +312,7 @@
         "replace": true,
         "sounds": [
             "note/flute"
-        ],
-        "subtitle": "subtitles.raidhorn.activate"
+        ]
     },
     "confirmsettings": {
         "sounds": [
