@@ -17,6 +17,12 @@
         ],
         "subtitle": "subtitles.cannon.fire_shot"
     },
+	"shockshot": {
+        "sounds": [
+            "cannon/shockshot"
+        ],
+        "subtitle": "subtitles.cannon.shock_shot"
+    },
     "cluster": {
         "sounds": [
             "cannon/cluster"

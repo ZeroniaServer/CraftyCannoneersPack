@@ -439,6 +439,26 @@
 		{
             "type": "single",
             "resource": "minecraft:custom/burning_powder"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/copper_cannonball_gui"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/copper_cannonball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/copper_cannonball_weathered"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/copper_cannonball_exposed"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/copper_cannonball_clean"
         }
     ]
 }
