@@ -4,12 +4,12 @@
 		"0": "hat/diamond_block",
 		"4": "hat/hat_skull_mvp",
 		"5": "hat/blackhat_ui",
-		"6": "hat/vanilla_skull",
+		"8": "hat/cannonball",
 		"9": "hat/battleaxe",
-		"particle": "hat/gold_block",
 		"1_0": "hat/gold_block",
-		"1_6": "hat/cannonball",
-		"1_7": "hat/basalt_side"
+		"1_6": "hat/vanilla_skull",
+		"1_7": "hat/basalt_side",
+		"particle": "hat/gray_wool"
 	},
 	"elements": [
 		{
@@ -425,8 +425,8 @@
 			"to": [-7.6, 11.1, 6.4],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [-4.6, 0, -1]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#1_6"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#1_6"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#8"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#8"}
 			}
 		},
 		{
@@ -940,8 +940,8 @@
 			"to": [24.4, 1.4, 6.6],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [-4.6, 0, -1]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#1_6"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#1_6"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#8"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#8"}
 			}
 		},
 		{
@@ -962,12 +962,12 @@
 			"to": [9.5, 10.3, 4.5],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [0, 0, 0]},
 			"faces": {
-				"north": {"uv": [0, 8, 8, 16], "texture": "#6"},
-				"east": {"uv": [16, 8, 8, 16], "texture": "#6"},
-				"south": {"uv": [8, 0, 16, 8], "texture": "#6"},
-				"west": {"uv": [8, 8, 16, 16], "texture": "#6"},
-				"up": {"uv": [0, 0, 8, 8], "rotation": 180, "texture": "#6"},
-				"down": {"uv": [8, 0, 16, 8], "texture": "#6"}
+				"north": {"uv": [0, 8, 8, 16], "texture": "#1_6"},
+				"east": {"uv": [16, 8, 8, 16], "texture": "#1_6"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#1_6"},
+				"west": {"uv": [8, 8, 16, 16], "texture": "#1_6"},
+				"up": {"uv": [0, 0, 8, 8], "rotation": 180, "texture": "#1_6"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#1_6"}
 			}
 		},
 		{
@@ -977,6 +977,18 @@
 			"faces": {
 				"east": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#9"},
 				"west": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#9"}
+			}
+		},
+		{
+			"from": [3.2, -5.2, 3.2],
+			"to": [12.8, 1.2, 12.5],
+			"faces": {
+				"north": {"uv": [0, 10, 8, 16], "texture": "#1_6"},
+				"east": {"uv": [16, 10, 8, 16], "texture": "#1_6"},
+				"south": {"uv": [0, 2, 8, 8], "texture": "#1_6"},
+				"west": {"uv": [8, 10, 16, 16], "texture": "#1_6"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#1_6"},
+				"down": {"uv": [8, 0, 16, 8], "rotation": 180, "texture": "#1_6"}
 			}
 		}
 	],
@@ -988,7 +1000,7 @@
 			"scale": [2, 2, 2]
 		},
 		"head": {
-			"translation": [0, 12.5, 0],
+			"translation": [0, 12.5, -0.25],
 			"scale": [1.52, 1.52, 1.52]
 		}
 	},
@@ -1045,6 +1057,12 @@
 			"children": [55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
 		},
 		75,
-		76
+		76,
+		{
+			"name": "deathskull",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [77]
+		}
 	]
 }

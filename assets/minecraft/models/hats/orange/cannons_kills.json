@@ -9,7 +9,7 @@
 		"9": "hat/battleaxe",
 		"1_6": "hat/cannonball",
 		"1_7": "hat/basalt_side",
-		"particle": "hat/gray_wool"
+		"particle": "hat/gold_block"
 	},
 	"elements": [
 		{
@@ -978,18 +978,6 @@
 				"east": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#9"},
 				"west": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#9"}
 			}
-		},
-		{
-			"from": [3.2, -5.2, 3.2],
-			"to": [12.8, 1.2, 12.5],
-			"faces": {
-				"north": {"uv": [0, 10, 8, 16], "texture": "#6"},
-				"east": {"uv": [16, 10, 8, 16], "texture": "#6"},
-				"south": {"uv": [0, 2, 8, 8], "texture": "#6"},
-				"west": {"uv": [8, 10, 16, 16], "texture": "#6"},
-				"up": {"uv": [0, 0, 8, 8], "texture": "#6"},
-				"down": {"uv": [8, 0, 16, 8], "rotation": 180, "texture": "#6"}
-			}
 		}
 	],
 	"gui_light": "front",
@@ -1000,7 +988,7 @@
 			"scale": [2, 2, 2]
 		},
 		"head": {
-			"translation": [0, 12.5, -0.25],
+			"translation": [0, 12.5, 0],
 			"scale": [1.52, 1.52, 1.52]
 		}
 	},
@@ -1064,12 +1052,6 @@
 				75,
 				76
 			]
-		},
-		{
-			"name": "deathskull",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [77]
 		}
 	]
 }
