@@ -582,5 +582,12 @@
   "modifier.sea_storms.description": "Let it rain! In the heavy downpour and winds, your Cannonballs will become wildly inaccurate. Beware of lightning on the central island!",
   "modifier.lost_cargo": "Lost Cargo",
   "modifier.lost_cargo.description": "Barrels of loot emerge from the waters around your ship! If you can't make it to the central island, you'll still be able to obtain materials somehow.",
-  "modifier.experienced_pirates": "Recommended for experienced pirates."
+  "modifier.experienced_pirates": "Recommended for experienced pirates.",
+  "cargobarrel.gunpowder": "Gunpowder Cargo Barrel",
+  "cargobarrel.gold": "Gold Cargo Barrel",
+  "cargobarrel.movement": "Movement Cargo Barrel",
+  "cargobarrel.weapons": "Weapon Cargo Barrel",
+  "cargobarrel.cannonball": "Cannonball Cargo Barrel",
+  "cargobarrel.boarding": "Boarding Cargo Barrel",
+  "cargobarrel.trap": "Cargo Trap"
 }

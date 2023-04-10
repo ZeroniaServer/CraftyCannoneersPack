@@ -320,6 +320,10 @@
             "type": "single",
             "resource": "minecraft:lobby/seastorms"
         },
+		{
+            "type": "single",
+            "resource": "minecraft:lobby/lostcargo"
+        },
         {
             "type": "single",
             "resource": "minecraft:shark/shark_swim"
@@ -459,6 +463,15 @@
         {
             "type": "single",
             "resource": "minecraft:custom/copper_cannonball_clean"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/cargobarrel_top"
+		}
+        ,
+        {
+            "type": "single",
+            "resource": "minecraft:custom/cargobarrel_top_trap"
         }
     ]
 }
