@@ -467,8 +467,11 @@
         {
             "type": "single",
             "resource": "minecraft:custom/cargobarrel_top"
-		}
-        ,
+		},
+		{
+            "type": "single",
+            "resource": "minecraft:custom/cargobarrel_top_open"
+		},
         {
             "type": "single",
             "resource": "minecraft:custom/cargobarrel_top_trap"
