@@ -320,6 +320,16 @@
             "note/flute"
         ]
     },
+    "lootloader1": {
+        "sounds": [
+            "random/pop"
+        ]
+    },
+    "lootloader2": {
+        "sounds": [
+            "note/snare"
+        ]
+    },
     "confirmsettings": {
         "sounds": [
             "random/levelup"
