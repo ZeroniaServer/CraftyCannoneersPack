@@ -589,5 +589,6 @@
   "cargobarrel.weapons": "Weapon Cargo Barrel",
   "cargobarrel.cannonball": "Cannonball Cargo Barrel",
   "cargobarrel.boarding": "Boarding Cargo Barrel",
-  "cargobarrel.trap": "Cargo Trap"
+  "cargobarrel.trap": "Cargo Trap",
+  "cargobarrel.trap.generic": "a Cargo Trap"
 }
