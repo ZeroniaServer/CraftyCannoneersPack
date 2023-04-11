@@ -474,7 +474,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/cargobarrel_top_trap"
+            "resource": "minecraft:custom/cargobarrel_trap_top"
         }
     ]
 }
