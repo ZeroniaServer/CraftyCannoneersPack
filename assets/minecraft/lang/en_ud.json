@@ -1,4 +1,7 @@
 {
+  "death.attack.magic": "%1$s was devoured by a Shark",
+  "death.attack.magic.player": "%1$s was devoured by a Shark whilst trying to escape %2$s",
+  "death.attack.lightningBolt.player": "%1$s was struck by lightning whilst trying to escape %2$s",
   "death.attack.indirectMagic": "%2$s ʎq dn uʍolq sɐʍ %1$s",
   "death.attack.indirectMagic.item": "%2$s ʎq dn uʍolq sɐʍ %1$s",
   "death.attack.mob": "%2$s ʎq pǝʇsɐlq sɐʍ %1$s",

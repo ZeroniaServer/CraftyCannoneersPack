@@ -1,5 +1,8 @@
 {
   "translated_by": "ZeroIceBear",
+  "death.attack.magic": "%1$s was devoured by a Shark",
+  "death.attack.magic.player": "%1$s was devoured by a Shark whilst trying to escape %2$s",
+  "death.attack.lightningBolt.player": "%1$s was struck by lightning whilst trying to escape %2$s",
   "death.attack.indirectMagic": "%1$s被%2$s炸飞了",
   "death.attack.indirectMagic.item": "%1$s被%2$s炸飞了",
   "death.attack.mob": "%1$s被%2$s打爆了",
