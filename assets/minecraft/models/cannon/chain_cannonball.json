@@ -844,16 +844,6 @@
 			}
 		},
 		{
-			"from": [13, 1, 8],
-			"to": [14, 3, 9],
-			"color": 4,
-			"faces": {
-				"north": {"uv": [0, 0, 1, 2], "texture": "#missing"},
-				"west": {"uv": [0, 0, 1, 2], "texture": "#missing"},
-				"up": {"uv": [0, 0, 1, 1], "rotation": 90, "texture": "#missing"}
-			}
-		},
-		{
 			"from": [10, 9, 3],
 			"to": [11, 10, 9],
 			"faces": {
