@@ -27,9 +27,9 @@ void main() {
     texCoord0 = UV0;
 
     // no shadow text: 
-    if (Color == vec4(78/255., 92/255., 36/255., Color.a) && Position.z <= 0.03) {
+    if (Color == vec4(78/255., 92/255., 36/255., Color.a)) {
         vertexColor = texelFetch(Sampler2, UV2 / 16, 0); // remove color from no shadow marker
-    } else if (Color == vec4(19/255., 23/255., 9/255., Color.a) && Position.z == 0) {
+    } else if (Color == vec4(19/255., 23/255., 9/255., Color.a)) {
         vertexColor = vec4(0); // remove shadow
     }
 
