@@ -25,7 +25,15 @@ void main() {
     vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Position, FogShape);
     vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
     texCoord0 = UV0;
-    if (Color == vec4(78/255., 92/255., 36/255., Color.a) || Color == vec4(19/255., 23/255., 9/255., Color.a)) {
+
+    // no shadow text: 
+    if (Color == vec4(78/255., 92/255., 36/255., Color.a) && Position.z <= 0.03) {
+        vertexColor = texelFetch(Sampler2, UV2 / 16, 0); // remove color from no shadow marker
+    } else if (Color == vec4(19/255., 23/255., 9/255., Color.a) && Position.z == 0) {
+        vertexColor = vec4(0); // remove shadow
+    }
+
+    if (Color == vec4(88/255., 92/255., 36/255., Color.a) || Color == vec4(22/255., 23/255., 9/255., Color.a)) {
         vertexColor = vec4(0); // remove text + shadow
     }
 }
