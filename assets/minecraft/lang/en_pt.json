@@ -122,7 +122,7 @@
   "ahoy": "Ahoy!",
   "ship.orange": "Team Orange's Ship",
   "ship.purple": "Team Purple's Ship",
-  "ship.sunk_by": "%1$s sunk by %2$s!",
+  "ship.sunk_by": "%1$s scuttled by %2$s!",
   "cannon.occupied": "This Cannon be currently occupied!",
   "cannon.on_fire": "This Cannon be currently on fire!",
   "cannon.possessive": "%s's Cannon",
