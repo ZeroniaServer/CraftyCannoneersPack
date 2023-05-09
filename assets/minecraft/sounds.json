@@ -240,6 +240,12 @@
         ],
         "subtitle": "subtitles.raidhorn.enemy"
     },
+    "ravehorn": {
+        "sounds": [
+            "item/ravehorn"
+        ],
+        "subtitle": "subtitles.raidhorn.rave"
+    },
     "blastbombexplode": {
         "sounds": [
             "item/bomb"
