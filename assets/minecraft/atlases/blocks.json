@@ -475,6 +475,18 @@
         {
             "type": "single",
             "resource": "minecraft:custom/cargobarrel_trap_top"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/crab_shell"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/crab_bottom"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/crab_eye"
         }
     ]
 }
