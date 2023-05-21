@@ -6,6 +6,7 @@
   "death.attack.indirectMagic": "%1$s被%2$s炸飞了",
   "death.attack.indirectMagic.item": "%1$s被%2$s炸飞了",
   "death.attack.mob": "%1$s被%2$s打爆了",
+  "death.attack.witherSkull": "%1$s was pinched to death by %2$s",
   "item.minecraft.trident": "鱼叉",
   "advancements.toast.task": "目标完成!",
   "advancements.toast.challenge": "发现彩蛋!",
