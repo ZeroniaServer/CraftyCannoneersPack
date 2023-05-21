@@ -646,11 +646,10 @@
 		}
 	],
 	"display": {
-		"ground": {
-			"translation": [0, 4, 0]
-		},
-		"head": {
-			"translation": [0, -23.75, 0.25]
+		"fixed": {
+			"translation": [0, 2, 0],
+			"rotation": [0, 180, 0],
+			"scale": [0.8, 0.8, 0.8]
 		}
 	}
 }

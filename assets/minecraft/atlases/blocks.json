@@ -487,6 +487,10 @@
         {
             "type": "single",
             "resource": "minecraft:custom/crab_eye"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/crab_walk"
         }
     ]
 }
