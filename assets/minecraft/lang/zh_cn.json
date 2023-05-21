@@ -572,7 +572,7 @@
   "modifier.no_tracers": "没有示踪炮弹",
   "modifier.no_tracers.description": "从玩家装备中移除示踪炮弹, 迫使玩家学习如何在没有它们的情况下瞄准.",
   "modifier.wildlife": "Wildlife",
-  "modifier.wildlife.description": "Wildlife description",
+  "modifier.wildlife.description": "Adds pesky Sharks and stealing Crabs to the world. Sharks lurk the water in search of prey while the Crabs will try to steal items from you!",
   "modifier.sea_storms": "海上风暴",
   "modifier.sea_storms.description": "迎接暴风雨吧! 在狂风暴雨中, 你的炮弹会变得非常不精准. 小心中心岛上劈下的闪电!",
   "modifier.lost_cargo": "遗失货物",
