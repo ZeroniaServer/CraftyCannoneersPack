@@ -491,6 +491,26 @@
         {
             "type": "single",
             "resource": "minecraft:custom/crab_walk"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/crabtrapicon"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/crabtrapicon_full"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/beehive_end"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/oak_log"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/iron_block"
         }
     ]
 }
