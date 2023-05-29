@@ -146,7 +146,7 @@
   "item.saber": "Saber",
   "item.trooper_ale": "Trooper Ale",
   "item.crab_trap": "Crab Trap",
-  "item.crab_trap_empty": "Empty Crab Trap",
+  "item.crab_trap.empty": "Empty Crab Trap",
   "item.crab_trap.lore.1": "When a Crab walks into this trap, you can",
   "item.crab_trap.lore.2": "carry it and release it wherever you want.",
   "item.modifier_exclusive": "Modifier exclusive item!",

@@ -15,7 +15,11 @@
 		{ "predicate": {"custom_model_data": 12}, "model": "custom/blastbarrel_burn1"},
 		{ "predicate": {"custom_model_data": 13}, "model": "custom/blastbarrel_burn2"},
 		{ "predicate": {"custom_model_data": 14}, "model": "custom/blastbarrel_burn3"},
-		{ "predicate": {"custom_model_data": 15}, "model": "custom/crabtrap"},
-		{ "predicate": {"custom_model_data": 16}, "model": "custom/crabtrap_full"}
+		{ "predicate": {"custom_model_data": 15}, "model": "custom/crabtrap_5"},
+		{ "predicate": {"custom_model_data": 16}, "model": "custom/crabtrap_4"},
+		{ "predicate": {"custom_model_data": 17}, "model": "custom/crabtrap_3"},
+		{ "predicate": {"custom_model_data": 18}, "model": "custom/crabtrap_2"},
+		{ "predicate": {"custom_model_data": 19}, "model": "custom/crabtrap_1"},
+		{ "predicate": {"custom_model_data": 20}, "model": "custom/crabtrap_0"}
   ]
 }
