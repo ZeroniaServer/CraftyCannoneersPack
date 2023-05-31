@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "custom/gas_cannonball",
 		"1": "custom/gas_cannonball_gui",
-		"particle": "custom/cannonball"
+		"particle": "custom/gas_cannonball"
 	},
 	"elements": [
 		{
