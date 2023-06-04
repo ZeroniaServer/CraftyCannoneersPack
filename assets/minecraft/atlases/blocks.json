@@ -492,7 +492,7 @@
             "type": "single",
             "resource": "minecraft:custom/crab_walk"
         },
-		{
+        {
             "type": "single",
             "resource": "minecraft:custom/crabrave"
         },
