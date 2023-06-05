@@ -585,6 +585,8 @@
   "modifier.sea_storms.description": "Let it rain! In the heavy downpour and winds, yer Cannonballs will become wildly inaccurate. Beware of lightnin' on the central island!",
   "modifier.lost_cargo": "Lost Cargo",
   "modifier.lost_cargo.description": "Barrels o' loot emerge from the waters around yer ship! If ye can't make it to the central island, ye'll still be able to obtain materials somehow.",
+  "modifier.grave_robbery": "Grave Robbery",
+  "modifier.grave_robbery.description": "When ye die, a gravestone spawns at yer death location which contains up to 5 of yer previous items. Ye better loot it quick before somebody else does!",
   "modifier.experienced_pirates": "Recommended for experienced pirates.",
   "cargobarrel.gunpowder": "Gunpowder Cargo Barrel",
   "cargobarrel.gold": "Doubloon Cargo Barrel",
