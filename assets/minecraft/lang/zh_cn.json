@@ -278,6 +278,7 @@
   "chest.uncommon": "罕见宝箱",
   "chest.rare": "稀有宝箱",
   "chest.skeleton": "骷髅宝箱",
+  "chest.grave": "Grave",
   "chest.unlocking": "开启宝箱中... ",
   "chest.skeleton.warn": "这是一个%1$s! 你需要一个%2$s来解锁它!",
   "tip.1": "如果你想要向左边或右边发射炮弹, 你可以在大炮的火药槽中放入不等数量的火药.",
