@@ -122,6 +122,7 @@
 		{ "predicate": {"custom_model_data": 116}, "model": "chest/cargo/barrel_trap"},
 		{ "predicate": {"custom_model_data": 117}, "model": "custom/crab"},
 		{ "predicate": {"custom_model_data": 118}, "model": "custom/crab_walk"},
+		{ "predicate": {"custom_model_data": 119}, "model": "custom/crabrave"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }

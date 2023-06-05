@@ -494,6 +494,10 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/crabrave"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/crabtrapicon_5"
         },
         {
