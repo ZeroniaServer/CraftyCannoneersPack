@@ -587,6 +587,8 @@
   "modifier.lost_cargo.description": "Barrels o' loot emerge from the waters around yer ship! If ye can't make it to the central island, ye'll still be able to obtain materials somehow.",
   "modifier.grave_robbery": "Grave Robbery",
   "modifier.grave_robbery.description": "When ye die, a gravestone spawns at yer death location which contains up to 5 of yer previous items. Ye better loot it quick before somebody else does!",
+  "modifier.boat_cannons": "Boat Cannons",
+  "modifier.boat_cannons.description": "The boats at the central island now have their own Cannons! Load up to 5 Gunpowder and shoot a Cannonball in the direction yer boat is pointing.",
   "modifier.experienced_pirates": "Recommended for experienced pirates.",
   "cargobarrel.gunpowder": "Gunpowder Cargo Barrel",
   "cargobarrel.gold": "Doubloon Cargo Barrel",

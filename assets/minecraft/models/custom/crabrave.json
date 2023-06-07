@@ -3192,7 +3192,7 @@
     ], 
     "display": {
         "fixed": {
-            "rotation": [ 0, 180, 0 ], 
+            "rotation": [ 0, 0, 0 ], 
             "translation": [ 0, 1.9625, 0 ], 
             "scale": [ 0.8, 0.8, 0.8 ]
         }
