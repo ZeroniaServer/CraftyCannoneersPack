@@ -712,5 +712,62 @@
             "item/blastbarrelexplode"
         ],
         "subtitle": "subtitles.blastbarrel.explode"
+    },
+    "cargotrapexplode": {
+        "sounds": [
+            "item/blastbarrelexplode"
+        ],
+        "subtitle": "subtitles.cargotrap.explode"
+    },
+    "cargobarrelbreak": {
+        "sounds": [
+            "mob/zombie/woodbreak"
+        ],
+        "subtitle": "subtitles.cargobarrel.break"
+    },
+    "boatbreak": {
+        "sounds": [
+            "mob/zombie/woodbreak"
+        ],
+        "subtitle": "subtitles.boat.break"
+    },
+    "crabtrapbreak": {
+        "sounds": [
+            "mob/zombie/woodbreak"
+        ],
+        "subtitle": "subtitles.crab_trap.break"
+    },
+    "crabtrapopen": {
+        "sounds": [
+            {
+                "name": "block/wooden_trapdoor/open1",
+                "volume": 0.9
+            },
+            {
+                "name": "block/wooden_trapdoor/open2",
+                "volume": 0.9
+            },
+            {
+                "name": "block/wooden_trapdoor/open3",
+                "volume": 0.9
+            },
+            {
+                "name": "block/wooden_trapdoor/open4",
+                "volume": 0.9
+            },
+            {
+                "name": "block/wooden_trapdoor/open5",
+                "volume": 0.9
+            }
+        ]
+    },
+    "crabstruggle": {
+        "sounds": [
+            "mob/zombie/wood1",
+            "mob/zombie/wood2",
+            "mob/zombie/wood3",
+            "mob/zombie/wood4"
+        ],
+        "subtitle": "subtitles.crab.struggle"
     }
 }
