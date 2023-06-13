@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/oak_planks",
+    "display": {
+        "ground": {
+			"scale": [0, 0, 0]
+		}
+    }
+}
