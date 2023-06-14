@@ -766,6 +766,11 @@
             }
         ]
     },
+    "crabtrapbreak4": {
+        "sounds": [
+            "random/break"
+        ]
+    },
     "crabtrapplace": {
         "sounds": [
             "dig/wood1",
@@ -827,5 +832,27 @@
             "mob/zombie/wood4"
         ],
         "subtitle": "subtitles.crab.struggle"
+    },
+    "crabcapture": {
+        "sounds": [
+            "mob/sheep/shear"
+        ],
+        "subtitle": "subtitles.crab.capture"
+    },
+    "crapcapture2": {
+        "sounds": [
+            {
+                "name": "block/wooden_trapdoor/close1",
+                "volume": 0.9
+            },
+            {
+                "name": "block/wooden_trapdoor/close2",
+                "volume": 0.9
+            },
+            {
+                "name": "block/wooden_trapdoor/close3",
+                "volume": 0.9
+            }
+        ]
     }
 }

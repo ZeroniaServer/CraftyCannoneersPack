@@ -95,6 +95,7 @@
   "subtitles.crab_trap.break": "Crab Trap breaks",
   "subtitles.boat.break": "Boat breaks",
   "subtitles.crab.struggle": "Crab struggles",
+  "subtitles.crab.capture": "Crab captured",
   "container.isLocked": "",
   "block.minecraft.bed.occupied": "",
   "container.spectatorCantOpen": "",
