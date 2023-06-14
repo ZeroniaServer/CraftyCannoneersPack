@@ -737,6 +737,64 @@
         ],
         "subtitle": "subtitles.crab_trap.break"
     },
+    "crabtrapbreak2": {
+        "sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+        ],
+        "subtitle": "subtitles.crab_trap.break"
+    },
+    "crabtrapbreak3": {
+        "sounds": [
+            {
+                "name": "block/chain/break1",
+                "volume": 0.5
+            },
+            {
+                "name": "block/chain/break2",
+                "volume": 0.5
+            },
+            {
+                "name": "block/chain/break3",
+                "volume": 0.5
+            },
+            {
+                "name": "block/chain/break4",
+                "volume": 0.5
+            }
+        ]
+    },
+    "crabtrapplace": {
+        "sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+        ],
+        "subtitle": "subtitles.crab_trap.place"
+    },
+    "crabtrapplace2": {
+        "sounds": [
+            {
+                "name": "block/chain/break1",
+                "volume": 0.5
+            },
+            {
+                "name": "block/chain/break2",
+                "volume": 0.5
+            },
+            {
+                "name": "block/chain/break3",
+                "volume": 0.5
+            },
+            {
+                "name": "block/chain/break4",
+                "volume": 0.5
+            }
+        ]
+    },
     "crabtrapopen": {
         "sounds": [
             {
