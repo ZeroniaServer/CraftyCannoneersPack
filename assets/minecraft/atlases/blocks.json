@@ -531,6 +531,18 @@
         {
             "type": "single",
             "resource": "minecraft:custom/iron_block"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/morning"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/sunset"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/night"
         }
     ]
 }
