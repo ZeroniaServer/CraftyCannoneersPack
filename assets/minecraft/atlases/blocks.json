@@ -543,6 +543,14 @@
         {
             "type": "single",
             "resource": "minecraft:lobby/night"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/graverobbery"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/boatcannons"
         }
     ]
 }
