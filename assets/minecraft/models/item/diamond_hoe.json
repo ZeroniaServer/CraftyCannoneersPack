@@ -128,6 +128,15 @@
 		{ "predicate": {"custom_model_data": 122}, "model": "lobby/night"},
 		{ "predicate": {"custom_model_data": 123}, "model": "lobby/graverobbery"},
 		{ "predicate": {"custom_model_data": 124}, "model": "lobby/boatcannons"},
+		{ "predicate": {"custom_model_data": 125}, "model": "cannon/boatcannon"},
+		{ "predicate": {"custom_model_data": 126}, "model": "cannon/boatcannon_gp1"},
+		{ "predicate": {"custom_model_data": 127}, "model": "cannon/boatcannon_gp2"},
+		{ "predicate": {"custom_model_data": 128}, "model": "cannon/boatcannon_gp3"},
+		{ "predicate": {"custom_model_data": 129}, "model": "cannon/boatcannon_gp4"},
+		{ "predicate": {"custom_model_data": 130}, "model": "cannon/boatcannon_gp5"},
+		{ "predicate": {"custom_model_data": 131}, "model": "cannon/boatcannon_primed"},
+		{ "predicate": {"custom_model_data": 132}, "model": "cannon/boatcannon_recoil1"},
+		{ "predicate": {"custom_model_data": 133}, "model": "cannon/boatcannon_recoil2"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
