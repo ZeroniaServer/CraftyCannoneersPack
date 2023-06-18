@@ -89,6 +89,12 @@
         ],
         "subtitle": "subtitles.cannonball.explode"
     },
+    "playerbreak": {
+        "sounds": [
+            "ship/damage1"
+        ],
+        "subtitle": "subtitles.cannonball.playerbreak"
+    },
     "chestlock": {
         "sounds": [
             "ship/chestlock"
