@@ -613,7 +613,7 @@
   "modifier.no_tracers": "Keine Spuren",
   "modifier.no_tracers.description": "Entfernt Spur-Kanonenkugeln from player loadouts, forcing players to learn how to aim without them.",
   "modifier.wildlife": "Wildlife",
-  "modifier.sharks.description": "Adds feisty Sharks and pesky Crabs to the map. Sharks lurk the waters in search of prey, while Crabs roam the island and try to steal your items!",
+  "modifier.wildlife.description": "Adds feisty Sharks and pesky Crabs to the map. Sharks lurk the waters in search of prey, while Crabs roam the island and try to steal your items!",
   "modifier.sea_storms": "Seestürme",
   "modifier.sea_storms.description": "Lass es regnen! Im starken Regen und Wind werden deine Kanonenkugeln äußerst ungenau. Vorsicht vor Blitzen auf der Mittelinsel!",
   "modifier.lost_cargo": "Verlorene Fracht",

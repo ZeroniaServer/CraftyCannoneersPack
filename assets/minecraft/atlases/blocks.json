@@ -314,7 +314,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:lobby/sharks"
+            "resource": "minecraft:lobby/wildlife"
         },
         {
             "type": "single",

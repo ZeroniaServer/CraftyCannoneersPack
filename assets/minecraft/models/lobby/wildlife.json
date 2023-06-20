@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "lobby/sharks"
+		"layer0": "lobby/wildlife"
 	},
 	"display": {
 		"head": {
