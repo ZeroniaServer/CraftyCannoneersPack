@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/carrot"
+    },
+    "display": {
+        "head": {
+            "translation": [-3.5, -5, -0.15],
+            "scale": [0.6, 0.2, 0.4],
+            "rotation": [0, 0, 0]
+        }
+    }
+}
