@@ -500,6 +500,12 @@
         ],
         "subtitle": "subtitles.goldy"
     },
+    "planetary": {
+        "sounds": [
+            "lobby/planetary"
+        ],
+        "subtitle": "subtitles.planetary"
+    },
     "trainingdummy_hit1": {
         "sounds": [
             "step/cloth1",
