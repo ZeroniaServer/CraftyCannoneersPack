@@ -278,6 +278,10 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/blast_barrel_slot"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/blast_barrel_wood"
         },
         {
