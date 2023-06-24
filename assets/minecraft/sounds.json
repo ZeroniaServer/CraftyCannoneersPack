@@ -731,6 +731,16 @@
         ],
         "subtitle": "subtitles.cargotrap.explode"
     },
+    "cargobarrelemerge": {
+        "sounds": [
+            "liquid/swim1",
+            "liquid/swim2",
+            "liquid/swim3",
+            "liquid/swim4",
+            "liquid/swim5"
+        ],
+        "subtitle": "subtitles.cargobarrel.emerge"
+    },
     "cargobarrelbreak": {
         "sounds": [
             "mob/zombie/woodbreak"
