@@ -861,7 +861,7 @@
         ],
         "subtitle": "subtitles.crab.capture"
     },
-    "crapcapture2": {
+    "crabcapture2": {
         "sounds": [
             {
                 "name": "block/wooden_trapdoor/close1",
