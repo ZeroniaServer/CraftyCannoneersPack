@@ -614,7 +614,32 @@
             "dig/sand3",
             "dig/sand4"
         ],
-        "subtitle": "subtitles.block.composter.fill"
+        "subtitle": "subtitles.chest.bury"
+    },
+    "chestbury2": {
+        "sounds": [
+            "block/composter/fill_success1",
+            "block/composter/fill_success2",
+            "block/composter/fill_success3",
+            "block/composter/fill_success4"
+        ]
+    },
+    "skeletonchest": {
+        "sounds": [
+            "mob/skeleton/say1",
+            "mob/skeleton/say2",
+            "mob/skeleton/say3"
+        ],
+        "subtitle": "subtitles.chest.skeleton"
+    },
+    "skeletonchestwater": {
+        "sounds": [
+            "mob/stray/idle1",
+            "mob/stray/idle2",
+            "mob/stray/idle3",
+            "mob/stray/idle4"
+        ],
+        "subtitle": "subtitles.chest.skeleton.water"
     },
     "block.chest.locked": {
         "replace": true,
@@ -876,5 +901,118 @@
                 "volume": 0.9
             }
         ]
+    },
+    "throwbomb": {
+        "sounds": [
+            "entity/witch/throw1",
+            "entity/witch/throw2",
+            "entity/witch/throw3"
+        ],
+        "subtitle": "subtitles.blastbomb.throw"
+    },
+    "throwrock": {
+        "sounds": [
+            "random/bow"
+        ],
+        "subtitle": "subtitles.rock.throw"
+    },
+    "entity.snowball.throw": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ]
+    },
+    "leavegame": {
+        "sounds": [
+            {
+                "attenuation_distance": 14,
+                "name": "block/beehive/exit"
+            },
+            {
+                "attenuation_distance": 14,
+                "name": "block/beehive/exit",
+                "pitch": 0.9
+            },
+            {
+                "attenuation_distance": 14,
+                "name": "block/beehive/exit",
+                "pitch": 1.1
+            }
+        ],
+        "subtitle": "subtitles.game.leave"
+    },
+    "joingame": {
+        "sounds": [
+            {
+                "attenuation_distance": 14,
+                "name": "block/beehive/enter",
+                "pitch": 0.7
+            },
+            {
+                "attenuation_distance": 14,
+                "name": "block/beehive/enter",
+                "pitch": 0.8
+            }
+        ],
+        "subtitle": "subtitles.game.join"
+    },
+    "countdown": {
+        "sounds": [
+            "note/hat"
+        ],
+        "subtitle": "subtitles.game.countdown"
+    },
+    "gamestart": {
+        "sounds": [
+            "random/explode1",
+            "random/explode2",
+            "random/explode3",
+            "random/explode4"
+        ],
+        "subtitle": "game.started"
+    },
+    "tiegame": {
+        "sounds": [
+            "mob/wither/hurt1",
+            "mob/wither/hurt2",
+            "mob/wither/hurt3",
+            "mob/wither/hurt4"
+        ],
+        "subtitle": "subtitles.game.tie"
+    },
+    "losegame": {
+        "sounds": [
+            "mob/wither/spawn"
+        ],
+        "subtitle": "subtitles.game.lose"
+    },
+    "settingsclaim": {
+        "sounds": [
+            "ui/cartography_table/drawmap1",
+            "ui/cartography_table/drawmap2",
+            "ui/cartography_table/drawmap3"
+        ],
+        "subtitle": "subtitles.settings.claim"
+    },
+    "updateadvance": {
+        "sounds": [
+            "block/end_portal/eyeplace1",
+            "block/end_portal/eyeplace2",
+            "block/end_portal/eyeplace3"
+        ],
+        "subtitle": "subtitles.update.advance"
+    },
+    "updatecomplete": {
+        "sounds": [
+            {
+                "name": "entity/endereye/dead1",
+                "volume": 1.3
+            },
+            {
+                "name": "entity/endereye/dead2",
+                "volume": 1.3
+            }
+        ],
+        "subtitle": "subtitles.update.complete"
     }
 }
