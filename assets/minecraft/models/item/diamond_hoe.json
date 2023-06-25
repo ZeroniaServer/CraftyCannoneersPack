@@ -140,6 +140,13 @@
 		{ "predicate": {"custom_model_data": 134}, "model": "chest/grave/closed"},
 		{ "predicate": {"custom_model_data": 135}, "model": "chest/grave/open_full"},
 		{ "predicate": {"custom_model_data": 136}, "model": "chest/grave/open_empty"},
+		{ "predicate": {"custom_model_data": 137}, "model": "cannon/boatcannon_fire"},
+		{ "predicate": {"custom_model_data": 138}, "model": "cannon/boatcannon_turned"},
+		{ "predicate": {"custom_model_data": 139}, "model": "cannon/boatcannon_gp1_turned"},
+		{ "predicate": {"custom_model_data": 140}, "model": "cannon/boatcannon_gp2_turned"},
+		{ "predicate": {"custom_model_data": 141}, "model": "cannon/boatcannon_gp3_turned"},
+		{ "predicate": {"custom_model_data": 142}, "model": "cannon/boatcannon_gp4_turned"},
+		{ "predicate": {"custom_model_data": 143}, "model": "cannon/boatcannon_gp5_turned"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
