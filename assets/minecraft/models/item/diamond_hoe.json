@@ -137,6 +137,9 @@
 		{ "predicate": {"custom_model_data": 131}, "model": "cannon/boatcannon_primed"},
 		{ "predicate": {"custom_model_data": 132}, "model": "cannon/boatcannon_recoil1"},
 		{ "predicate": {"custom_model_data": 133}, "model": "cannon/boatcannon_recoil2"},
+		{ "predicate": {"custom_model_data": 134}, "model": "chest/grave/closed"},
+		{ "predicate": {"custom_model_data": 135}, "model": "chest/grave/open_full"},
+		{ "predicate": {"custom_model_data": 136}, "model": "chest/grave/open_empty"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
