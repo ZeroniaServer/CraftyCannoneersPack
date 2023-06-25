@@ -619,7 +619,7 @@
   "modifier.sea_storms": "Seestürme",
   "modifier.sea_storms.description": "Lass es regnen! Im starken Regen und Wind werden deine Kanonenkugeln äußerst ungenau. Vorsicht vor Blitzen auf der Mittelinsel!",
   "modifier.lost_cargo": "Verlorene Fracht",
-  "modifier.lost_cargo.description": "Fässer voller Beute tauchen im Wasser um das Schiff auf! Falls du es nicht zur Mittelinsel schaffst, kannst du trotzdem Ressourcen erhalten.",
+  "modifier.lost_cargo.description": "Fässer voller Beute tauchen im Wasser um das Schiff auf! Falls du es nicht zur Mittelinsel schaffst, kannst du trotzdem Ressourcen erhalten. Watch out for explosive Cargo Traps which spawn along with the other barrels!",
   "modifier.grave_robbery": "Grave Robbery",
   "modifier.grave_robbery.description": "When you die, a gravestone spawns at your death location which contains up to 5 of your previous items. Better loot it quick before somebody else does!",
   "modifier.boat_cannons": "Boat Cannons",
