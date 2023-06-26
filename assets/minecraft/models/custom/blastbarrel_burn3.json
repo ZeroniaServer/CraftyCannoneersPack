@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "custom/blast_barrel",
-		"2": "custom/blast_barrel_wood",
+		"0": "custom/blast_barrel_ignited",
+		"2": "custom/blast_barrel_wood_ignited",
 		"3": "custom/blast_barrel_gui",
-		"4": "custom/blast_barrel_slot",
+		"4": "custom/blast_barrel_slot_ignited",
 		"5": "custom/burning_powder",
 		"6": "block/campfire_fire",
 		"particle": "custom/burning_powder"
