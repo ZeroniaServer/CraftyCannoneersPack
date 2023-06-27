@@ -251,6 +251,7 @@
   "item.blast_barrel": "Blast Barrel",
   "item.blast_barrel.possessive": "%s's Blast Barrel",
   "item.blast_barrel.generic": "a Blast Barrel",
+  "item.blast_barrel.using": "%s using Blast Barrel",
   "item.blast_barrel.lore.1": "Placeable explosive. Fill with Gunpowder",
   "item.blast_barrel.lore.2": "to increase power and punch to ignite!",
   "item.boarding_axe": "Enteraxt",
@@ -270,6 +271,7 @@
   "item.snow_block.lore": "Weil du episch bist :)",
   "mob.crab": "Crab",
   "mob.crab.possessive": "%s's Crab",
+  "mob.shark": "Shark",
   "tutorial.watchtower": "Leuchtturm",
   "tutorial.watchtower.description": "(Lerne, wie man Schwachstellen erspäht)",
   "tutorial.treasure_pit": "Schatzgrube",
@@ -634,5 +636,6 @@
   "cargobarrel.cannonball": "Cannonball Cargo Barrel",
   "cargobarrel.boarding": "Boarding Cargo Barrel",
   "cargobarrel.trap": "Cargo Trap",
-  "cargobarrel.trap.generic": "a Cargo Trap"
+  "cargobarrel.trap.generic": "a Cargo Trap",
+  "cargobarrel.trap.using": "%s using Cargo Trap"
 }

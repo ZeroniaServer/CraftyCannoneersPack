@@ -248,6 +248,7 @@
   "item.blast_barrel": "炸药桶",
   "item.blast_barrel.possessive": "%s的炸药桶",
   "item.blast_barrel.generic": "一个炸药桶",
+  "item.blast_barrel.using": "%s using Blast Barrel",
   "item.blast_barrel.lore.1": "可放置的爆炸物. 装满火药",
   "item.blast_barrel.lore.2": "以增加威力并用拳头来点燃!",
   "item.boarding_axe": "登舰斧",
@@ -267,6 +268,7 @@
   "item.snow_block.lore": "因你而史诗级 :)",
   "mob.crab": "螃蟹",
   "mob.crab.possessive": "%s的螃蟹",
+  "mob.shark": "Shark",
   "tutorial.watchtower": "瞭望塔",
   "tutorial.watchtower.description": "(学习如何发现弱点)",
   "tutorial.treasure_pit": "藏宝坑",
@@ -617,5 +619,6 @@
   "cargobarrel.cannonball": "炮弹货桶",
   "cargobarrel.boarding": "登舰货桶",
   "cargobarrel.trap": "陷阱货桶",
-  "cargobarrel.trap.generic": "一个陷阱货桶"
+  "cargobarrel.trap.generic": "一个陷阱货桶",
+  "cargobarrel.trap.using": "%s using Cargo Trap"
 }

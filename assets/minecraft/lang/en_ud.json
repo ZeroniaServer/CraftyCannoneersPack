@@ -246,6 +246,8 @@
   "item.blast_bomb.lore.2": "˙ʞɔɐqʞɔouʞ ɟo ʇunoɯɐ ǝʌᴉssɐɯ ɐ",
   "item.blast_barrel": "lǝɹɹɐᗺ ʇsɐlᗺ",
   "item.blast_barrel.possessive": "lǝɹɹɐᗺ ʇsɐlᗺ s,%s's",
+  "item.blast_barrel.generic": "lǝɹɹɐᗺ ʇsɐlᗺ ɐ",
+  "item.blast_barrel.using": "lǝɹɹɐᗺ ʇsɐlᗺ ᵷuᴉsn %s",
   "item.blast_barrel.lore.1": "ɹǝpʍodun⅁ ɥʇᴉʍ llᴉℲ ˙ǝʌᴉsoldxǝ ǝlqɐǝɔɐlԀ",
   "item.blast_barrel.lore.2": "¡ǝʇᴉuᵷᴉ oʇ ɥɔund puɐ ɹǝʍod ǝsɐǝɹɔuᴉ oʇ",
   "item.boarding_axe": "ǝx∀ ᵷuᴉpɹɐoq",
@@ -265,6 +267,7 @@
   "item.snow_block.lore": "(: ɔᴉdǝ ǝɹɐ noʎ ǝsnɐɔǝq",
   "mob.crab": "qɐɹƆ",
   "mob.crab.possessive": "qɐɹƆ s,%s",
+  "mob.shark": "ʞɹɐɥS",
   "tutorial.watchtower": "ɹǝʍoʇɥɔʇɐM",
   "tutorial.watchtower.description": "(sʇuᴉodʞɐǝM ᵷuᴉʇʇods ʇnoqɐ uɹɐǝꞀ)",
   "tutorial.treasure_pit": "ʇᴉԀ ǝɹnsɐǝɹ⟘",
@@ -615,5 +618,6 @@
   "cargobarrel.cannonball": "lǝɹɹɐᗺ oᵷɹɐƆ llɐquouuɐƆ",
   "cargobarrel.boarding": "lǝɹɹɐᗺ oᵷɹɐƆ ᵷuᴉpɹɐoᗺ",
   "cargobarrel.trap": "dɐɹ⟘ oᵷɹɐƆ",
-  "cargobarrel.trap.generic": "dɐɹ⟘ oᵷɹɐƆ ɐ"
+  "cargobarrel.trap.generic": "dɐɹ⟘ oᵷɹɐƆ ɐ",
+"cargobarrel.trap.using": "dɐɹ⟘ oᵷɹɐƆ ᵷuᴉsn %s"
 }
