@@ -98,6 +98,7 @@
   "subtitles.crab_trap.place": "Crab Trap placed",
   "subtitles.crab_trap.break": "Crab Trap breaks",
   "subtitles.boat.break": "Boat breaks",
+  "subtitles.boat.sink": "Boat sinks",
   "subtitles.crab.struggle": "Crab struggles",
   "subtitles.crab.capture": "Crab captured",
   "container.isLocked": "",

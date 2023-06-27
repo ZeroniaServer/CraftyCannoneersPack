@@ -1014,5 +1014,14 @@
             }
         ],
         "subtitle": "subtitles.update.complete"
+    },
+    "boatsink": {
+        "sounds": [
+            "liquid/swim1",
+            "liquid/swim2",
+            "liquid/swim3",
+            "liquid/swim4"
+        ],
+        "subtitle": "subtitles.boat.sink"
     }
 }
