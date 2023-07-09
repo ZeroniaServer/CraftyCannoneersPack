@@ -147,6 +147,9 @@
 		{ "predicate": {"custom_model_data": 141}, "model": "cannon/boatcannon_gp3_turned"},
 		{ "predicate": {"custom_model_data": 142}, "model": "cannon/boatcannon_gp4_turned"},
 		{ "predicate": {"custom_model_data": 143}, "model": "cannon/boatcannon_gp5_turned"},
+        { "predicate": {"custom_model_data": 144}, "model": "cannon/boatcannon_primed_fire"},
+        { "predicate": {"custom_model_data": 145}, "model": "cannon/boatcannon_recoil1_fire"},
+        { "predicate": {"custom_model_data": 146}, "model": "cannon/boatcannon_recoil2_fire"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
