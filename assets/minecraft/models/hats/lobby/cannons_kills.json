@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "hat/diamond_block",
+		"0": "hat/gold_block",
 		"4": "hat/hat_skull_mvp",
 		"5": "hat/blackhat_ui",
 		"6": "hat/vanilla_skull",
 		"9": "hat/battleaxe",
 		"particle": "hat/gold_block",
-		"1_0": "hat/gold_block",
+		"1_0": "hat/diamond_block",
 		"1_6": "hat/cannonball",
 		"1_7": "hat/basalt_side"
 	},
