@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "hat/black_wool",
-		"3": "hat/gray_wool",
+		"0": "hat/gray_wool",
+		"3": "hat/black_wool",
 		"4": "hat/hat_skull",
 		"5": "hat/blackhat_ui",
 		"6": "hat/vanilla_skull",
