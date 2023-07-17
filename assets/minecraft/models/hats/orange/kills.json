@@ -391,13 +391,6 @@
 			}
 		},
 		{
-			"from": [6, 1, 2.9],
-			"to": [10, 5, 2.9],
-			"faces": {
-				"north": {"uv": [1, 1, 15, 15], "texture": "#4"}
-			}
-		},
-		{
 			"from": [4, 0, 3.5],
 			"to": [12, 8, 3.5],
 			"faces": {
@@ -461,6 +454,90 @@
 				"north": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#7"},
 				"south": {"uv": [16, 16, 0, 0], "rotation": 270, "texture": "#7"}
 			}
+		},
+		{
+			"name": "hat_skull_0",
+			"from": [6.56, 1.56, 2.646],
+			"to": [9.44, 5.016, 3.04],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
+			"faces": {
+				"north": {"uv": [13, 1, 3, 13], "texture": "#4"},
+				"east": {"uv": [12, 1, 13, 13], "texture": "#4"},
+				"south": {"uv": [3, 1, 13, 13], "texture": "#4"},
+				"west": {"uv": [3, 1, 4, 13], "texture": "#4"},
+				"up": {"uv": [3, 1, 13, 2], "texture": "#4"},
+				"down": {"uv": [3, 12, 13, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "hat_skull_1",
+			"from": [5.984, 2.136, 2.646],
+			"to": [6.56, 4.44, 3.04],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
+			"faces": {
+				"north": {"uv": [3, 3, 1, 11], "texture": "#4"},
+				"east": {"uv": [2, 3, 3, 11], "texture": "#4"},
+				"south": {"uv": [1, 3, 3, 11], "texture": "#4"},
+				"west": {"uv": [1, 3, 2, 11], "texture": "#4"},
+				"up": {"uv": [1, 3, 3, 4], "texture": "#4"},
+				"down": {"uv": [1, 10, 3, 11], "texture": "#4"}
+			}
+		},
+		{
+			"name": "hat_skull_2",
+			"from": [9.44, 2.136, 2.646],
+			"to": [10.016, 4.44, 3.04],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
+			"faces": {
+				"north": {"uv": [15, 3, 13, 11], "texture": "#4"},
+				"east": {"uv": [14, 3, 15, 11], "texture": "#4"},
+				"south": {"uv": [13, 3, 15, 11], "texture": "#4"},
+				"west": {"uv": [13, 3, 14, 11], "texture": "#4"},
+				"up": {"uv": [13, 3, 15, 4], "texture": "#4"},
+				"down": {"uv": [13, 10, 15, 11], "texture": "#4"}
+			}
+		},
+		{
+			"name": "hat_skull_3",
+			"from": [6.56, 0.984, 2.646],
+			"to": [7.136, 1.56, 3.04],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
+			"faces": {
+				"north": {"uv": [5, 13, 3, 15], "texture": "#4"},
+				"east": {"uv": [4, 13, 5, 15], "texture": "#4"},
+				"south": {"uv": [3, 13, 5, 15], "texture": "#4"},
+				"west": {"uv": [3, 13, 4, 15], "texture": "#4"},
+				"up": {"uv": [3, 13, 5, 14], "texture": "#4"},
+				"down": {"uv": [3, 14, 5, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "hat_skull_4",
+			"from": [7.712, 0.984, 2.646],
+			"to": [8.288, 1.56, 3.04],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
+			"faces": {
+				"north": {"uv": [9, 13, 7, 15], "texture": "#4"},
+				"east": {"uv": [8, 13, 9, 15], "texture": "#4"},
+				"south": {"uv": [7, 13, 9, 15], "texture": "#4"},
+				"west": {"uv": [7, 13, 8, 15], "texture": "#4"},
+				"up": {"uv": [7, 13, 9, 14], "texture": "#4"},
+				"down": {"uv": [7, 14, 9, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "hat_skull_5",
+			"from": [8.864, 0.984, 2.646],
+			"to": [9.44, 1.56, 3.04],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
+			"faces": {
+				"north": {"uv": [13, 13, 11, 15], "texture": "#4"},
+				"east": {"uv": [12, 13, 13, 15], "texture": "#4"},
+				"south": {"uv": [11, 13, 13, 15], "texture": "#4"},
+				"west": {"uv": [11, 13, 12, 15], "texture": "#4"},
+				"up": {"uv": [11, 13, 13, 14], "texture": "#4"},
+				"down": {"uv": [11, 14, 13, 15], "texture": "#4"}
+			}
 		}
 	],
 	"gui_light": "front",
@@ -507,12 +584,17 @@
 		28,
 		29,
 		30,
-		31,
 		{
 			"name": "skullpile",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [32, 33, 34, 35, 36]
+			"children": [31, 32, 33, 34, 35]
+		},
+		{
+			"name": "hat_skull",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [36, 37, 38, 39, 40, 41]
 		}
 	]
 }

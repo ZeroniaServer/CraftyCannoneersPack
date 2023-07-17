@@ -390,6 +390,10 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:hat/sand_skull"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:hat/orange_wool"
         },
         {
@@ -423,6 +427,18 @@
         {
             "type": "single",
             "resource": "minecraft:hat/blackhat_ui"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:hat/grayhat_ui"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:hat/goldhat_ui"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:hat/diamondhat_ui"
         },
         {
             "type": "single",
