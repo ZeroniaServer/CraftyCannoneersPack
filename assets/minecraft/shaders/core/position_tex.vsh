@@ -7,6 +7,8 @@ uniform sampler2D Sampler0;
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
 
+uniform vec2 ScreenSize;
+
 out vec2 texCoord0;
 
 /*
@@ -33,6 +35,20 @@ vec4 getVertexColor(sampler2D Sampler, int vertexID, vec2 coords) {
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
     texCoord0 = UV0;
-		vec4 color = getVertexColor(Sampler0, gl_VertexID, texCoord0); // get the color of the vertex
-		if(color.a == 1.0/255.0 && Position.y >= 30) gl_Position = ProjMat * ModelViewMat * vec4(Position + vec3(0.0, -10.0, 0.0), 1.0); // the vertex renders a bossbar, offset it.
+	vec4 color = getVertexColor(Sampler0, gl_VertexID, texCoord0); // get the color of the vertex
+	if(color.a == 1.0/255.0 && Position.y >= 30) gl_Position = ProjMat * ModelViewMat * vec4(Position + vec3(0.0, -10.0, 0.0), 1.0); // the vertex renders a bossbar, offset it.
+
+    // added by Ts
+    vec2 texSize = textureSize(Sampler0,0); // get atlas size
+    vec2 coords = round(UV0 * texSize); // get int coords
+    if(texSize.x == 512 && texSize.y == 256 // correct atlas size
+        && Position.z == 0.0 // right z level
+        && gl_VertexID < 4 // low vertex id
+        && ProjMat[2][3] == 0.0 // is gui
+        && ((gl_VertexID == 0 && round(coords.x) == 0 && round(coords.y) == 181) || (gl_VertexID == 1 && round(coords.x) == 0 && round(coords.y) == 185) || (gl_VertexID == 2 && round(coords.x) == 101 && round(coords.y) == 185) || (gl_VertexID == 3 && round(coords.x) == 101 && round(coords.y) == 181)) // villager xp bar white fill
+        || ((gl_VertexID == 0 && round(coords.x) == 0 && round(coords.y) == 186) || (gl_VertexID == 1 && round(coords.x) == 0 && round(coords.y) == 190) || (gl_VertexID == 2 && round(coords.x) == 101 && round(coords.y) == 190) || (gl_VertexID == 3 && round(coords.x) == 101 && round(coords.y) == 186)) // villager xp bar background
+        || ((gl_VertexID == 0 && round(coords.x) == 0 && round(coords.y) == 191) || (gl_VertexID == 1 && round(coords.x) == 0 && round(coords.y) == 195) || (gl_VertexID == 2 && round(coords.x) == 101 && round(coords.y) == 195) || (gl_VertexID == 3 && round(coords.x) == 101 && round(coords.y) == 191)) // villager xp bar green fill
+    ) {
+        gl_Position = ProjMat * ModelViewMat * vec4(ScreenSize + 100.0, 0.0, 0.0); // move the vertices offscreen
+    }
 }
