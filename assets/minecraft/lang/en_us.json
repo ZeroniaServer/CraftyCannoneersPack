@@ -479,6 +479,7 @@
   "game.start_raid": "Starting Raid... ",
   "game.you": "You",
   "game.no_players": "No players remaining. The previous game has been canceled.",
+  "game.pirate_trader.padding": "\uDAFC\uDC2E",
   "game.pirate_trader": "Pirate Trader",
   "game.marked_ready": "%1$s marked %2$s %3$s as %4$s",
   "game.marked_ready.has_been": "%1$s %2$s has been marked as %3$s",
