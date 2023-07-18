@@ -1,9 +1,0 @@
-{
-    "parent": "hats/lobby/default",
-    "display": {
-        "head": {
-        	"translation": [0.0, 16.0, 0.0],
-			"scale": [1.52, 1.52, 1.52]
-        }
-    }
-}
