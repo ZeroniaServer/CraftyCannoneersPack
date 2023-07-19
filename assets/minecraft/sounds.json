@@ -683,6 +683,12 @@
             "silent"
         ]
     },
+    "entity.splash_potion.break": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ]
+    },
     "ripsail": {
         "sounds": [
             "cannon/ripsail1",
