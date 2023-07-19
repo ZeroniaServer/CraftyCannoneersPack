@@ -1029,5 +1029,118 @@
             "liquid/swim4"
         ],
         "subtitle": "subtitles.boat.sink"
+    },
+    "gravespawn": {
+        "subtitle": "subtitles.grave.spawn"
+    },
+    "graveopen1": {
+        "sounds": [
+            {
+                "name": "block/grindstone/grindstone1",
+                "volume": 0.5
+            },
+            {
+                "name": "block/grindstone/grindstone2",
+                "volume": 0.5
+            },
+            {
+                "name": "block/grindstone/grindstone3",
+                "volume": 0.5
+            }
+        ],
+        "subtitle": "subtitles.grave.open"
+    },
+    "graveopen2": {
+        "sounds": [
+            "block/deepslate/break1",
+            "block/deepslate/break2",
+            "block/deepslate/break3",
+            "block/deepslate/break4"
+        ]
+    },
+    "graveopen3": {
+        "sounds": [
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed1",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed2",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed3",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed4",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed5",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed6",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed7",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed8",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed9",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed10",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed11",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed12",
+                "volume": 0.25
+            },
+            {
+                "attenuation_distance": 12,
+                "name": "enchant/soulspeed/soulspeed13",
+                "volume": 0.25
+            }
+        ]
+    },
+    "graveemerge": {
+        "sounds": [
+            "liquid/swim1",
+            "liquid/swim2",
+            "liquid/swim3",
+            "liquid/swim4",
+            "liquid/swim5"
+        ],
+        "subtitle": "subtitles.grave.emerge"
+    },
+    "gravebreak": {
+        "sounds": [
+            "mob/zombie/woodbreak"
+        ],
+        "subtitle": "subtitles.grave.break"
     }
 }
