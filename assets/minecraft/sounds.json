@@ -778,6 +778,12 @@
         ],
         "subtitle": "subtitles.cargobarrel.break"
     },
+    "cargobarrelempty": {
+        "sounds": [
+            "random/pop"
+        ],
+        "subtitle": "subtitles.cargobarrel.empty"
+    },
     "boatbreak": {
         "sounds": [
             "mob/zombie/woodbreak"
@@ -1030,9 +1036,6 @@
         ],
         "subtitle": "subtitles.boat.sink"
     },
-    "gravespawn": {
-        "subtitle": "subtitles.grave.spawn"
-    },
     "graveopen1": {
         "sounds": [
             {
@@ -1058,7 +1061,7 @@
             "block/deepslate/break4"
         ]
     },
-    "graveopen3": {
+    "soulshriek": {
         "sounds": [
             {
                 "attenuation_distance": 12,
@@ -1137,10 +1140,85 @@
         ],
         "subtitle": "subtitles.grave.emerge"
     },
-    "gravebreak": {
+    "graveemerge_nosub": {
         "sounds": [
-            "mob/zombie/woodbreak"
+            "liquid/swim1",
+            "liquid/swim2",
+            "liquid/swim3",
+            "liquid/swim4",
+            "liquid/swim5"
+        ]
+    },
+    "gravebreak1": {
+        "sounds": [
+            "block/deepslate/break1",
+            "block/deepslate/break2",
+            "block/deepslate/break3",
+            "block/deepslate/break4"
         ],
         "subtitle": "subtitles.grave.break"
+    },
+    "gravebreak2": {
+        "sounds": [
+            {
+                "name": "block/deepslate_bricks/place1",
+                "volume": 0.85
+            },
+            {
+                "name": "block/deepslate_bricks/place2",
+                "volume": 0.85
+            },
+            {
+                "name": "block/deepslate_bricks/place3",
+                "volume": 0.85
+            },
+            {
+                "name": "block/deepslate_bricks/place4",
+                "volume": 0.85
+            },
+            {
+                "name": "block/deepslate_bricks/place5",
+                "volume": 0.85
+            },
+            {
+                "name": "block/deepslate_bricks/place6",
+                "volume": 0.85
+            }
+        ]
+    },
+    "gravebreak3": {
+        "sounds": [
+            "block/pointed_dripstone/land1",
+            "block/pointed_dripstone/land2",
+            "block/pointed_dripstone/land3",
+            "block/pointed_dripstone/land4",
+            "block/pointed_dripstone/land5"
+        ]
+    },
+    "gravespawn1": {
+        "sounds": [
+            "block/deepslate/place1",
+            "block/deepslate/place2",
+            "block/deepslate/place3",
+            "block/deepslate/place4",
+            "block/deepslate/place5",
+            "block/deepslate/place6"
+        ],
+        "subtitle": "subtitles.grave.spawn"
+    },
+    "gravespawn2": {
+        "sounds": [
+            "block/dripstone/break1",
+            "block/dripstone/break2",
+            "block/dripstone/break3",
+            "block/dripstone/break4",
+            "block/dripstone/break5"
+        ]
+    },
+    "graveempty": {
+        "sounds": [
+            "random/pop"
+        ],
+        "subtitle": "subtitles.grave.empty"
     }
 }

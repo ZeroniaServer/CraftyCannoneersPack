@@ -95,12 +95,18 @@
   "subtitles.cargotrap.explode": "sǝpoldxǝ dɐɹ⟘ oᵷɹɐƆ",
   "subtitles.cargobarrel.emerge": "sǝᵷɹǝɯǝ lǝɹɹɐᗺ oᵷɹɐƆ",
   "subtitles.cargobarrel.break": "sʞɐǝɹq lǝɹɹɐᗺ oᵷɹɐƆ",
+  "subtitles.cargobarrel.empty": "sǝᴉʇdɯǝ lǝɹɹɐᗺ oᵷɹɐƆ",
   "subtitles.crab_trap.place": "pǝɔɐld dɐɹ⟘ qɐɹƆ",
   "subtitles.crab_trap.break": "sʞɐǝɹq dɐɹ⟘ qɐɹƆ",
   "subtitles.boat.break": "sʞɐǝɹq ʇɐoᗺ",
   "subtitles.boat.sink": "sʞuᴉs ʇɐoᗺ",
   "subtitles.crab.struggle": "sǝlᵷᵷnɹʇs qɐɹƆ",
   "subtitles.crab.capture": "pǝɹnʇdɐɔ qɐɹƆ",
+  "subtitles.grave.spawn": "suʍɐds ǝʌɐɹ⅁",
+  "subtitles.grave.emerge": "sǝᵷɹǝɯǝ ǝʌɐɹ⅁",
+  "subtitles.grave.open": "suǝdo ǝʌɐɹ⅁",
+  "subtitles.grave.empty": "sǝᴉʇdɯǝ ǝʌɐɹ⅁",
+  "subtitles.grave.break": "sʞɐǝɹq ǝʌɐɹ⅁",
   "container.isLocked": "",
   "block.minecraft.bed.occupied": "",
   "container.spectatorCantOpen": "",
@@ -619,5 +625,5 @@
   "cargobarrel.boarding": "lǝɹɹɐᗺ oᵷɹɐƆ ᵷuᴉpɹɐoᗺ",
   "cargobarrel.trap": "dɐɹ⟘ oᵷɹɐƆ",
   "cargobarrel.trap.generic": "dɐɹ⟘ oᵷɹɐƆ ɐ",
-"cargobarrel.trap.using": "dɐɹ⟘ oᵷɹɐƆ ᵷuᴉsn %s"
+  "cargobarrel.trap.using": "dɐɹ⟘ oᵷɹɐƆ ᵷuᴉsn %s"
 }
