@@ -255,7 +255,7 @@
   "item.blast_barrel": "Blast Barrel",
   "item.blast_barrel.possessive": "%s's Blast Barrel",
   "item.blast_barrel.generic": "a Blast Barrel",
-  "item.blast_barrel.using": "%s usin' Blast Barrel",
+  "item.blast_barrel.using": "%s usin' a Blast Barrel",
   "item.blast_barrel.lore.1": "Placeable explosive. Fill wit' Gunpowder",
   "item.blast_barrel.lore.2": "to increase power and punch to ignite!",
   "item.boarding_axe": "Boardin' Axe",
@@ -626,5 +626,5 @@
   "cargobarrel.boarding": "Boardin' Cargo Barrel",
   "cargobarrel.trap": "Cargo Trap",
   "cargobarrel.trap.generic": "a Cargo Trap",
-  "cargobarrel.trap.using": "%s usin' Cargo Trap"
+  "cargobarrel.trap.using": "%s usin' a Cargo Trap"
 }

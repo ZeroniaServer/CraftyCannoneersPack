@@ -254,7 +254,7 @@
   "item.blast_barrel": "炸药桶",
   "item.blast_barrel.possessive": "%s的炸药桶",
   "item.blast_barrel.generic": "一个炸药桶",
-  "item.blast_barrel.using": "%s using Blast Barrel",
+  "item.blast_barrel.using": "%s using a Blast Barrel",
   "item.blast_barrel.lore.1": "可放置的爆炸物. 装满火药",
   "item.blast_barrel.lore.2": "以增加威力并用拳头来点燃!",
   "item.boarding_axe": "登舰斧",
@@ -627,5 +627,5 @@
   "cargobarrel.boarding": "登舰货桶",
   "cargobarrel.trap": "陷阱货桶",
   "cargobarrel.trap.generic": "一个陷阱货桶",
-  "cargobarrel.trap.using": "%s using Cargo Trap"
+  "cargobarrel.trap.using": "%s using a Cargo Trap"
 }
