@@ -1220,5 +1220,54 @@
             "random/pop"
         ],
         "subtitle": "subtitles.grave.empty"
+    },
+    "settingsreset": {
+        "sounds": [
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted1"
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted1",
+                "pitch": 0.85
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted1",
+                "pitch": 1.1
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted2"
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted2",
+                "pitch": 0.85
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted2",
+                "pitch": 1.1
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted3"
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted3",
+                "pitch": 0.85
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted3",
+                "pitch": 1.1
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted4"
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted4",
+                "pitch": 0.85
+            },
+            {
+                "name": "block/chiseled_bookshelf/insert_enchanted4",
+                "pitch": 1.1
+            }
+        ],
+        "subtitle": "subtitles.settings.reset"
     }
 }
