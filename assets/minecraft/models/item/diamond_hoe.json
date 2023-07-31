@@ -60,6 +60,8 @@
 		{ "predicate": {"custom_model_data": 54}, "model": "chest/team/orange/opened"},
 		{ "predicate": {"custom_model_data": 55}, "model": "cannon/bouncy_cannonball"},
 		{ "predicate": {"custom_model_data": 56}, "model": "cannon/player_cannonball"},
+		{ "predicate": {"custom_model_data": 57}, "model": "lobby/cancel"},
+		{ "predicate": {"custom_model_data": 58}, "model": "lobby/cancel_grayed"},
 		{ "predicate": {"custom_model_data": 59}, "model": "custom/seagull"},
 		{ "predicate": {"custom_model_data": 60}, "model": "cannon/tracer_cannonball"},
 		{ "predicate": {"custom_model_data": 61}, "model": "hats/lobby/parkour"},
