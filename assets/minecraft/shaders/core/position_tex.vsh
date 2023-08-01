@@ -51,6 +51,9 @@ void main() {
             // villager xp bar white fill
             && ((gl_VertexID == 0 && round(coords.x) == 0 && round(coords.y) == 181*scale) || (gl_VertexID == 1 && round(coords.x) == 0 && round(coords.y) == 185*scale) || (gl_VertexID == 2 && round(coords.x) == 101*scale && round(coords.y) == 185*scale) || (gl_VertexID == 3 && round(coords.x) == 101*scale && round(coords.y) == 181*scale))
 
+            // optifine compatibility
+            || ((gl_VertexID == 0 && round(coords.x) == 2 && round(coords.y) == 182*scale) || (gl_VertexID == 1 && round(coords.x) == 0 && round(coords.y) == 184*scale) || (gl_VertexID == 2 && round(coords.x) == 99*scale && round(coords.y) == 184*scale) || (gl_VertexID == 3 && round(coords.x) == 99*scale && round(coords.y) == 182*scale))
+
             // villager xp bar background
             || ((gl_VertexID == 0 && round(coords.x) == 0 && round(coords.y) == 186*scale) || (gl_VertexID == 1 && round(coords.x) == 0 && round(coords.y) == 190*scale) || (gl_VertexID == 2 && round(coords.x) == 101*scale && round(coords.y) == 190*scale) || (gl_VertexID == 3 && round(coords.x) == 101*scale && round(coords.y) == 186*scale))
 
