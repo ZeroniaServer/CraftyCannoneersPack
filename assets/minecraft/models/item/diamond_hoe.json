@@ -4,7 +4,7 @@
 		"layer0": "item/diamond_hoe"
 	},
 	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "cannon/cannon"},
+		{ "predicate": {"custom_model_data": 1}, "model": "cannon/cannon_cart"},
 		{ "predicate": {"custom_model_data": 2}, "model": "cannon/gp_left1"},
 		{ "predicate": {"custom_model_data": 3}, "model": "cannon/gp_left2"},
 		{ "predicate": {"custom_model_data": 4}, "model": "cannon/gp_left3"},
@@ -65,8 +65,8 @@
 		{ "predicate": {"custom_model_data": 59}, "model": "custom/seagull"},
 		{ "predicate": {"custom_model_data": 60}, "model": "cannon/tracer_cannonball"},
 		{ "predicate": {"custom_model_data": 61}, "model": "hats/lobby/parkour"},
-		{ "predicate": {"custom_model_data": 62}, "model": "cannon/cannon_recoil1"},
-		{ "predicate": {"custom_model_data": 63}, "model": "cannon/cannon_recoil2"},
+		{ "predicate": {"custom_model_data": 62}, "model": "cannon/cannon_barrel"},
+		{ "predicate": {"custom_model_data": 63}, "model": "cannon/cannon_barrel_fire"},
 		{ "predicate": {"custom_model_data": 64}, "model": "cannon/gasbubble"},
 		{ "predicate": {"custom_model_data": 65}, "model": "custom/parrot"},
 		{ "predicate": {"custom_model_data": 66}, "model": "custom/sandman"},
