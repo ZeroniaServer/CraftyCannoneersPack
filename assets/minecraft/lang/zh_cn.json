@@ -510,7 +510,7 @@
   "easter_egg.snowman.2": "\"...因你而史诗 :)\"",
   "easter_egg.launch.in_progress": "已点火!",
   "easter_egg.launch.takeoff": "起飞!",
-  "easter_egg.launch.should_try": "你也应该试试",
+  "easter_egg.launch.should_try": "你也应该试试%1$s%2$s! ;)",
   "easter_egg.launch.rocket": "火箭",
   "easter_egg.launch.riders": "骑士",
   "easter_egg.parrot.1": "鹦鹉感谢你的好意...",
