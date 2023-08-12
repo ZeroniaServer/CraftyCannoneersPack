@@ -41,6 +41,12 @@
         ],
         "subtitle": "subtitles.cannon.prime"
     },
+    "ignitecannon": {
+        "sounds": [
+            "mob/ghast/fireball4"
+        ],
+        "subtitle": "subtitles.cannon.ignite"
+    },
     "shipdamage1": {
         "sounds": [
             "ship/damage1"
