@@ -427,7 +427,7 @@
   "error.already_joined": "You already joined this team!",
   "error.cannot_spectate": "Unable to spectate.",
   "error.already_spectating": "You're already spectating!",
-  "error.cannot_leave": "Unable to leave game.",
+  "error.cannot_leave": "Unable to leave the game.",
   "error.parkour": "Ein Fehler ist aufgetreten, also wurde die Parkour-Bestenliste zurückgesetzt. Falls du diese Nachricht siehst, %s",
   "error.game": "Ein Fehler ist aufgetreten, also wurde das Spiel zu Standardwerten zurückgesetzt. Falls du diese Nachricht siehst, %s",
   "error.report": "bitte melde!",

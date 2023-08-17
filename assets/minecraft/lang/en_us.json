@@ -426,7 +426,7 @@
   "error.already_joined": "You already joined this team!",
   "error.cannot_spectate": "Unable to spectate.",
   "error.already_spectating": "You're already spectating!",
-  "error.cannot_leave": "Unable to leave game.",
+  "error.cannot_leave": "Unable to leave the game.",
   "error.parkour": "An error has occurred, so the Parkour leaderboard has been reset. If you see this message, %s",
   "error.game": "An error has occurred, so the game has been reset to defaults. If you see this message, %s",
   "error.report": "please report!",
