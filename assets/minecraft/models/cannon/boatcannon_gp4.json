@@ -4,7 +4,6 @@
 		"0": "block/basalt_side",
 		"3": "block/iron_block",
 		"4": "block/cauldron_inner",
-		"5": "block/oak_planks",
 		"6": "block/black_concrete",
 		"7": "block/gray_concrete_powder",
 		"particle": "block/basalt_side"
@@ -567,42 +566,6 @@
 				"west": {"uv": [2, 0, 0, 2], "texture": "#6"},
 				"up": {"uv": [5, 0, 0, 2], "texture": "#6"},
 				"down": {"uv": [5, 0, 0, 2], "texture": "#6"}
-			}
-		},
-		{
-			"from": [2.5, 12, 16.9],
-			"to": [5, 17, 19.4],
-			"faces": {
-				"north": {"uv": [9, 2, 11, 7], "texture": "#5"},
-				"east": {"uv": [9, 2, 11, 7], "texture": "#5"},
-				"south": {"uv": [9, 2, 11, 7], "texture": "#5"},
-				"west": {"uv": [9, 2, 11, 7], "texture": "#5"},
-				"up": {"uv": [2, 0, 4, 2.5], "texture": "#5"},
-				"down": {"uv": [4, 0, 6, 2.5], "texture": "#5"}
-			}
-		},
-		{
-			"from": [11, 12, 16.9],
-			"to": [13.5, 17, 19.4],
-			"faces": {
-				"north": {"uv": [9, 2, 11, 7], "texture": "#5"},
-				"east": {"uv": [9, 2, 11, 7], "texture": "#5"},
-				"south": {"uv": [9, 2, 11, 7], "texture": "#5"},
-				"west": {"uv": [9, 2, 11, 7], "texture": "#5"},
-				"up": {"uv": [2, 0, 4, 2.5], "texture": "#5"},
-				"down": {"uv": [4, 0, 6, 2.5], "texture": "#5"}
-			}
-		},
-		{
-			"from": [2.5, 9.5, 16.9],
-			"to": [13.5, 12, 19.4],
-			"faces": {
-				"north": {"uv": [0, 0, 11, 2.5], "texture": "#5"},
-				"east": {"uv": [0, 0, 2.5, 2.5], "texture": "#5"},
-				"south": {"uv": [4, 8, 15, 10.5], "texture": "#5"},
-				"west": {"uv": [0, 0, 2.5, 2.5], "texture": "#5"},
-				"up": {"uv": [5, 0, 16, 2.5], "texture": "#5"},
-				"down": {"uv": [2, 0, 13, 2.5], "texture": "#5"}
 			}
 		},
 		{
