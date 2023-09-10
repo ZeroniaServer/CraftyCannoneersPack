@@ -10,5 +10,6 @@ Resource pack for Crafty Cannoneers. Made by Zeronia.
 - [Minecraft Dungeons (base weapon textures)](https://dungeons.minecraft.net/)
 - [Quark Mod (ladder texture)](https://quarkmod.net/)
 - [AmberW's Negative Space Font](https://github.com/AmberWat/NegativeSpaceFont)
+- [AmberW's Tiny Emoji Font](https://github.com/AmberWat/TinyEmojiFontResource)
 - [Ts's Move Hearts Shader](https://github.com/McTsts/mc-core-shaders/tree/main/move%20hearts) (thanks to Ts for additional support!)
 - [Dominexis's Atlas Logger](https://github.com/Dominexis/Atlas-Logger)
