@@ -192,6 +192,12 @@
         ],
         "subtitle": "subtitles.parrot.pet"
     },
+	"globespin": {
+        "sounds": [
+            "lobby/globespin"
+        ],
+        "subtitle": "subtitles.globe.spin"
+    },
     "shipbell": {
         "sounds": [
             "ship/bell"
