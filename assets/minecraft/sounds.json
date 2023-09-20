@@ -651,7 +651,7 @@
             "mob/stray/idle3",
             "mob/stray/idle4"
         ],
-        "subtitle": "subtitles.chest.skeleton.water"
+        "subtitle": "subtitles.chest.skeleton"
     },
     "block.chest.locked": {
         "replace": true,
