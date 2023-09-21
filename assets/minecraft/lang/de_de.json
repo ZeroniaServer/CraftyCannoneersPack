@@ -447,6 +447,8 @@
   "game.waiting_ready": "Wartet darauf, dass die Teams bereit sind...",
   "game.awaiting": "Erwartet %s Spieler...",
   "game.awaiting.and": "Erwartet %1$s und %2$s Spieler...",
+  "game.awaiting.purple": "Violette",
+  "game.awaiting.orange": "Orange",
   "game.countdown_sign.1": "",
   "game.countdown_sign.2": "Countdown",
   "game.countdown_sign.3": "begonnen",
@@ -461,7 +463,7 @@
   "game.countdown.beginning": "Beginnt Countdown.",
   "game.leave_sign.1": "",
   "game.leave_sign.2": "Klicke hier, um dein", #####
-  "game.leave_sign.3": "Team zu %s!", #####
+  "game.leave_sign.3": "team zu %s!", #####
   "game.leave_sign.4": "",
   "game.leave_sign.leave": "verlassen", #####
   "game.left_team": "%s left their team!", #####
@@ -551,7 +553,7 @@
   "customizer.daytime.night": "Nacht",
   "customizer.confirmed": "Einstellungen bestätigt!",
   "customizer.current": "Derzeitige Spieleinstellungen",
-  "customizer.current_time": "Spieldauer:   \uF811%s",
+  "customizer.current_time": "Spieldauer:   %s",
   "customizer.current_health": "Schiffsgesundheit: %s",
   "customizer.current_modifiers": "Modifikatoren:    \uDAFF\uDFFE%s",
   "customizer.map_owner": "%s hat Kontrolle über die Spieleinstellungen!",
