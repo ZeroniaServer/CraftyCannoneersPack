@@ -465,7 +465,7 @@
   "game.leave_sign.2": "Klicke hier, um dein", #####
   "game.leave_sign.3": "team zu %s!", #####
   "game.leave_sign.4": "",
-  "game.leave_sign.leave": "verlassen", #####
+  "game.leave_sign.leave": "Verlassen", #####
   "game.left_team": "%s left their team!", #####
   "game.left_spectator": "%s schaut dem Spiel nicht mehr zu.",
   "game.boarded": "Du hast das gegnerische Schiff geentert...",
