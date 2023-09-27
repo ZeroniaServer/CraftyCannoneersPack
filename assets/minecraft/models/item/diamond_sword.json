@@ -22,7 +22,7 @@
 			"translation": [6.25, 3.5, -3.25]
 		},
 		"ground": {
-			"translation": [0, 7, 0],
+			"translation": [0, 4, 0],
 			"scale": [0.74, 0.74, 0.74]
 		}
 	}

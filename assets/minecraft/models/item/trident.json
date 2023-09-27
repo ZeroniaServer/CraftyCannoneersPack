@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/trident"
+    },
+    "display": {
+        "ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.74, 0.74, 0.74]
+		}
+    }
+}
