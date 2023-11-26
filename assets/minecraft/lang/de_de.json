@@ -113,6 +113,7 @@
   "container.isLocked": "",
   "block.minecraft.bed.occupied": "",
   "container.spectatorCantOpen": "",
+  "container.inventory": "",
   "ver1.1.0": "%2$s",
   "%1$s": "%2$s",
   "teamchest.orange": "Orange Teamtruhe",

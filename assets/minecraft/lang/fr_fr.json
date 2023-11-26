@@ -109,6 +109,7 @@
   "container.isLocked": "",
   "block.minecraft.bed.occupied": "",
   "container.spectatorCantOpen": "",
+  "container.inventory": "",
   "teamchest.orange": "Coffre d’équipe Orange",
   "teamchest.purple": "Coffre d’équipe Violette",
   "teamchest.locked": "COFFRE VÉROUILLÉ",

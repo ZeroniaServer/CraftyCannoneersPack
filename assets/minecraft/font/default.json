@@ -298,6 +298,78 @@
             ]
         },
         {
+            "type": "bitmap",
+            "file": "minecraft:custom/guis/pixel.png",
+            "ascent": -2000,
+            "height": -3,
+            "chars": [
+                "\uE026"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/guis/ccmenu.png",
+            "ascent": 103,
+            "height": 256,
+            "chars": [
+                "\uE027"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/guis/common_chest.png",
+            "ascent": 41,
+            "height": 256,
+            "chars": [
+                "\uE028"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/guis/uncommon_chest.png",
+            "ascent": 41,
+            "height": 256,
+            "chars": [
+                "\uE029"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/guis/rare_chest.png",
+            "ascent": 41,
+            "height": 256,
+            "chars": [
+                "\uE02A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/guis/orange_team_chest.png",
+            "ascent": 101,
+            "height": 256,
+            "chars": [
+                "\uE02B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/guis/purple_team_chest.png",
+            "ascent": 101,
+            "height": 256,
+            "chars": [
+                "\uE02C"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/guis/skeleton_chest.png",
+            "ascent": 101,
+            "height": 256,
+            "chars": [
+                "\uE02D"
+            ]
+        },
+        {
             "type": "space",
             "advances": {
                 "󏀀": -4096,
@@ -18142,14 +18214,6 @@
             "chars": [
                 "\udba0\udc11\udba0\udc12\udba0\udc13\udba8\udc02\udba8\udc03\udba8\udc04\u0000\u0000\u0000\u0000\ue50a\u0000\u0000\u0000\u0000\u0000"
             ]
-        },
-        {"type": "bitmap", "file": "minecraft:guis/pixel.png","ascent": -2000,"height": -3,"chars": ["Ȝ"]},
-        {"type": "bitmap", "file": "minecraft:guis/containers/ccmenu.png","ascent": 103,"height": 256,"chars": ["ȝ"]}, 
-        {"type": "bitmap", "file": "minecraft:guis/containers/ccwoodchest.png","ascent": 41,"height": 256,"chars": ["Ȟ"]},
-        {"type": "bitmap", "file": "minecraft:guis/containers/ccrarechest.png","ascent": 41,"height": 256,"chars": ["ȟ"]},
-        {"type": "bitmap", "file": "minecraft:guis/containers/ccepicchest.png","ascent": 41,"height": 256,"chars": ["Ƞ"]},
-        {"type": "bitmap", "file": "minecraft:guis/containers/ccorangechest.png","ascent": 101,"height": 256,"chars": ["ȡ"]},
-        {"type": "bitmap", "file": "minecraft:guis/containers/ccpurplechest.png","ascent": 101,"height": 256,"chars": ["Ȣ"]},
-        {"type": "bitmap", "file": "minecraft:guis/containers/ccskeletonchest.png","ascent": 101,"height": 256,"chars": ["ȣ"]}
+        }
     ]
 }

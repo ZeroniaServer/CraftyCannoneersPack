@@ -112,6 +112,7 @@
   "container.isLocked": "",
   "block.minecraft.bed.occupied": "",
   "container.spectatorCantOpen": "",
+  "container.inventory": "",
   "teamchest.orange": "주황 팀 상자",
   "teamchest.purple": "보라 팀 상자",
   "teamchest.locked": "CHEST LOCKED",

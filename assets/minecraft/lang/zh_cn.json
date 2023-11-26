@@ -113,6 +113,7 @@
   "container.isLocked": "",
   "block.minecraft.bed.occupied": "",
   "container.spectatorCantOpen": "",
+  "container.inventory": "",
   "teamchest.orange": "橙队宝箱",
   "teamchest.purple": "紫队宝箱",
   "teamchest.locked": "宝箱上锁",

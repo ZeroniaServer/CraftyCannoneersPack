@@ -18,5 +18,6 @@
   "subtitles.item.trident.thunder": "Harpoon thunder cracks",
   "container.isLocked": "",
   "block.minecraft.bed.occupied": "",
-  "container.spectatorCantOpen": ""
+  "container.spectatorCantOpen": "",
+  "container.inventory": ""
 }
