@@ -545,11 +545,11 @@
 		"gui": {
 			"rotation": [0, 180, 0],
 			"translation": [0, 8, 0],
-			"scale": [2, 2, 1.98]
+			"scale": [2, 2, 2]
 		},
 		"head": {
-			"translation": [0, 12.5, 0],
-			"scale": [1.52, 1.52, 1.52]
+			"translation": [0, 13, 0.25],
+			"scale": [1.57, 1.57, 1.57]
 		}
 	},
 	"groups": [
