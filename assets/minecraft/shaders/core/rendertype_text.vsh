@@ -18,6 +18,7 @@ uniform int FogShape;
 out float vertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
+out vec4 gl_Position;
 
 void main() {
     // vanilla behavior
@@ -39,7 +40,7 @@ void main() {
 
     // common chest color
     else if (Color == vec4(169/255., 165/255., 0, Color.a)) {
-        vec3 newPos = vec3(Position.x, Position.y - 27.0, Position.z);
+        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z + 200.0);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // recolor to gray
@@ -50,7 +51,7 @@ void main() {
 
     // uncommon chest color
     else if (Color == vec4(169/255., 166/255., 0, Color.a)) {
-        vec3 newPos = vec3(Position.x, Position.y - 27.0, Position.z);
+        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z + 200.0);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // recolor to dark aqua
@@ -61,12 +62,19 @@ void main() {
 
     // rare chest color
     else if (Color == vec4(169/255., 167/255., 0, Color.a)) {
-        vec3 newPos = vec3(Position.x, Position.y - 27.0, Position.z);
+        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z + 200.0);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // recolor to dark aqua
         vertexColor.r = 122.0/255.0;
         vertexColor.g = 0.0/255.0;
         vertexColor.b = 168.0/255.0;
+    }
+
+    // displace custom gui texture to hide in nametag view
+    else if (Color == vec4(123/255., 123/255., 0, Color.a)) {
+        vertexColor = texelFetch(Sampler2, UV2 / 16, 0);
+        vec3 newPos = vec3(Position.x, Position.y, Position.z + 200.0);
+        gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
     }
 }
