@@ -595,6 +595,22 @@
         {
             "type": "single",
             "resource": "minecraft:custom/shield_gui"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/bone_block_side"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/barrel_bottom"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/coal_block"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/anvil"
         }
     ]
 }
