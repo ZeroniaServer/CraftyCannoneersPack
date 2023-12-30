@@ -591,6 +591,10 @@
         {
             "type": "single",
             "resource": "minecraft:lobby/cancel_grayed"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/shield_gui"
         }
     ]
 }
