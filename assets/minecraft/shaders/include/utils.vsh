@@ -201,13 +201,19 @@ vec4 apply_emissive_perspective_for_item(vec4 inputColor, vec4 lightColor, int i
 				remappingColor.a = 1.0;
 			}
 		}
-	} else if(check_alpha(inputAlpha, 243.0) || check_alpha(inputAlpha, 26.0)) { // GUI O | FirstPerson X | ThirdPerson X | Emssive - (only GUI don't need Emssive setting)
+	} else if(check_alpha(inputAlpha, 243.0)) { // GUI O | FirstPerson X | ThirdPerson X | Emssive - (only GUI don't need Emssive setting)
 		if(isGUI == 1 && zPos > 100.0) {
 			remappingColor.a = 1.0;
 		} else {
 			remappingColor.a = 0.0;
 		}
-	}
+	} else if (check_alpha(inputAlpha, 26.0)) { // special color for dura bars in custom GUIs
+        if (isGUI == 1 && zPos > 100.0) {
+            remappingColor.a = 0.1;
+        } else {
+            remappingColor.a = 0.0;
+        }
+    }
 	return remappingColor;
 }
 
