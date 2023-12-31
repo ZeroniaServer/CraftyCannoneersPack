@@ -55,7 +55,7 @@ void main() {
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // recolor to dark aqua
-        vertexColor.r = 0.0/255.0;
+        vertexColor.r = 0;
         vertexColor.g = 145.0/255.0;
         vertexColor.b = 145.0/255.0;
     }
@@ -67,8 +67,19 @@ void main() {
 
         // recolor to dark aqua
         vertexColor.r = 122.0/255.0;
-        vertexColor.g = 0.0/255.0;
+        vertexColor.g = 0;
         vertexColor.b = 168.0/255.0;
+    }
+
+    // cargo barrel color
+    else if (Color == vec4(169/255., 168/255., 0, Color.a)) {
+        vec3 newPos = vec3(Position.x, Position.y - 6.0, Position.z + 200.0);
+        gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
+
+        // recolor to light purple
+        vertexColor.r = 1;
+        vertexColor.g = 85.0/255.0;
+        vertexColor.b = 1;
     }
 
     // displace custom gui texture to hide in nametag view

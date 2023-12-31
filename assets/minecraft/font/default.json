@@ -182,6 +182,15 @@
         },
         {
             "type": "bitmap",
+            "file": "minecraft:custom/guis/cargo_barrel.png",
+            "ascent": 41,
+            "height": 256,
+            "chars": [
+                "\uE026"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "minecraft:custom/guis/ccmenu.png",
             "ascent": 103,
             "height": 256,
