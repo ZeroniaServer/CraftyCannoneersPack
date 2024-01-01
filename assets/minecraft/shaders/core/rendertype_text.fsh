@@ -15,13 +15,10 @@ in vec2 texCoord0;
 
 out vec4 fragColor;
 
-
 bool in_range(float source, float target) {
-	
 	float targetLess = target - 0.3;
 	float targetMore = target + 0.3;
 	return (source > targetLess && source < targetMore);
-	
 }
 
 void main() {
