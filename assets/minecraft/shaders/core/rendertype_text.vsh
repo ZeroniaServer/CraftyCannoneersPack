@@ -76,10 +76,21 @@ void main() {
         vec3 newPos = vec3(Position.x, Position.y - 6.0, Position.z + 200.0);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
-        // recolor to light purple
-        vertexColor.r = 1;
-        vertexColor.g = 85.0/255.0;
-        vertexColor.b = 1;
+        // recolor to custom color
+        vertexColor.r = 91.0/255.0;
+        vertexColor.g = 70.0/255.0;
+        vertexColor.b = 36.0/255.0;
+    }
+    
+    // grave color
+    else if (Color == vec4(169/255., 169/255., 0, Color.a)) {
+        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z + 200.0);
+        gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
+
+        // recolor to custom color
+        vertexColor.r = 2.0/255.0;
+        vertexColor.g = 45.0/255.0;
+        vertexColor.b = 55.0/255.0;
     }
 
     // displace custom gui texture to hide in nametag view
