@@ -18,7 +18,6 @@ uniform int FogShape;
 out float vertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
-out vec4 gl_Position;
 
 void main() {
     // vanilla behavior
