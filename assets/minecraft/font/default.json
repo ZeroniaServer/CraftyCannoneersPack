@@ -261,6 +261,33 @@
                 "\uE02D"
             ]
         },
+		{
+            "type": "bitmap",
+            "file": "minecraft:font/orangevictory.png",
+            "ascent": 26,
+            "height": 32,
+            "chars": [
+                "\uE02E"
+            ]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:font/purplevictory.png",
+            "ascent": 26,
+            "height": 32,
+            "chars": [
+                "\uE030"
+            ]
+        },
+		{
+            "type": "bitmap",
+            "file": "minecraft:font/novictory.png",
+            "ascent": 26,
+            "height": 32,
+            "chars": [
+                "\uE031"
+            ]
+        },
         {
             "type": "space",
             "advances": {
