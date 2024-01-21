@@ -433,6 +433,7 @@
   "game.spectating": "%s (은)는 이제 게임을 관전합니다.",
   "game.seagulls": "갈매기들이 돌고 있는 쪽 안으로 가면 관전이 중지됩니다!",
   "game.joined": "%1$s (이)가 %2$s 팀에 참가했습니다!",
+  "game.joined.late": "%1$s (이)가 %2$s 팀에 마지막으로 들어왔군요.",
   "game.joined.purple": "보라",
   "game.joined.orange": "주황",
   "game.take_off": "%s 벗어 게임에서 나갈 수 있습니다!",
