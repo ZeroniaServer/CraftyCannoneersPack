@@ -1281,5 +1281,10 @@
             }
         ],
         "subtitle": "subtitles.settings.reset"
+    },
+    "warp": {
+        "sounds": [
+            "mob/zombie/unfect"
+        ]
     }
 }
