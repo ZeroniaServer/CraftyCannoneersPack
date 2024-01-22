@@ -162,7 +162,7 @@
   "weakpoint.destroyed.all_own": "¡pǝʎoɹʇsǝp uǝǝq ǝʌɐɥ sʇuᴉodʞɐǝM ɹnoʎ ɟo ll∀",
   "weakpoint.destroyed.all_enemy": "¡pǝʎoɹʇsǝp uǝǝq ǝʌɐɥ sʇuᴉodʞɐǝM ʎɯǝuǝ ll∀",
   "weakpoint.spotting": " ˙˙˙ᵷuᴉʇʇodS",
-  "weakpoint.exposed_by": " ʎq pǝsodxǝ ʇuᴉodʞɐǝM dᴉɥS",
+  "weakpoint.exposed_by": "%s ʎq pǝsodxǝ ʇuᴉodʞɐǝM dᴉɥS",
   "weakpoint.plural": "sʇuᴉodʞɐǝM",
   "item.saber": "ɹǝqɐS",
   "item.trooper_tonic": "ɔᴉuo⟘ ɹǝdooɹ⟘",
