@@ -577,7 +577,7 @@
   "credits.discord": "Присоединяйтесь к нашему сообществу в Discord!",
   "book.title": "Книга лобби",
   "book.padding.name": "",
-  "book.game_info": "Об игре",
+  "book.game_info": "Об игре\n",
   "book.padding.game_info": "󐀠",
   "book.welcome.1": "%s Добро пожаловать в Crafty Cannoneers! ",
   "book.welcome.2": "Игра, где 2 команды пиратов сражаются за сокровища и уничтожают корабли друг друга пушками!\n",

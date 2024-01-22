@@ -577,7 +577,7 @@
   "credits.discord": "Bli med i Discord-samfunnet vårt i dag!",
   "book.title": "Lobby-bok",
   "book.padding.name": "",
-  "book.game_info": "Spill-info",
+  "book.game_info": "Spill-info\n",
   "book.padding.game_info": "󐀠",
   "book.welcome.1": "%s Velkommen til Crafty Cannoneers!\n",
   "book.welcome.2": "Et spill der 2 pirat-lag kjemper for å få skatter og ødelegge hverandres skip med kanonene sine!\n\n",

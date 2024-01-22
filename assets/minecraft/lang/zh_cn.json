@@ -577,7 +577,7 @@
   "credits.discord": "现在加入我们 Discord 社区吧!",
   "book.title": "大厅手册",
   "book.padding.name": "\uDB00\uDC24",
-  "book.game_info": "游戏信息",
+  "book.game_info": "游戏信息\n",
   "book.padding.game_info": "\uDB00\uDC26",
   "book.welcome.1": "%s 欢迎来到狡猾炮手!\n",
   "book.welcome.2": "这是一款由两队海盗争夺战利品并使用大炮摧毁对方船只的游戏!\n\n",

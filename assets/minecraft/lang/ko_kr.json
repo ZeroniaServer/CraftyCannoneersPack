@@ -577,7 +577,7 @@
   "credits.discord": "Join our Discord community today!",
   "book.title": "로비 책",
   "book.padding.name": "",
-  "book.game_info": "게임 정보",
+  "book.game_info": "게임 정보\n",
   "book.padding.game_info": "󐀠",
   "book.welcome.1": "%s 교묘한 포병에 오신걸 환영합니다!\n",
   "book.welcome.2": "2개의 해적팀이 보물을 얻고 서로의 배를포탄으로 부수는 게임이죠!\n\n",

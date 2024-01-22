@@ -591,7 +591,7 @@
   "credits.discord": "Join our Discord community today!",
   "book.title": "Lobby Book",
   "book.padding.name": "",
-  "book.game_info": "Game Info",
+  "book.game_info": "Game Info\n",
   "book.padding.game_info": "\uDB00\uDC20",
   "book.welcome.1": "%s Welcome to Crafty Cannoneers!\n",
   "book.welcome.2": "A game where 2 teams of pirates fight to get loot and destroy each other’s ships using their Cannons!\n\n",

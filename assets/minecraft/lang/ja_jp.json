@@ -577,7 +577,7 @@
   "credits.discord": "今すぐDiscordコミュニティにご参加ください！",
   "book.title": "ロビーブック",
   "book.padding.name": "",
-  "book.game_info": "ゲーム情報",
+  "book.game_info": "ゲーム情報\n",
   "book.padding.game_info": "\uDB00\uDC20",
   "book.welcome.1": "%s Crafty Cannoneersへようこそ！\n",
   "book.welcome.2": "2チームの海賊が戦利品を得るために戦い、大砲を使ってお互いの船を破壊し合うゲームです！\n\n",
