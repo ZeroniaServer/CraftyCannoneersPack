@@ -611,7 +611,7 @@
   "book.how_to_play.7.exposed": "обнаруженным",
   "book.how_to_play.7.weakpoints.2": "слабым местам",
   "book.how_to_play.7.cannonballs": "пуш. ядрами",
-  "book.how_to_play.8": "Старайтесь целиться в них, стреляя из %1$s %2$s!",
+  "book.how_to_play.8": "Старайтесь целиться в них %2$s, стреляя из %1$s!",
   "book.how_to_play.8.cannons": "пушек",
   "book.how_to_play.8.cannonballs": "пуш. ядрами",
   "book.brought_by": "\uDB00\uDC0FИгра от команды:",
