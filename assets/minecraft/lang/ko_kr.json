@@ -469,7 +469,6 @@
   "game.spectator_bounds": "Unable to spectate outside of the arena!",
   "game.crafty": "교묘한",
   "game.cannoneers": "포병",
-  "game.name": "%1$s %2$s",
   "game.made_by": "%1$s Made by %2$s",
   "game.ending": "게임이 끝나가고 있습니다!",
   "game.in_progress": "게임은 현재 계속 개발중입니다!",
