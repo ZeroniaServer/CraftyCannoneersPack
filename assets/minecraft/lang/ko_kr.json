@@ -548,7 +548,7 @@
   "customizer.current": "현재 게임 설정",
   "customizer.current_time": "플레이타임: %s",
   "customizer.current_health": "배 체력: %s",
-  "customizer.current_modifiers": "Modifiers:    󐀍%s",
+  "customizer.current_modifiers": "Modifiers:",
   "customizer.map_owner": "%s (이)가 게임을 설정하고 있습니다!",
   "customizer.cancel": "Cancel Match",
   "customizer.cancel.available_in": "AVAILABLE IN %s",

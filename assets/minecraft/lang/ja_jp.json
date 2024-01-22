@@ -548,7 +548,7 @@
   "customizer.current": "現在のゲーム設定",
   "customizer.current_time": "試合時間: %s",
   "customizer.current_health": "船の体力: 󐀏%s",
-  "customizer.current_modifiers": "特殊ルール:    󐀍%s",
+  "customizer.current_modifiers": "特殊ルール:",
   "customizer.map_owner": "%sはゲーム設定を操作中です！",
   "customizer.cancel": "試合を中止する",
   "customizer.cancel.available_in": "あと%s秒で使用可能",

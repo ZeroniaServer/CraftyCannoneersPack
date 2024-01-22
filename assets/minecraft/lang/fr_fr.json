@@ -548,7 +548,7 @@
   "customizer.current": "Current Game Settings",
   "customizer.current_time": "Game Duration: %s",
   "customizer.current_health": "Ship Health: \uDB00\uDC0F%s",
-  "customizer.current_modifiers": "Modifiers:    \uDB00\uDC0D%s",
+  "customizer.current_modifiers": "Modifiers:",
   "customizer.map_owner": "%s is in control of game settings!",
   "customizer.cancel": "Cancel Match",
   "customizer.cancel.available_in": "AVAILABLE IN %s",

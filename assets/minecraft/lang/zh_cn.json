@@ -548,7 +548,7 @@
   "customizer.current": "当前游戏设置",
   "customizer.current_time": "游戏时长:   \uDB00\uDC01%s",
   "customizer.current_health": "船只生命值: %s",
-  "customizer.current_modifiers": "修改:        \uDAFF\uDFFF%s",
+  "customizer.current_modifiers": "修改:",
   "customizer.map_owner": "%s 在调整游戏设置!",
   "customizer.cancel": "取消游戏",
   "customizer.cancel.available_in": "在 %s 后可用",

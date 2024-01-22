@@ -548,7 +548,7 @@
   "customizer.current": "Huidige Spel Instellingen",
   "customizer.current_time": "Spelduur: %s",
   "customizer.current_health": "Schip Levens: 󐀏%s",
-  "customizer.current_modifiers": "Modificaties:  󐀏%s",
+  "customizer.current_modifiers": "Modificaties:",
   "customizer.map_owner": "%s heeft de controle over de spelinstellingen!",
   "customizer.cancel": "Spel Annuleren",
   "customizer.cancel.available_in": "BESCHIKBAAR IN %s",

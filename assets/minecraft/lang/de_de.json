@@ -548,7 +548,7 @@
   "customizer.current": "Derzeitige Spieleinstellungen",
   "customizer.current_time": "Spieldauer:   %s",
   "customizer.current_health": "Schiffsgesundheit: %s",
-  "customizer.current_modifiers": "Modifikatoren:    \uDAFF\uDFFE%s",
+  "customizer.current_modifiers": "Modifikatoren:",
   "customizer.map_owner": "%s hat Kontrolle über die Spieleinstellungen!",
   "customizer.cancel": "Spiel abbrechen",
   "customizer.cancel.available_in": "VERFÜGBAR IN %s",

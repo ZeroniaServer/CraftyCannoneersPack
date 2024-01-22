@@ -548,7 +548,7 @@
   "customizer.current": "Impostazioni della Partita Attuali",
   "customizer.current_time": "Durata della Partita: %s",
   "customizer.current_health": "Vita della Nave: \uDB00\uDC0F%s",
-  "customizer.current_modifiers": "Modificatori:    \uDB00\uDC0D%s",
+  "customizer.current_modifiers": "Modificatori:",
   "customizer.map_owner": "%s è in controllo delle impostazioni della Partita!",
   "customizer.cancel": "Cancella Partita",
   "customizer.cancel.available_in": "DISPONIBILE IN %s",

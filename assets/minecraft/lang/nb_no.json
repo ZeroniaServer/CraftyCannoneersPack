@@ -548,7 +548,7 @@
   "customizer.current": "Gjeldende spillinnstillinger",
   "customizer.current_time": "Spillvarighet: %s",
   "customizer.current_health": "Skipets liv: 󐀏%s",
-  "customizer.current_modifiers": "Modifikasjoner:    󐀍%s",
+  "customizer.current_modifiers": "Modifikasjoner:",
   "customizer.map_owner": "%s har kontroll over spillinnstillingene!",
   "customizer.cancel": "Avbryt kampen",
   "customizer.cancel.available_in": "TILGJENGELIG OM %s",
