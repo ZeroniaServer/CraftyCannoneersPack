@@ -515,7 +515,7 @@
   "mvp.kill.single_each": "%s kill each!",
   "mvp.kill.plural_each": "%s kills each!",
   "mvp.cannon.1": "%1$s (이)가 MVP! %2$s",
-  "mvp.cannon.2": "%1$s and %2$s are the MVP’s! %3$s",
+  "mvp.cannon.2": "%1$s and %2$s are the MVPs! %3$s",
   "mvp.cannon.single": "%s 로 줬습니다!",
   "mvp.cannon.plural": "%s 로 줬습니다!",
   "mvp.cannon.damage": "%1$s 배에 데미지를 %2$s",
