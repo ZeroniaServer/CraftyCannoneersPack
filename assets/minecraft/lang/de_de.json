@@ -484,7 +484,7 @@
   "game.start_raid": "Startet Überfall... ",
   "game.you": "Du",
   "game.no_players": "Keine Spieler übrig. Das vorherige Spiel wurde abgebrochen.",
-  "game.pirate_trader.padding": "\uDAFC\uDC32",
+  "game.pirate_trader.padding": "\uDAFC\uDC34",
   "game.pirate_trader": "Piratenhändler",
   "game.marked_ready": "%1$s hat das %2$s Team als %3$s markiert!",
   "game.marked_ready.has_been": "Das %1$s Team wurde als %2$s markiert!",

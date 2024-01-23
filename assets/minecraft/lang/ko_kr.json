@@ -484,7 +484,7 @@
   "game.start_raid": "약탈 시작중... ",
   "game.you": "나",
   "game.no_players": "No players remaining. The previous match has been canceled.",
-  "game.pirate_trader.padding": "󏀮",
+  "game.pirate_trader.padding": "\uDAFC\uDC26",
   "game.pirate_trader": "해적 무역원",
   "game.marked_ready": "%1$s (이)가 %2$s %3$s 했습니다!",
   "game.marked_ready.has_been": "%1$s %2$s 않았습니다!",

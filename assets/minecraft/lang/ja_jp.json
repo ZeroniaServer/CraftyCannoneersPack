@@ -484,7 +484,7 @@
   "game.start_raid": "襲撃が始まった... ",
   "game.you": "あなた",
   "game.no_players": "プレイヤーが居ません。前の試合は中断されました。",
-  "game.pirate_trader.padding": "󏀮",
+  "game.pirate_trader.padding": "\uDAFC\uDC20",
   "game.pirate_trader": "海賊商人",
   "game.marked_ready": "%1$sはチーム %2$sを%3$sとしてマークしました！",
   "game.marked_ready.has_been": "%1$s チームは%2$sとしてマークされました！",
