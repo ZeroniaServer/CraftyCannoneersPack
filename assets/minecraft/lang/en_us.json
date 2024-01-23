@@ -437,7 +437,7 @@
   "game.spectating": "%s is now spectating the game.",
   "game.seagulls": "Fly into a ring of seagulls to stop spectating!",
   "game.joined": "%1$s joined the %2$s Team!",
-  "game.joined.late": "%1$s joined the %2$s Team. A late arrival, unfortunately.",
+  "game.joined.late": "%1$s joined the %2$s Team! A late arrival, unfortunately.",
   "game.joined.purple": "Purple",
   "game.joined.orange": "Orange",
   "game.take_off": "You can take off your %s to leave the game!",
