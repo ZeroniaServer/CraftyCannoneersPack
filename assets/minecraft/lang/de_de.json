@@ -546,7 +546,7 @@
   "customizer.daytime.night": "Nacht",
   "customizer.confirmed": "Einstellungen bestätigt!",
   "customizer.current": "Derzeitige Spieleinstellungen",
-  "customizer.current_time": "Spieldauer:   %s",
+  "customizer.current_time": "Spieldauer: \uDB00\uDC25%s",
   "customizer.current_health": "Schiffsgesundheit: %s",
   "customizer.current_modifiers": "Modifikatoren:",
   "customizer.map_owner": "%s hat Kontrolle über die Spieleinstellungen!",
