@@ -432,7 +432,7 @@
   "error.discord": "Auf dem Zeronia-Discord-Server melden",
   "game.spectating": "%s schaut dem Spiel nun zu.",
   "game.seagulls": "Flieg in einen Ring an Seemöwen, um nicht mehr zuzuschauen!",
-  "game.joined": "%1$s ist dem %2$s Team beigetreten! %4$s",
+  "game.joined": "%1$s ist dem %2$s Team beigetreten!",
   "game.joined.late": "%1$s ist dem %2$s Team beigetreten! Leider etwas verspätet.",
   "game.joined.purple": "Violetten",
   "game.joined.orange": "Orangen",
