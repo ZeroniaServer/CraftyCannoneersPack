@@ -1,5 +1,7 @@
 {
   "translated_by": "Stuffy",
+  "death.attack.mob.item": "%1$s battled %2$s and got knocked out usin’ %3$s",
+  "death.attack.player.item": "%1$s battled %2$s and got knocked out usin’ %3$s",
   "death.attack.magic": "%1$s be devoured by a Shark",
   "death.attack.magic.player": "%1$s be devoured by a Shark while they were tryin’ t’ flee from %2$s",
   "death.attack.lightningBolt.player": "%1$s be struck by lightnin’ while they were tryin’ t’ flee from %2$s",
