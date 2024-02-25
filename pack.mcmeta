@@ -1,7 +1,6 @@
 {
     "pack": {
-        "pack_format": 18,
-        "description": "Made by Zeronia",
-        "supported_formats": [18, 22]
+        "pack_format": 22,
+        "description": "Made by Zeronia"
     }
 }
