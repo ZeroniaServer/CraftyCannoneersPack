@@ -1,15 +1,6 @@
 {
     "pack": {
-        "pack_format": 18,
-        "description": "Made by Zeronia",
-        "supported_formats": [18, 32]
-    },
-    "overlays": {
-        "entries": [
-            {
-                "formats": [23, 32],
-                "directory": "1_20_5"
-            }
-        ]
+        "pack_format": 32,
+        "description": "Made by Zeronia"
     }
 }
