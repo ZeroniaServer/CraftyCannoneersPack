@@ -5,7 +5,7 @@
 		"1": "custom/coal_block",
 		"2": "custom/barrel_bottom",
 		"3": "custom/anvil",
-		"4": "custom/shield_gui",
+		"4": "custom/shield_gui_nodamage",
 		"particle": "custom/barrel_bottom"
 	},
 	"elements": [
@@ -650,6 +650,14 @@
 			}
 		}
 	],
+      "overrides": [
+        {
+            "predicate": {
+                "damaged": 1
+            },
+            "model": "minecraft:weapon/hook_damaged"
+        }
+      ],
     "gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {

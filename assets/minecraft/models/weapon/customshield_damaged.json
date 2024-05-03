@@ -5,7 +5,7 @@
 		"1": "custom/coal_block",
 		"2": "custom/barrel_bottom",
 		"3": "custom/anvil",
-		"4": "custom/shield_gui_nodamage",
+		"4": "custom/shield_gui",
 		"particle": "custom/barrel_bottom"
 	},
 	"elements": [

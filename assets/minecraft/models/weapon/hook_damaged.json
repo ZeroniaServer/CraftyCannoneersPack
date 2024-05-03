@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/hook",
-		"1": "custom/hook_gui_nodamage",
+		"1": "custom/hook_gui",
 		"particle": "custom/hook"
 	},
 	"elements": [
@@ -665,14 +665,6 @@
 			}
 		}
 	],
-	  "overrides": [
-		{
-            "predicate": {
-                "damaged": 1
-            },
-            "model": "minecraft:weapon/hook_damaged"
-        }
-	  ],
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {

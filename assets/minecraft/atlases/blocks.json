@@ -250,11 +250,19 @@
         },
         {
             "type": "single",
+            "resource": "minecraft:custom/hook_gui_nodamage"
+        },
+        {
+            "type": "single",
             "resource": "minecraft:custom/mace"
         },
         {
             "type": "single",
             "resource": "minecraft:custom/mace_gui"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/mace_gui_nodamage"
         },
         {
             "type": "single",
@@ -267,6 +275,10 @@
         {
             "type": "single",
             "resource": "minecraft:custom/shark_tooth"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/shark_tooth_gui_nodamage"
         },
         {
             "type": "single",
@@ -595,6 +607,10 @@
         {
             "type": "single",
             "resource": "minecraft:custom/shield_gui"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/shield_gui_nodamage"
         },
         {
             "type": "single",
