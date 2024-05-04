@@ -141,6 +141,8 @@
 		{ "predicate": {"custom_model_data": 135}, "model": "chest/grave/open_full"},
 		{ "predicate": {"custom_model_data": 136}, "model": "chest/grave/open_empty"},
 		{ "predicate": {"custom_model_data": 137}, "model": "lobby/globestand"},
+		{ "predicate": {"custom_model_data": 138}, "model": "chest/demo/chest"},
+		{ "predicate": {"custom_model_data": 139}, "model": "chest/demo/lid"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
 	]
 }
