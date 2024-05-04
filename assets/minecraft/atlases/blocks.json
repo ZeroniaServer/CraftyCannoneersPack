@@ -542,27 +542,15 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/crabtrapicon_5"
+            "resource": "minecraft:custom/crabtrap_empty"
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/crabtrapicon_4"
+            "resource": "minecraft:custom/crabtrap_empty_durabar"
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/crabtrapicon_3"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/crabtrapicon_2"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/crabtrapicon_1"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/crabtrapicon_0"
+            "resource": "minecraft:custom/crabtrap_full_durabar"
         },
         {
             "type": "single",
