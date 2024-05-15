@@ -1,25 +1,56 @@
 {
-	"parent": "minecraft:item/template_spawn_egg",
-	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "custom/blastbarrel_stage0"},
-		{ "predicate": {"custom_model_data": 2}, "model": "custom/blastbarrel_stage1"},
-		{ "predicate": {"custom_model_data": 3}, "model": "custom/blastbarrel_stage2"},
-		{ "predicate": {"custom_model_data": 4}, "model": "custom/blastbarrel_stage3"},
-		{ "predicate": {"custom_model_data": 5}, "model": "custom/blastbarrel_stage4"},
-		{ "predicate": {"custom_model_data": 6}, "model": "custom/blastbarrel_stage5"},
-		{ "predicate": {"custom_model_data": 7}, "model": "custom/blastbarrel_stage6"},
-		{ "predicate": {"custom_model_data": 8}, "model": "custom/blastbarrel_stage7"},
-		{ "predicate": {"custom_model_data": 9}, "model": "custom/blastbarrel_stage8"},
-		{ "predicate": {"custom_model_data": 10}, "model": "custom/blastbarrel_stage9"},
-		{ "predicate": {"custom_model_data": 11}, "model": "custom/blastbarrel_stage10"},
-		{ "predicate": {"custom_model_data": 12}, "model": "custom/blastbarrel_burn1"},
-		{ "predicate": {"custom_model_data": 13}, "model": "custom/blastbarrel_burn2"},
-		{ "predicate": {"custom_model_data": 14}, "model": "custom/blastbarrel_burn3"},
-		{ "predicate": {"custom_model_data": 15}, "model": "custom/crabtrap_5"},
-		{ "predicate": {"custom_model_data": 16}, "model": "custom/crabtrap_4"},
-		{ "predicate": {"custom_model_data": 17}, "model": "custom/crabtrap_3"},
-		{ "predicate": {"custom_model_data": 18}, "model": "custom/crabtrap_2"},
-		{ "predicate": {"custom_model_data": 19}, "model": "custom/crabtrap_1"},
-		{ "predicate": {"custom_model_data": 20}, "model": "custom/crabtrap_0"}
+    "parent": "minecraft:item/template_spawn_egg",
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "custom/blastbarrel_stage0"},
+        { "predicate": {"custom_model_data": 2}, "model": "custom/blastbarrel_stage1"},
+        { "predicate": {"custom_model_data": 3}, "model": "custom/blastbarrel_stage2"},
+        { "predicate": {"custom_model_data": 4}, "model": "custom/blastbarrel_stage3"},
+        { "predicate": {"custom_model_data": 5}, "model": "custom/blastbarrel_stage4"},
+        { "predicate": {"custom_model_data": 6}, "model": "custom/blastbarrel_stage5"},
+        { "predicate": {"custom_model_data": 7}, "model": "custom/blastbarrel_stage6"},
+        { "predicate": {"custom_model_data": 8}, "model": "custom/blastbarrel_stage7"},
+        { "predicate": {"custom_model_data": 9}, "model": "custom/blastbarrel_stage8"},
+        { "predicate": {"custom_model_data": 10}, "model": "custom/blastbarrel_stage9"},
+        { "predicate": {"custom_model_data": 11}, "model": "custom/blastbarrel_stage10"},
+        { "predicate": {"custom_model_data": 12}, "model": "custom/blastbarrel_burn1"},
+        { "predicate": {"custom_model_data": 13}, "model": "custom/blastbarrel_burn2"},
+        { "predicate": {"custom_model_data": 14}, "model": "custom/blastbarrel_burn3"},
+        { "predicate": {"custom_model_data": 15}, "model": "custom/crabtrap_empty"},
+        {
+            "predicate": {
+                "custom_model_data": 15,
+                "damage": 0.2
+            },
+            "model": "custom/crabtrap_full_durabar"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15,
+                "damage": 0.4
+            },
+            "model": "custom/crabtrap_empty_durabar"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15,
+                "damage": 0.6
+            },
+            "model": "custom/crabtrap_full_durabar"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15,
+                "damage": 0.8
+            },
+            "model": "custom/crabtrap_empty_durabar"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15,
+                "damage": 1.0
+            },
+            "model": "custom/crabtrap_full_durabar"
+        },
+        { "predicate": {"custom_model_data": 16}, "model": "custom/crabtrap_full_durabar"}
   ]
 }

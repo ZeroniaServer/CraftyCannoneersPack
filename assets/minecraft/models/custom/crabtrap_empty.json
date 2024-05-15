@@ -5,7 +5,7 @@
 		"5": "custom/chain",
 		"6": "custom/oak_log",
 		"7": "custom/iron_block",
-		"8": "custom/crabtrapicon_1",
+		"8": "custom/crabtrap_empty",
 		"particle": "custom/beehive_end"
 	},
 	"elements": [
@@ -766,8 +766,8 @@
 		},
 		"fixed": {
 			"rotation": [0, 0, 0],
-			"translation": [0, 2, 0],
-			"scale": [0.8, 0.8, 0.8]
+			"translation": [0, 4.75, 0],
+			"scale": [0.6, 0.6, 0.6]
 		}
 	}
 }

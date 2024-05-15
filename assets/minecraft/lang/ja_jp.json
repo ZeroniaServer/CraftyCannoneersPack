@@ -258,7 +258,7 @@
   "item.blast_barrel": "爆弾樽",
   "item.blast_barrel.possessive": "%sの爆弾樽",
   "item.blast_barrel.generic": "爆弾樽",
-  "item.blast_barrel.using": "%sは爆弾樽を使っている",
+  "item.blast_barrel.using": "%sの爆弾樽",
   "item.blast_barrel.lore.1": "設置できる爆発物。火薬を詰めると",
   "item.blast_barrel.lore.2": "点火した時の威力とノックバック力が上がる！",
   "item.boarding_axe": "乗り込みの斧",

@@ -2,16 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "custom/shark_tooth_gui_nodamage"
+		"layer0": "custom/shark_tooth"
 	},
-	  "overrides": [
-		{
-            "predicate": {
-                "damaged": 1
-            },
-            "model": "minecraft:weapon/shark_tooth_damaged"
-        }
-	  ],
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
