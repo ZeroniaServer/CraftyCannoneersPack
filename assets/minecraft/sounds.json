@@ -1304,23 +1304,5 @@
             "liquid/swim17",
             "liquid/swim18"
         ]
-    },
-    "entity.wandering_trader.disappeared": {
-        "replace": true,
-        "sounds": [
-            "silent"
-        ]
-    },
-    "entity.wandering_trader.drink_milk": {
-        "replace": true,
-        "sounds": [
-            "silent"
-        ]
-    },
-    "entity.wandering_trader.drink_potion": {
-        "replace": true,
-        "sounds": [
-            "silent"
-        ]
     }
 }
