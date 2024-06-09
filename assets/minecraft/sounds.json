@@ -1304,11 +1304,5 @@
             "liquid/swim17",
             "liquid/swim18"
         ]
-    },
-    "entity.wind_charge.wind_burst": {
-        "replace": true,
-        "sounds": [
-            "silent"
-        ]
     }
 }
