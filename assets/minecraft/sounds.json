@@ -270,6 +270,12 @@
         ],
         "subtitle": "subtitles.blastbomb.explode"
     },
+    "blastbombexplode_distant": {
+        "sounds": [
+            "item/bomb_distant"
+        ],
+        "subtitle": "subtitles.blastbomb.explode"
+    },
     "blastbombfuse": {
         "sounds": [
             "item/bombfuse"
@@ -941,6 +947,12 @@
         "subtitle": "subtitles.rock.throw"
     },
     "entity.snowball.throw": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ]
+    },
+	"entity.breeze.wind_burst": {
         "replace": true,
         "sounds": [
             "silent"
