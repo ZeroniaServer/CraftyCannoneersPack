@@ -615,6 +615,26 @@
         {
             "type": "single",
             "resource": "minecraft:custom/anvil"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/fire_bomb"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/fire_bomb_back"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/fire_bomb_top"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/fire_bomb_bottom"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/fire_bomb_gui"
         }
     ]
 }
