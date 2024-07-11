@@ -615,6 +615,10 @@
         {
             "type": "single",
             "resource": "minecraft:custom/anvil"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:lobby/lock"
         }
     ]
 }
