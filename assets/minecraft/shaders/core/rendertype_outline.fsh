@@ -1,6 +1,6 @@
 #version 150
 
-#moj_import <utils.vsh>
+#moj_import <minecraft:utils.vsh>
 
 uniform sampler2D Sampler0;
 

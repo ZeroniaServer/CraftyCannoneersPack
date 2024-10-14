@@ -1316,17 +1316,5 @@
             "liquid/swim17",
             "liquid/swim18"
         ]
-    },
-    "item.goat_horn.play": {
-        "replace": true,
-        "sounds": [
-            "silent"
-        ]
-    },
-    "entity.goat.screaming.horn_break": {
-        "replace": true,
-        "sounds": [
-            "silent"
-        ]
     }
 }

@@ -1,7 +1,7 @@
 #version 150
 
-#moj_import <fog.glsl>
-#moj_import <utils.vsh>
+#moj_import <minecraft:fog.glsl>
+#moj_import <minecraft:utils.vsh>
 
 uniform sampler2D Sampler0;
 
