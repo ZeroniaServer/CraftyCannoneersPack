@@ -6,7 +6,8 @@
 		"4": "hat/hat_skull_mvp",
 		"5": "hat/goldhat_ui",
 		"6": "hat/vanilla_skull",
-		"7": "hat/cutlass"
+		"7": "hat/cutlass",
+		"particle": "hat/gold_block"
 	},
 	"elements": [
 		{

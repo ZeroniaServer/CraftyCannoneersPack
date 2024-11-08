@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/gas_cannonball",
-		"1": "custom/gas_cannonball_gui"
+		"1": "custom/gas_cannonball_gui",
+		"particle": "custom/gas_cannonball"
 	},
 	"elements": [
 		{

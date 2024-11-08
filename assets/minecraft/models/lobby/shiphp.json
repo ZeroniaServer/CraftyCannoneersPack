@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "lobby/shiphp"
+		"layer0": "lobby/shiphp",
+		"particle": "lobby/shiphp"
 	},
 	"display": {
 		"head": {

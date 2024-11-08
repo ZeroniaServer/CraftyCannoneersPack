@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "custom/map_2",
 		"1": "custom/map_blank",
-		"particle": "custom/map"
+		"particle": "custom/map_2"
 	},
 	"elements": [
 		{
