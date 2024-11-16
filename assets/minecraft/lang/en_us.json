@@ -306,7 +306,7 @@
   "chest.uncommon": "Uncommon Treasure Chest",
   "chest.rare": "Rare Treasure Chest",
   "chest.skeleton": "Skeleton Chest",
-  "chest.unlocking": "Unlocking Chest... ",
+  "chest.unlocking": "Unlocking Chest... %s",
   "chest.skeleton.warn": "This is a %1$s! You need a %2$s in order to unlock it!",
   "chest.grave": "%s’s Grave",
   "tip.1": "If you want to shoot a Cannonball more towards the left or right, you can put unequal amounts of Gunpowder into a Cannon’s Gunpowder slots.",
