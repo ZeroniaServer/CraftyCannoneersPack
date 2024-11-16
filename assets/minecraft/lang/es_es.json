@@ -462,7 +462,7 @@
   "game.leave_sign.1": "",
   "game.leave_sign.2": "Haga click aquí para",
   "game.leave_sign.3": "¡%s tu",
-  "game.leave_sign.4": "",
+  "game.leave_sign.4": "equipo!",
   "game.leave_sign.leave": "Abandonar",
   "game.left_team": "¡%s abandonó su equipo!",
   "game.left_spectator": "%s ya no está observando el juego.",
