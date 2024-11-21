@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "minecraft:lobby/lock"
+        "layer0": "minecraft:lobby/lock","particle": "minecraft:lobby/lock"
     }
 }

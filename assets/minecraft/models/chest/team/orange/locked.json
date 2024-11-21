@@ -6,7 +6,7 @@
 		"3": "block/gold_block",
 		"4": "block/andesite",
 		"5": "block/coal_block",
-		"particle": "block/andesite"
+		"particle": "block/orange_shulker_box"
 	},
 	"elements": [
 		{

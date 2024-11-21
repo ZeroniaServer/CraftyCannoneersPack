@@ -1,0 +1,979 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/cannon_cart"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_left1"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_left2"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_left3"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_left4"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_left5"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_left6"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_left7"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_right1"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_right2"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_right3"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_right4"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_right5"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_right6"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gp_right7"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/cannonball"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/orange/default"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/purple/default"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/common/closed"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/common/open_full"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/common/open_empty"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/hot_cannonball"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/uncommon/closed"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/uncommon/open_full"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/uncommon/open_empty"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/rare/closed"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/rare/open_full"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/rare/open_empty"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/cluster_cannonball"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/cluster_cannonball_single"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gas_cannonball"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/chain_cannonball"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gascloud"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/map"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/time"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/shiphp"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/confirm"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/defaults"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/lobby/default"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/chain_cannonball_projectile"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/firework"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/lobby/kills"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/lobby/kills_deaths"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/lobby/cannons_deaths"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/lobby/cannons"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/lobby/cannons_kills"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/lobby/all"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/lobby/deaths"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/team/purple/closed"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/team/purple/locked"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/team/purple/opened"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/team/orange/closed"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/team/orange/locked"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/team/orange/opened"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/bouncy_cannonball"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/player_cannonball"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/cancel"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/cancel_grayed"
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/seagull"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/tracer_cannonball"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/lobby/parkour"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/cannon_barrel"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/cannon_barrel_fire"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/gasbubble"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/parrot"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/sandman"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/snowman"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/ship_bell"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/lockbox/closed"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/lockbox/closed_unlocked"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/lockbox/opened"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/lockbox/opened_empty"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/golden_cannonball"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/cannon_fire"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/logo"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/map2"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/trainingdummy"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/rreasteregg"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/goldfish"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/helmet"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/musket"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/mapmodifiers"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/modifiers"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/notracers"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/wildlife"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/seastorms"
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/shark_swim"
+                }
+            },
+            {
+                "threshold": 88,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/shark"
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/shark_openmouth1"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/shark_openmouth2"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/tracer_cannonball_red"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/orange/deaths"
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/orange/cannons"
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/orange/cannons_deaths"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/orange/kills"
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/orange/kills_deaths"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/orange/cannons_kills"
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/orange/all"
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/purple/deaths"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/purple/cannons"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/purple/cannons_deaths"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/purple/kills"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/purple/kills_deaths"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/purple/cannons_kills"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/purple/all"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/pcannonball_barrel"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/cannon_shooting"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:hats/lobby/dummy"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/copper_cannonball"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/copper_cannonball_weathered"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/copper_cannonball_exposed"
+                }
+            },
+            {
+                "threshold": 112,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/copper_cannonball_clean"
+                }
+            },
+            {
+                "threshold": 113,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/lostcargo"
+                }
+            },
+            {
+                "threshold": 114,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/cargo/barrel"
+                }
+            },
+            {
+                "threshold": 115,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/cargo/barrel_open"
+                }
+            },
+            {
+                "threshold": 116,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/cargo/barrel_trap"
+                }
+            },
+            {
+                "threshold": 117,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/crab"
+                }
+            },
+            {
+                "threshold": 118,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/crab_walk"
+                }
+            },
+            {
+                "threshold": 119,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/crabrave"
+                }
+            },
+            {
+                "threshold": 120,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/morning"
+                }
+            },
+            {
+                "threshold": 121,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/sunset"
+                }
+            },
+            {
+                "threshold": 122,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/night"
+                }
+            },
+            {
+                "threshold": 123,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/graverobbery"
+                }
+            },
+            {
+                "threshold": 124,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/boatcannons"
+                }
+            },
+            {
+                "threshold": 125,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/boatcannon_barrel"
+                }
+            },
+            {
+                "threshold": 126,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/boatcannon_gp1"
+                }
+            },
+            {
+                "threshold": 127,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/boatcannon_gp2"
+                }
+            },
+            {
+                "threshold": 128,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/boatcannon_gp3"
+                }
+            },
+            {
+                "threshold": 129,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/boatcannon_gp4"
+                }
+            },
+            {
+                "threshold": 130,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/boatcannon_gp5"
+                }
+            },
+            {
+                "threshold": 131,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/boatcannon_primed"
+                }
+            },
+            {
+                "threshold": 132,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/boatcannon_fire"
+                }
+            },
+            {
+                "threshold": 133,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:cannon/boatcannon_cart"
+                }
+            },
+            {
+                "threshold": 134,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/grave/closed"
+                }
+            },
+            {
+                "threshold": 135,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/grave/open_full"
+                }
+            },
+            {
+                "threshold": 136,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:chest/grave/open_empty"
+                }
+            },
+            {
+                "threshold": 137,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/globestand"
+                }
+            },
+            {
+                "threshold": 138,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:lobby/lock"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_hoe"
+        }
+    }
+}

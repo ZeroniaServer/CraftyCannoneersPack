@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "lobby/cancel_grayed"
+		"layer0": "lobby/cancel_grayed",
+		"particle": "lobby/cancel_grayed"
 	},
 	"display": {
 		"head": {

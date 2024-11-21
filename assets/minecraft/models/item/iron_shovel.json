@@ -4,14 +4,6 @@
 	"textures": {
 		"layer0": "custom/shark_tooth_gui_nodamage"
 	},
-	  "overrides": [
-		{
-            "predicate": {
-                "damaged": 1
-            },
-            "model": "minecraft:weapon/shark_tooth_damaged"
-        }
-	  ],
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {

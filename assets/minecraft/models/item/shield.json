@@ -1,12 +1,6 @@
 {
-	"parent": "item/customshield",
+	"parent": "weapon/customshield",
 	"textures": {
 		"layer0": "item/shield"
-	},
-	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "item/customshield"},
-		{ "predicate": {"custom_model_data": 2}, "model": "item/customshield_blocking"},
-		{ "predicate": { "damaged": 1, "custom_model_data": 1}, "model": "weapon/customshield_damaged"},
-		{ "predicate": { "damaged": 1, "custom_model_data": 2}, "model": "weapon/customshield_blocking_damaged"}
-	]
+	}
 }

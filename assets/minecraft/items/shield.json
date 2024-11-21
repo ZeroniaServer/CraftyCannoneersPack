@@ -1,0 +1,43 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:damaged",
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:weapon/customshield_damaged"
+                    },
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:weapon/customshield"
+                    }
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:damaged",
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:weapon/customshield_blocking_damaged"
+                    },
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:weapon/customshield_blocking"
+                    }
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/shield"
+        }
+    }
+}

@@ -423,14 +423,6 @@
 			}
 		}
 	],
-      "overrides": [
-        {
-            "predicate": {
-                "damaged": 1
-            },
-            "model": "minecraft:weapon/mace_damaged"
-        }
-      ],
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {

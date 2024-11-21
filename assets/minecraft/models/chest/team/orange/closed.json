@@ -3,7 +3,8 @@
 	"textures": {
 		"0": "block/anvil",
 		"2": "block/orange_shulker_box",
-		"3": "block/gold_block"
+		"3": "block/gold_block",
+		"particle": "block/orange_shulker_box"
 	},
 	"elements": [
 		{

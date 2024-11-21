@@ -650,14 +650,6 @@
 			}
 		}
 	],
-      "overrides": [
-        {
-            "predicate": {
-                "damaged": 1
-            },
-            "model": "minecraft:weapon/hook_damaged"
-        }
-      ],
     "gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {

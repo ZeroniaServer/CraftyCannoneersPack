@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "lobby/morning"
+		"layer0": "lobby/morning",
+		"particle": "lobby/morning"
 	},
 	"display": {
 		"head": {

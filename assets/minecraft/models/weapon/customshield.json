@@ -650,36 +650,33 @@
 			}
 		}
 	],
-      "overrides": [
-        {
-            "predicate": {
-                "damaged": 1
-            },
-            "model": "minecraft:weapon/hook_damaged"
-        }
-      ],
     "gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [34, -19, 0],
-			"translation": [0.5, 0.75, -2.25]
+			"rotation": [0, -90, 0],
+			"translation": [5.75, -2.75, 2]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [45, -19, 0],
-			"translation": [1.5, 0.75, -2.25]
+			"rotation": [0, -90, 0],
+			"translation": [5.5, -2.75, 3]
 		},
 		"firstperson_righthand": {
-			"translation": [-2.5, 1, -0.5]
+			"rotation": [0, 0, -5],
+			"translation": [0, -1.25, -1]
 		},
 		"firstperson_lefthand": {
-			"translation": [-2.5, 1, -0.5]
+			"rotation": [0, 0, -5],
+			"translation": [0, -1.25, -1]
 		},
 		"ground": {
-			"translation": [0, 4, -2.25]
+			"translation": [0, 5.25, -3.5]
 		},
 		"gui": {
 			"rotation": [0, -180, 0],
 			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0, 0, -4.5]
 		}
 	}
 }

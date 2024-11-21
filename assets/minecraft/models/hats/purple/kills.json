@@ -6,7 +6,8 @@
 		"4": "hat/hat_skull",
 		"5": "hat/purplehat_ui",
 		"6": "hat/vanilla_skull",
-		"7": "hat/cutlass"
+		"7": "hat/cutlass",
+		"particle": "hat/purple_wool"
 	},
 	"elements": [
 		{

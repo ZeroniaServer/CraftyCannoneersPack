@@ -1,0 +1,177 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage0"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage1"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage2"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage3"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage4"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage5"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage6"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage7"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage8"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage9"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_stage10"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_burn1"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_burn2"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/blastbarrel_burn3"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:damage",
+                    "normalize": true,
+                    "entries": [
+                        {
+                            "threshold": 0.2,
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:custom/crabtrap_full_durabar"
+                            }
+                        },
+                        {
+                            "threshold": 0.4,
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:custom/crabtrap_empty_durabar"
+                            }
+                        },
+                        {
+                            "threshold": 0.6,
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:custom/crabtrap_full_durabar"
+                            }
+                        },
+                        {
+                            "threshold": 0.8,
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:custom/crabtrap_empty_durabar"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:custom/crabtrap_full_durabar"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:custom/crabtrap_empty"
+                    }
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:custom/crabtrap_full_durabar"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/template_spawn_egg",
+            "tints": [
+                {
+                    "type": "minecraft:constant",
+                    "value": -6287600
+                },
+                {
+                    "type": "minecraft:constant",
+                    "value": -4737097
+                }
+            ]
+        }
+    }
+}
