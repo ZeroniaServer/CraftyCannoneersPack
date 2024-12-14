@@ -417,7 +417,7 @@
   "parkour.restart": "Reiniciar el Parkour",
   "parkour.quit": "Abandonar el Parkour",
   "parkour.reset_time": "Tiempo del Parkour reiniciado.",
-  "parkour.canceled": "Circuito de Parkour Cancelado.",
+  "parkour.canceled": "Circuito de Parkour cancelado.",
   "parkour.left_canceled": "Has abandonado el juego, por lo que tu partida fue cancelada.",
   "parkour.personal_best": "¡Es un nuevo récord personal!",
   "parkour.time": "Tiempo del Parkour: %s",
