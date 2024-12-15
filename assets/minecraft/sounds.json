@@ -1316,5 +1316,11 @@
             "liquid/swim17",
             "liquid/swim18"
         ]
+    },
+    "ambient.cave": {
+        "replace": true,
+        "sounds": [
+            "silent"
+        ]
     }
 }
