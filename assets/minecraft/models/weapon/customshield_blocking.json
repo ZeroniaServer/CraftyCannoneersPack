@@ -1,11 +1,10 @@
 {
 	"textures": {
-		"0": "custom/bone_block_side",
-		"1": "custom/coal_block",
-		"2": "custom/barrel_bottom",
-		"3": "custom/anvil",
-		"4": "custom/shield_gui_nodamage",
-		"particle": "custom/barrel_bottom"
+		"0": "block/bone_block_side",
+		"1": "block/coal_block",
+		"2": "block/barrel_bottom",
+		"3": "block/anvil",
+		"particle": "block/barrel_bottom"
 	},
 	"elements": [
 		{
@@ -638,15 +637,6 @@
 				"west": {"uv": [0, 0, 1, 1], "texture": "#3"},
 				"up": {"uv": [0, 0, 13, 1], "texture": "#3"}
 			}
-		},
-		{
-			"name": "ICON",
-			"from": [4, 4, 9.25],
-			"to": [12, 12, 9.25],
-			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 4]},
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#4"}
-			}
 		}
 	],
     "gui_light": "front",
@@ -667,10 +657,6 @@
 		},
 		"ground": {
 			"translation": [0, 4, -2.25]
-		},
-		"gui": {
-			"rotation": [0, -180, 0],
-			"scale": [2, 2, 2]
 		}
 	}
 }

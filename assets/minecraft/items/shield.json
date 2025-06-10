@@ -1,43 +1,30 @@
 {
     "model": {
-        "type": "minecraft:range_dispatch",
-        "property": "minecraft:custom_model_data",
-        "index": 0,
-        "entries": [
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
             {
-                "threshold": 1,
+                "when": [
+                    "gui",
+                    "fixed"
+                ],
                 "model": {
-                    "type": "minecraft:condition",
-                    "property": "minecraft:damaged",
-                    "on_true": {
-                        "type": "minecraft:model",
-                        "model": "minecraft:weapon/customshield_damaged"
-                    },
-                    "on_false": {
-                        "type": "minecraft:model",
-                        "model": "minecraft:weapon/customshield"
-                    }
-                }
-            },
-            {
-                "threshold": 2,
-                "model": {
-                    "type": "minecraft:condition",
-                    "property": "minecraft:damaged",
-                    "on_true": {
-                        "type": "minecraft:model",
-                        "model": "minecraft:weapon/customshield_blocking_damaged"
-                    },
-                    "on_false": {
-                        "type": "minecraft:model",
-                        "model": "minecraft:weapon/customshield_blocking"
-                    }
+                    "type": "minecraft:model",
+                    "model": "minecraft:weapon/customshield_gui"
                 }
             }
         ],
         "fallback": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/shield"
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:weapon/customshield_blocking"
+            },
+            "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:weapon/customshield"
+            }
         }
     }
 }
