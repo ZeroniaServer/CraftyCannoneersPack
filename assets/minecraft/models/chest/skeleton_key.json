@@ -1,7 +1,6 @@
 {
 	"textures": {
 		"0": "custom/skeleton_key",
-		"1": "custom/skeleton_key_gui",
 		"particle": "custom/skeleton_key"
 	},
 	"elements": [
@@ -642,17 +641,8 @@
 				"north": {"uv": [11, 4, 12, 5], "texture": "#0"},
 				"south": {"uv": [11, 4, 12, 5], "texture": "#0"}
 			}
-		},
-		{
-			"name": "ICON",
-			"from": [0, 0, 7.6],
-			"to": [16, 16, 7.6],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#1"}
-			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [81, 90, 0],
@@ -675,9 +665,6 @@
 		"ground": {
 			"translation": [0, 4.25, 0],
 			"scale": [0.49, 0.49, 0.49]
-		},
-		"gui": {
-			"rotation": [0, -180, 0]
 		},
 		"head": {
 			"rotation": [0, 90, 50],

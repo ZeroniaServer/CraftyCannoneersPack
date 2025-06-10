@@ -90,7 +90,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/tracer_cannonball_red_gui"
+            "resource": "minecraft:custom/tracer_cannonball_red"
         },
         {
             "type": "single",
@@ -98,15 +98,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/skeleton_key_gui"
-        },
-        {
-            "type": "single",
             "resource": "minecraft:custom/golden_coin"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/golden_coin_gui"
         },
         {
             "type": "single",
@@ -131,14 +123,6 @@
         {
             "type": "single",
             "resource": "minecraft:custom/bomb_bottom"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/bomb_gui"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/chain"
         },
         {
             "type": "single",
@@ -234,11 +218,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/goat_horn"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/goat_horn_gui"
+            "resource": "minecraft:custom/raid_horn"
         },
         {
             "type": "single",
@@ -246,23 +226,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/hook_gui"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/hook_gui_nodamage"
-        },
-        {
-            "type": "single",
             "resource": "minecraft:custom/mace"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/mace_gui"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/mace_gui_nodamage"
         },
         {
             "type": "single",
@@ -270,23 +234,11 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/rock_gui"
-        },
-        {
-            "type": "single",
             "resource": "minecraft:custom/shark_tooth"
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/shark_tooth_gui_nodamage"
-        },
-        {
-            "type": "single",
             "resource": "minecraft:custom/blast_barrel"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/blast_barrel_gui"
         },
         {
             "type": "single",
@@ -386,14 +338,6 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:hat/black_wool"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/gray_wool"
-        },
-        {
-            "type": "single",
             "resource": "minecraft:hat/hat_skull"
         },
         {
@@ -406,83 +350,35 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:hat/orange_wool"
+            "resource": "minecraft:hat/blackhat_gui"
         },
         {
             "type": "single",
-            "resource": "minecraft:hat/yellow_wool"
+            "resource": "minecraft:hat/grayhat_gui"
         },
         {
             "type": "single",
-            "resource": "minecraft:hat/purple_wool"
+            "resource": "minecraft:hat/goldhat_gui"
         },
         {
             "type": "single",
-            "resource": "minecraft:hat/magenta_wool"
+            "resource": "minecraft:hat/diamondhat_gui"
         },
         {
             "type": "single",
-            "resource": "minecraft:hat/red_wool"
+            "resource": "minecraft:hat/purplehat_gui"
         },
         {
             "type": "single",
-            "resource": "minecraft:hat/gold_block"
+            "resource": "minecraft:hat/orangehat_gui"
         },
         {
             "type": "single",
-            "resource": "minecraft:hat/diamond_block"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/parkour_log"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/blackhat_ui"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/grayhat_ui"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/goldhat_ui"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/diamondhat_ui"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/purplehat_ui"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/orangehat_ui"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/parkourhat_ui"
+            "resource": "minecraft:hat/parkourhat_gui"
         },
         {
             "type": "single",
             "resource": "minecraft:hat/vanilla_skull"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/cannonball"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/cutlass"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/battleaxe"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:hat/basalt_side"
         },
         {
             "type": "single",
@@ -546,23 +442,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:custom/crabtrap_empty_durabar"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/crabtrap_full_durabar"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/beehive_end"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/oak_log"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/iron_block"
+            "resource": "minecraft:custom/crabtrap_full"
         },
         {
             "type": "single",
@@ -595,26 +475,6 @@
         {
             "type": "single",
             "resource": "minecraft:custom/shield_gui"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/shield_gui_nodamage"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/bone_block_side"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/barrel_bottom"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/coal_block"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/anvil"
         },
         {
             "type": "single",

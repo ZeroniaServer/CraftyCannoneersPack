@@ -7,8 +7,24 @@
             {
                 "threshold": 1,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:custom/blastbarrel_stage0"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:custom/blastbarrel_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:custom/blastbarrel_stage0"
+                    }
                 }
             },
             {
@@ -112,50 +128,155 @@
                         {
                             "threshold": 0.2,
                             "model": {
-                                "type": "minecraft:model",
-                                "model": "minecraft:custom/crabtrap_full_durabar"
+                                "type": "minecraft:select",
+                                "property": "minecraft:display_context",
+                                "cases": [
+                                    {
+                                        "when": [
+                                            "gui"
+                                        ],
+                                        "model": {
+                                            "type": "minecraft:model",
+                                            "model": "minecraft:custom/crabtrap_full_gui"
+                                        }
+                                    }
+                                ],
+                                "fallback": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:custom/crabtrap_full"
+                                }
                             }
                         },
                         {
                             "threshold": 0.4,
                             "model": {
-                                "type": "minecraft:model",
-                                "model": "minecraft:custom/crabtrap_empty_durabar"
+                                "type": "minecraft:select",
+                                "property": "minecraft:display_context",
+                                "cases": [
+                                    {
+                                        "when": [
+                                            "gui"
+                                        ],
+                                        "model": {
+                                            "type": "minecraft:model",
+                                            "model": "minecraft:custom/crabtrap_empty_gui"
+                                        }
+                                    }
+                                ],
+                                "fallback": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:custom/crabtrap_empty"
+                                }
                             }
                         },
                         {
                             "threshold": 0.6,
                             "model": {
-                                "type": "minecraft:model",
-                                "model": "minecraft:custom/crabtrap_full_durabar"
+                                "type": "minecraft:select",
+                                "property": "minecraft:display_context",
+                                "cases": [
+                                    {
+                                        "when": [
+                                            "gui"
+                                        ],
+                                        "model": {
+                                            "type": "minecraft:model",
+                                            "model": "minecraft:custom/crabtrap_full_gui"
+                                        }
+                                    }
+                                ],
+                                "fallback": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:custom/crabtrap_full"
+                                }
                             }
                         },
                         {
                             "threshold": 0.8,
                             "model": {
-                                "type": "minecraft:model",
-                                "model": "minecraft:custom/crabtrap_empty_durabar"
+                                "type": "minecraft:select",
+                                "property": "minecraft:display_context",
+                                "cases": [
+                                    {
+                                        "when": [
+                                            "gui"
+                                        ],
+                                        "model": {
+                                            "type": "minecraft:model",
+                                            "model": "minecraft:custom/crabtrap_empty_gui"
+                                        }
+                                    }
+                                ],
+                                "fallback": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:custom/crabtrap_empty"
+                                }
                             }
                         },
                         {
                             "threshold": 1,
                             "model": {
-                                "type": "minecraft:model",
-                                "model": "minecraft:custom/crabtrap_full_durabar"
+                                "type": "minecraft:select",
+                                "property": "minecraft:display_context",
+                                "cases": [
+                                    {
+                                        "when": [
+                                            "gui"
+                                        ],
+                                        "model": {
+                                            "type": "minecraft:model",
+                                            "model": "minecraft:custom/crabtrap_full_gui"
+                                        }
+                                    }
+                                ],
+                                "fallback": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:custom/crabtrap_full"
+                                }
                             }
                         }
                     ],
                     "fallback": {
-                        "type": "minecraft:model",
-                        "model": "minecraft:custom/crabtrap_empty"
+                        "type": "minecraft:select",
+                        "property": "minecraft:display_context",
+                        "cases": [
+                            {
+                                "when": [
+                                    "gui"
+                                ],
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:custom/crabtrap_empty_gui"
+                                }
+                            }
+                        ],
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:custom/crabtrap_empty"
+                        }
                     }
                 }
             },
             {
                 "threshold": 16,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:custom/crabtrap_full_durabar"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:custom/crabtrap_full_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:custom/crabtrap_full"
+                    }
                 }
             }
         ],

@@ -112,22 +112,70 @@
             {
                 "threshold": 16,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/cannonball"
+                    }
                 }
             },
             {
                 "threshold": 17,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/orange/default"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/orange/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/orange/default"
+                    }
                 }
             },
             {
                 "threshold": 18,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/purple/default"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/purple/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/purple/default"
+                    }
                 }
             },
             {
@@ -154,8 +202,24 @@
             {
                 "threshold": 22,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/hot_cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/hot_cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/hot_cannonball"
+                    }
                 }
             },
             {
@@ -203,8 +267,24 @@
             {
                 "threshold": 29,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/cluster_cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/cluster_cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/cluster_cannonball"
+                    }
                 }
             },
             {
@@ -217,15 +297,47 @@
             {
                 "threshold": 31,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/gas_cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/gas_cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/gas_cannonball"
+                    }
                 }
             },
             {
                 "threshold": 32,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/chain_cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/chain_cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/chain_cannonball"
+                    }
                 }
             },
             {
@@ -273,8 +385,24 @@
             {
                 "threshold": 39,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/lobby/default"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/lobby/blackhat_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/lobby/default"
+                    }
                 }
             },
             {
@@ -294,50 +422,162 @@
             {
                 "threshold": 42,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/lobby/kills"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/lobby/goldhat_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/lobby/kills"
+                    }
                 }
             },
             {
                 "threshold": 43,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/lobby/kills_deaths"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/lobby/goldhat_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/lobby/kills_deaths"
+                    }
                 }
             },
             {
                 "threshold": 44,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/lobby/cannons_deaths"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/lobby/goldhat_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/lobby/cannons_deaths"
+                    }
                 }
             },
             {
                 "threshold": 45,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/lobby/cannons"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/lobby/goldhat_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/lobby/cannons"
+                    }
                 }
             },
             {
                 "threshold": 46,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/lobby/cannons_kills"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/lobby/goldhat_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/lobby/cannons_kills"
+                    }
                 }
             },
             {
                 "threshold": 47,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/lobby/all"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/lobby/diamondhat_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/lobby/all"
+                    }
                 }
             },
             {
                 "threshold": 48,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/lobby/deaths"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/lobby/grayhat_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/lobby/deaths"
+                    }
                 }
             },
             {
@@ -385,15 +625,47 @@
             {
                 "threshold": 55,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/bouncy_cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/bouncy_cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/bouncy_cannonball"
+                    }
                 }
             },
             {
                 "threshold": 56,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/player_cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/player_cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/player_cannonball"
+                    }
                 }
             },
             {
@@ -420,15 +692,47 @@
             {
                 "threshold": 60,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/tracer_cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/tracer_cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/tracer_cannonball"
+                    }
                 }
             },
             {
                 "threshold": 61,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/lobby/parkour"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/lobby/parkourhat_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/lobby/parkour"
+                    }
                 }
             },
             {
@@ -511,8 +815,24 @@
             {
                 "threshold": 73,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/golden_cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/golden_cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/golden_cannonball"
+                    }
                 }
             },
             {
@@ -637,106 +957,344 @@
             {
                 "threshold": 91,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/tracer_cannonball_red"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/tracer_cannonball_red"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "empty"
+                    }
                 }
             },
             {
                 "threshold": 92,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/orange/deaths"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/orange/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/orange/deaths"
+                    }
                 }
             },
             {
                 "threshold": 93,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/orange/cannons"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/orange/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/orange/cannons"
+                    }
                 }
             },
             {
                 "threshold": 94,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/orange/cannons_deaths"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/orange/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/orange/cannons_deaths"
+                    }
                 }
             },
             {
                 "threshold": 95,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/orange/kills"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/orange/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/orange/kills"
+                    }
                 }
             },
             {
                 "threshold": 96,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/orange/kills_deaths"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/orange/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/orange/kills_deaths"
+                    }
                 }
             },
             {
                 "threshold": 97,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/orange/cannons_kills"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/orange/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/orange/cannons_kills"
+                    }
                 }
             },
             {
                 "threshold": 98,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/orange/all"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/orange/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/orange/all"
+                    }
                 }
             },
             {
                 "threshold": 99,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/purple/deaths"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/purple/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/purple/deaths"
+                    }
                 }
             },
             {
                 "threshold": 100,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/purple/cannons"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/purple/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/purple/cannons"
+                    }
                 }
             },
             {
                 "threshold": 101,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/purple/cannons_deaths"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/purple/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/purple/cannons_deaths"
+                    }
                 }
             },
             {
                 "threshold": 102,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/purple/kills"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/purple/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/purple/kills"
+                    }
                 }
             },
             {
                 "threshold": 103,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/purple/kills_deaths"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/purple/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/purple/kills_deaths"
+                    }
                 }
             },
             {
                 "threshold": 104,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/purple/cannons_kills"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/purple/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/purple/cannons_kills"
+                    }
                 }
             },
             {
                 "threshold": 105,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:hats/purple/all"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:hats/purple/gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:hats/purple/all"
+                    }
                 }
             },
             {
@@ -763,8 +1321,24 @@
             {
                 "threshold": 109,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/copper_cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/copper_cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/copper_cannonball"
+                    }
                 }
             },
             {

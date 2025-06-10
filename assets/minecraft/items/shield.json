@@ -10,7 +10,7 @@
                 ],
                 "model": {
                     "type": "minecraft:model",
-                    "model": "minecraft:weapon/customshield_gui"
+                    "model": "minecraft:weapon/shield_gui"
                 }
             }
         ],
@@ -19,11 +19,11 @@
             "property": "minecraft:using_item",
             "on_true": {
                 "type": "minecraft:model",
-                "model": "minecraft:weapon/customshield_blocking"
+                "model": "minecraft:weapon/shield_blocking"
             },
             "on_false": {
                 "type": "minecraft:model",
-                "model": "minecraft:weapon/customshield"
+                "model": "minecraft:weapon/shield"
             }
         }
     }

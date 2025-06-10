@@ -1,6 +1,0 @@
-{
-	"parent": "weapon/customshield",
-	"textures": {
-		"layer0": "item/shield"
-	}
-}

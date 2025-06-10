@@ -7,8 +7,24 @@
             {
                 "threshold": 1,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:cannon/hot_cannonball"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:cannon/hot_cannonball_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:cannon/hot_cannonball"
+                    }
                 }
             }
         ],

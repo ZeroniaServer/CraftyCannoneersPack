@@ -7,15 +7,47 @@
             {
                 "threshold": 1,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:chest/skeleton_key"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:chest/skeleton_key_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:chest/skeleton_key"
+                    }
                 }
             },
             {
                 "threshold": 2,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:custom/bomb"
+                    "type": "minecraft:select",
+                    "property": "minecraft:display_context",
+                    "cases": [
+                        {
+                            "when": [
+                                "gui",
+                                "fixed"
+                            ],
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:custom/bomb_gui"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:custom/bomb"
+                    }
                 }
             }
         ],

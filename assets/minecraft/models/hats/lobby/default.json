@@ -1,10 +1,9 @@
 {
 	"textures": {
-		"0": "hat/black_wool",
-		"3": "hat/gray_wool",
+		"0": "block/black_wool",
+		"3": "block/gray_wool",
 		"4": "hat/hat_skull",
-		"5": "hat/blackhat_ui",
-		"particle": "hat/black_wool"
+		"particle": "block/black_wool"
 	},
 	"elements": [
 		{
@@ -389,14 +388,6 @@
 			}
 		},
 		{
-			"from": [4, 0, 3.5],
-			"to": [12, 8, 3.5],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#5"}
-			}
-		},
-		{
-			"name": "hat_skull_0",
 			"from": [6.56, 1.56, 2.646],
 			"to": [9.44, 5.016, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -410,7 +401,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_1",
 			"from": [5.984, 2.136, 2.646],
 			"to": [6.56, 4.44, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -424,7 +414,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_2",
 			"from": [9.44, 2.136, 2.646],
 			"to": [10.016, 4.44, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -438,7 +427,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_3",
 			"from": [6.56, 0.984, 2.646],
 			"to": [7.136, 1.56, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -452,7 +440,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_4",
 			"from": [7.712, 0.984, 2.646],
 			"to": [8.288, 1.56, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -466,7 +453,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_5",
 			"from": [8.864, 0.984, 2.646],
 			"to": [9.44, 1.56, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -480,55 +466,10 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
-		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, 8, 0],
-			"scale": [2, 2, 2]
-		},
 		"head": {
 			"translation": [0, 13, 0.25],
 			"scale": [1.57, 1.57, 1.57]
 		}
-	},
-	"groups": [
-		0,
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		{
-			"name": "hat_skull",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [31, 32, 33, 34, 35, 36]
-		}
-	]
+	}
 }

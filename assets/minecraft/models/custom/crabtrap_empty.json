@@ -1,11 +1,10 @@
 {
 	"textures": {
-		"4": "custom/beehive_end",
-		"5": "custom/chain",
-		"6": "custom/oak_log",
-		"7": "custom/iron_block",
-		"8": "custom/crabtrap_empty",
-		"particle": "custom/beehive_end"
+		"4": "block/beehive_end",
+		"5": "block/chain",
+		"6": "block/oak_log",
+		"7": "block/iron_block",
+		"particle": "block/beehive_end"
 	},
 	"elements": [
 		{
@@ -723,17 +722,8 @@
 				"up": {"uv": [0, 0, 2, 2], "texture": "#6"},
 				"down": {"uv": [0, 0, 2, 2], "texture": "#6"}
 			}
-		},
-		{
-			"name": "ICON",
-			"from": [0, 1, -1],
-			"to": [16, 1, 15],
-			"faces": {
-				"down": {"uv": [0, 0, 16, 16], "texture": "#8"}
-			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [90, 90, 0],
@@ -758,10 +748,6 @@
 		"ground": {
 			"translation": [0, 3.5, 0],
 			"scale": [0.5, 0.5, 0.5]
-		},
-		"gui": {
-			"rotation": [-90, 0, 0],
-			"translation": [0, -1, 0]
 		},
 		"fixed": {
 			"rotation": [0, 0, 0],
