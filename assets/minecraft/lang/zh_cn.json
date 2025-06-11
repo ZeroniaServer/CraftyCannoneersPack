@@ -565,7 +565,7 @@
   "chat.cannot_cancel.seconds": "现在无法取消游戏. 请在 %s 秒后再试.",
   "chat.cannot_cancel.game": "无法取消游戏. 游戏已在进行中.",
   "chat.cannot_cancel.players": "无法取消游戏. 玩家已加入队伍.",
-  "chat.canceled_match": "%s 取消了游戏!",
+  "chat.canceled_match": "%s 正在编辑游戏设置!",
   "credits.game_developer": "游戏开发者",
   "credits.producer": "监制",
   "credits.builder": "建筑",
