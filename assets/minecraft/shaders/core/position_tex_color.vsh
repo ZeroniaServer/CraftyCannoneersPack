@@ -1,12 +1,23 @@
 #version 150
 
+// Can't moj_import in things used during startup, when resource packs don't exist.
+// This is a copy of dynamicimports.glsl and projection.glsl
+layout(std140) uniform DynamicTransforms {
+    mat4 ModelViewMat;
+    vec4 ColorModulator;
+    vec3 ModelOffset;
+    mat4 TextureMat;
+    float LineWidth;
+};
+layout(std140) uniform Projection {
+    mat4 ProjMat;
+};
+
+uniform sampler2D Sampler0;
+
 in vec3 Position;
 in vec2 UV0;
 in vec4 Color;
-
-uniform sampler2D Sampler0;
-uniform mat4 ModelViewMat;
-uniform mat4 ProjMat;
 
 out vec2 texCoord0;
 out vec4 vertexColor;
@@ -34,6 +45,7 @@ vec4 getVertexColor(sampler2D Sampler, int vertexID, vec2 coords) {
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
+
     texCoord0 = UV0;
 	vec4 color = getVertexColor(Sampler0, gl_VertexID, texCoord0); // get the color of the vertex
 	if(color.a == 1.0/255.0 && Position.y >= 30) gl_Position = ProjMat * ModelViewMat * vec4(Position + vec3(0.0, -10.0, 0.0), 1.0); // the vertex renders a bossbar, offset it.

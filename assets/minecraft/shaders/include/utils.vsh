@@ -1,5 +1,10 @@
 #version 150
 
+// Copied from light.glsl
+vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {
+    return texture(lightMap, clamp(uv / 256.0, vec2(0.5 / 16.0), vec2(15.5 / 16.0)));
+}
+
 // Checking for the exact alpha value breaks things, so I use this function to cut down on space while also making it work better.
 bool check_alpha(float textureAlpha, float targetAlpha) {
 	float targetLess = targetAlpha - 0.01;
