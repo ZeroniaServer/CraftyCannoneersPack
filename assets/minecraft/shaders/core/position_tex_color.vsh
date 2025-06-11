@@ -37,6 +37,5 @@ void main() {
     texCoord0 = UV0;
 	vec4 color = getVertexColor(Sampler0, gl_VertexID, texCoord0); // get the color of the vertex
 	if(color.a == 1.0/255.0 && Position.y >= 30) gl_Position = ProjMat * ModelViewMat * vec4(Position + vec3(0.0, -10.0, 0.0), 1.0); // the vertex renders a bossbar, offset it.
-	
     vertexColor = Color;
 }

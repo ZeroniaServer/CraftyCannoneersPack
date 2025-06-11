@@ -10,14 +10,11 @@ uniform float FogStart;
 uniform float FogEnd;
 uniform vec4 FogColor;
 
-in float zPos;
 in float vertexDistance;
 in vec4 vertexColor;
 in vec4 lightMapColor;
 in vec4 overlayColor;
 in vec2 texCoord0;
-
-flat in int isGUI;
 
 out vec4 fragColor;
 

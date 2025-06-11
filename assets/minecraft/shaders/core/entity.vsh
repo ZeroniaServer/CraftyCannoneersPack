@@ -21,23 +21,13 @@ uniform int FogShape;
 uniform vec3 Light0_Direction;
 uniform vec3 Light1_Direction;
 
-out float zPos;
 out float vertexDistance;
 out vec4 vertexColor;
 out vec4 lightMapColor;
 out vec4 overlayColor;
 out vec2 texCoord0;
 
-flat out int isGUI;
-
-//gui item model detection from Onnowhere
-bool isgui(mat4 ProjMat) {
-    return ProjMat[2][3] == 0.0;
-}
-
 void main() {
-    isGUI = int(isgui(ProjMat));
-    zPos = Position.z;
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
     vertexDistance = fog_distance(Position, FogShape);
