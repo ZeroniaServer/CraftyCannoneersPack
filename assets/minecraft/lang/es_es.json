@@ -570,7 +570,7 @@
   "chat.cannot_cancel.seconds": "No se pueden editar los ajustes en este momento. Inténtalo de nuevo en %s segundos.",
   "chat.cannot_cancel.game": "No se pueden editar los ajustes. Una partida ya está en curso.",
   "chat.cannot_cancel.players": "No se pueden editar los ajustes. Los jugadores ya se han unido a los equipos.",
-  "chat.canceled_match": "¡%s ha cancelado la partida!",
+  "chat.canceled_match": "¡%s está editando los ajustes!",
   "credits.game_developer": "Desarrollador del juego",
   "credits.producer": "Productor",
   "credits.builder": "Constructor",
