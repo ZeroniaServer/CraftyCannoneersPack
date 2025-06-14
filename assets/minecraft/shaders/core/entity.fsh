@@ -21,6 +21,10 @@ void main() {
     if (color.a < ALPHA_CUTOUT) {
         discard;
     }
+#else // for solid rendering -- hopefully no other consequences
+    if (color.a == 0.0) {
+        discard;
+    }
 #endif
     color *= vertexColor * ColorModulator;
 #ifndef NO_OVERLAY
