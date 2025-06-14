@@ -38,7 +38,7 @@ void main() {
 
     // common chest color
     else if (Color == vec4(169/255., 165/255., 0, Color.a)) {
-        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z + 200.0);
+        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // recolor to gray
@@ -49,7 +49,7 @@ void main() {
 
     // uncommon chest color
     else if (Color == vec4(169/255., 166/255., 0, Color.a)) {
-        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z + 200.0);
+        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // recolor to dark aqua
@@ -60,7 +60,7 @@ void main() {
 
     // rare chest color
     else if (Color == vec4(169/255., 167/255., 0, Color.a)) {
-        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z + 200.0);
+        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // recolor to dark aqua
@@ -71,7 +71,7 @@ void main() {
 
     // cargo barrel color
     else if (Color == vec4(169/255., 168/255., 0, Color.a)) {
-        vec3 newPos = vec3(Position.x, Position.y - 6.0, Position.z + 200.0);
+        vec3 newPos = vec3(Position.x, Position.y - 6.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // recolor to custom color
@@ -82,7 +82,7 @@ void main() {
     
     // grave color
     else if (Color == vec4(169/255., 169/255., 0, Color.a)) {
-        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z + 200.0);
+        vec3 newPos = vec3(Position.x, Position.y - 20.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // recolor to custom color
@@ -94,7 +94,7 @@ void main() {
     // displace custom gui texture to hide in nametag view
     else if (Color == vec4(123/255., 123/255., 0, Color.a)) {
         vertexColor = texelFetch(Sampler2, UV2 / 16, 0);
-        vec3 newPos = vec3(Position.x, Position.y, Position.z + 200.0);
+        vec3 newPos = vec3(Position.x, Position.y, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
     }
 }
