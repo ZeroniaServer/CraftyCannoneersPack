@@ -2,6 +2,6 @@
     "pack": {
         "pack_format": 64,
         "supported_formats": [63, 64],
-        "description": "v1.1.6 Made by Zeronia"
+        "description": "v1.1.7 Made by Zeronia"
     }
 }
