@@ -1,10 +1,9 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "hat/black_wool",
-		"3": "hat/gray_wool",
+		"0": "block/black_wool",
+		"3": "block/gray_wool",
 		"4": "block/target_side",
-		"particle": "hat/black_wool"
+		"particle": "block/black_wool"
 	},
 	"elements": [
 		{
@@ -389,7 +388,6 @@
 			}
 		},
 		{
-			"name": "target_side",
 			"from": [6, 1, 2.75],
 			"to": [10, 5, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6]},
@@ -403,14 +401,10 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"ground": {
 			"translation": [-0.5, 6, 0],
 			"scale": [0.7, 0.7, 0.7]
-		},
-		"gui": {
-			"rotation": [0, 180, 0]
 		},
 		"head": {
 			"translation": [0, 12.5, 0],

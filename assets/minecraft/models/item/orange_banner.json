@@ -1,7 +1,7 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "custom/orange_flag"
+		"1": "custom/orange_flag",
+		"particle": "custom/orange_flag"
 	},
 	"elements": [
 		{

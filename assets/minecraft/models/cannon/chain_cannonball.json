@@ -1,20 +1,10 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/chain_cannonball",
-		"1": "custom/chain_cannonball_gui",
-		"2": "custom/chain",
+		"2": "block/chain",
 		"particle": "custom/chain_cannonball"
 	},
 	"elements": [
-		{
-			"name": "ICON",
-			"from": [12, 0, 2],
-			"to": [12, 8, 10],
-			"faces": {
-				"east": {"uv": [0, 0, 16, 16], "texture": "#1"}
-			}
-		},
 		{
 			"from": [2, 3, 1],
 			"to": [4, 7, 2],
@@ -1028,7 +1018,6 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [90, -15, -95],
@@ -1054,43 +1043,10 @@
 			"translation": [0, 2.75, 0.5],
 			"scale": [0.5, 0.5, 0.5]
 		},
-		"gui": {
-			"rotation": [0, -90, 0],
-			"translation": [-4, 8, 0],
-			"scale": [2, 2, 2]
-		},
 		"head": {
 			"rotation": [-90, 0, 0],
 			"translation": [0, -25.5, -4.5],
 			"scale": [2.5, 2.5, 2.5]
 		}
-	},
-	"groups": [
-		0,
-		{
-			"name": "group",
-			"origin": [0, 0, 0],
-			"color": 0,
-			"children": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
-		},
-		{
-			"name": "group",
-			"origin": [0, 0, 0],
-			"color": 0,
-			"children": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
-		},
-		{
-			"name": "group",
-			"origin": [0, 0, 0],
-			"color": 0,
-			"children": [47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86]
-		},
-		{
-			"name": "chain",
-			"origin": [0, 0, 0],
-			"color": 0,
-			"children": [87, 88, 89, 90, 91, 92, 93, 94, 95, 96]
-		},
-		97
-	]
+	}
 }

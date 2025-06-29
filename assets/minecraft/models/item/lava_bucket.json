@@ -2,8 +2,5 @@
 	"parent": "minecraft:item/generated",
 	"textures": {
 		"layer0": "item/lava_bucket"
-	},
-	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "cannon/hot_cannonball"}
-	]
+	}
 }

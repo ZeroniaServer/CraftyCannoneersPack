@@ -1,9 +1,9 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "shark/shark_belly",
 		"2": "shark/shark_skin",
-		"3": "shark/shark_eye"
+		"3": "shark/shark_eye",
+		"particle": "shark/shark_skin"
 	},
 	"elements": [
 		{

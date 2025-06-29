@@ -1,7 +1,7 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "custom/black_flag"
+		"1": "custom/black_flag",
+		"particle": "block/oak_planks"
 	},
 	"elements": [
 		{

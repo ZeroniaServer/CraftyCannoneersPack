@@ -1,7 +1,7 @@
 {
-    "credit": "Made with Blockbench", 
     "textures": {
-        "main": "custom/crabrave"
+        "main": "custom/crabrave",
+        "particle": "custom/crabrave"
     }, 
     "elements": [
         {
@@ -3196,6 +3196,5 @@
             "translation": [ 0, 1.9625, 0 ], 
             "scale": [ 0.8, 0.8, 0.8 ]
         }
-    }, 
-    "__comment": "Model animated using Fizzy's model animator - http://fizzy81.github.io/animated-models/"
+    }
 }

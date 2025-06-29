@@ -1,19 +1,9 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/copper_cannonball",
-		"1": "custom/copper_cannonball_gui",
 		"particle": "custom/copper_cannonball"
 	},
 	"elements": [
-		{
-			"name": "ICON",
-			"from": [0, 2, 8],
-			"to": [16, 18, 8],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#1"}
-			}
-		},
 		{
 			"from": [6, 4, 2],
 			"to": [10, 8, 3],
@@ -1415,7 +1405,6 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 3.5, 1],
@@ -1438,10 +1427,6 @@
 		"ground": {
 			"translation": [0, 0.75, 0],
 			"scale": [0.45, 0.45, 0.45]
-		},
-		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, -2, 0]
 		},
 		"head": {
 			"translation": [0, -31, 0],

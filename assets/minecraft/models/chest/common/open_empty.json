@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/anvil",
 		"1": "block/gray_concrete",
@@ -320,7 +319,7 @@
 			"scale": [0.49, 0.49, 0.49]
 		},
 		"head": {
-			"translation": [0.5, -23.35, 1.75]
+			"translation": [0.5, -20.7, 1.75]
 		}
 	}
 }

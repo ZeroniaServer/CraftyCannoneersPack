@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/copper_cannonball_exposed",
         "particle": "custom/copper_cannonball_exposed"
@@ -1406,7 +1405,6 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 3.5, 1],
@@ -1429,10 +1427,6 @@
 		"ground": {
 			"translation": [0, 4.5, 0],
 			"scale": [0.68, 0.68, 0.68]
-		},
-		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, -2, 0]
 		},
 		"head": {
 			"translation": [0, -31, 0],

@@ -1,0 +1,30 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": [
+                    "gui",
+                    "fixed"
+                ],
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:weapon/shield_gui"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:weapon/shield_blocking"
+            },
+            "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:weapon/shield"
+            }
+        }
+    }
+}

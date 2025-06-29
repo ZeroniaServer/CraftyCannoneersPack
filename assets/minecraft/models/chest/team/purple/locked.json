@@ -1,12 +1,11 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/anvil",
 		"2": "block/purple_shulker_box",
 		"3": "block/gold_block",
 		"4": "block/andesite",
 		"5": "block/coal_block",
-		"particle": "block/andesite"
+		"particle": "block/purple_shulker_box"
 	},
 	"elements": [
 		{

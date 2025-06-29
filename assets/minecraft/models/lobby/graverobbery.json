@@ -1,8 +1,8 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "lobby/graverobbery"
+		"layer0": "lobby/graverobbery",
+		"particle": "lobby/graverobbery"
 	},
 	"display": {
 		"head": {

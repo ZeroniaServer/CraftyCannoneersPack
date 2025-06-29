@@ -1,15 +1,13 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "hat/gold_block",
-		"5": "hat/goldhat_ui",
+		"0": "block/gold_block",
 		"6": "hat/vanilla_skull",
 		"8": "hat/hat_skull_mvp",
-		"9": "hat/battleaxe",
-		"particle": "hat/gold_block",
-		"1_0": "hat/diamond_block",
-		"1_6": "hat/cannonball",
-		"1_7": "hat/basalt_side"
+		"9": "custom/battleaxe",
+		"particle": "block/gold_block",
+		"1_0": "block/diamond_block",
+		"1_6": "custom/golden_cannonball_gui",
+		"1_7": "block/basalt_side"
 	},
 	"elements": [
 		{
@@ -391,13 +389,6 @@
 				"west": {"uv": [1, 11, 2, 12], "texture": "#1_0"},
 				"up": {"uv": [1, 11, 4, 12], "rotation": 180, "texture": "#1_0"},
 				"down": {"uv": [1, 11, 4, 12], "rotation": 180, "texture": "#1_0"}
-			}
-		},
-		{
-			"from": [4, 0, 3.5],
-			"to": [12, 8, 3.5],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#5"}
 			}
 		},
 		{
@@ -973,7 +964,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_mvp_0",
 			"from": [6.56, 1.56, 2.646],
 			"to": [9.44, 5.016, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -987,7 +977,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_mvp_1",
 			"from": [5.984, 2.136, 2.646],
 			"to": [6.56, 4.44, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -1001,7 +990,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_mvp_2",
 			"from": [9.44, 2.136, 2.646],
 			"to": [10.016, 4.44, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -1015,7 +1003,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_mvp_3",
 			"from": [6.56, 0.984, 2.646],
 			"to": [7.136, 1.56, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -1029,7 +1016,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_mvp_4",
 			"from": [7.712, 0.984, 2.646],
 			"to": [8.288, 1.56, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -1043,7 +1029,6 @@
 			}
 		},
 		{
-			"name": "hat_skull_mvp_5",
 			"from": [8.864, 0.984, 2.646],
 			"to": [9.44, 1.56, 3.04],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.696, 5.496, 5.536]},
@@ -1057,76 +1042,10 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
-		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, 8, 0],
-			"scale": [2, 2, 2]
-		},
 		"head": {
 			"translation": [0, 13, 0.25],
 			"scale": [1.57, 1.57, 1.57]
 		}
-	},
-	"groups": [
-		0,
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		{
-			"name": "cannonman",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [
-				{
-					"name": "cannons",
-					"origin": [8, 8, 8],
-					"color": 0,
-					"children": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
-				}
-			]
-		},
-		{
-			"name": "group",
-			"origin": [-4.6, 0, -1],
-			"color": 0,
-			"children": [54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73]
-		},
-		74,
-		75,
-		{
-			"name": "hat_skull_mvp",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [76, 77, 78, 79, 80, 81]
-		}
-	]
+	}
 }
