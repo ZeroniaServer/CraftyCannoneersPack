@@ -495,10 +495,6 @@
         {
             "type": "single",
             "resource": "minecraft:custom/fire_bomb_bottom"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:custom/fire_bomb_gui"
         }
     ]
 }
