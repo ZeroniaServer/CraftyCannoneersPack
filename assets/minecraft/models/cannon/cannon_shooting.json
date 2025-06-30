@@ -921,8 +921,7 @@
 				"up": {"uv": [3, 2, 5, 3], "texture": "#5"},
 				"down": {"uv": [3, 2, 5, 3], "texture": "#5"}
 			},
-			"light_emission": 15,
-			"shade": false
+			"light_emission": 15
 		},
 		{
 			"from": [13, 11, 21],
@@ -935,8 +934,7 @@
 				"up": {"uv": [13, 6, 15, 7], "texture": "#5"},
 				"down": {"uv": [13, 6, 15, 7], "texture": "#5"}
 			},
-			"light_emission": 15,
-			"shade": false
+			"light_emission": 15
 		}
 	],
 	"display": {
