@@ -1503,7 +1503,9 @@
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#6"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#6"}
-			}
+			},
+			"light_emission": 15,
+			"shade": false
 		},
 		{
 			"from": [8.5, 11, 4],
@@ -1511,7 +1513,9 @@
 			"faces": {
 				"east": {"uv": [0, 0, 16, 16], "texture": "#6"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#6"}
-			}
+			},
+			"light_emission": 15,
+			"shade": false
 		}
 	],
 	"display": {
