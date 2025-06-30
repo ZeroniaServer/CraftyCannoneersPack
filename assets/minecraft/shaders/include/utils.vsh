@@ -15,7 +15,7 @@ bool check_alpha(float textureAlpha, float targetAlpha) {
 // for particle, entity, entity block and item(player head, banner, ...)
 vec4 apply_global_emissive(vec4 inputColor, vec4 lightColor, float inputAlpha) {
     vec4 remappingColor = inputColor * lightColor;
-    if(check_alpha(inputAlpha, 254.0) || check_alpha(inputAlpha, 252.0) || check_alpha(inputAlpha, 250.0) || check_alpha(inputAlpha, 248.0) || check_alpha(inputAlpha, 246.0) || check_alpha(inputAlpha, 244.0) || check_alpha(inputAlpha, 242.0)) { // always emissive
+    if (check_alpha(inputAlpha, 250.0)) {
         remappingColor = inputColor;
         remappingColor.a = 1.0;
     }

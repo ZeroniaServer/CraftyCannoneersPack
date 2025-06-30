@@ -31,8 +31,7 @@ void main() {
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
 #endif
 #ifndef EMISSIVE
-    float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
-    color = apply_global_emissive(color, lightMapColor, alpha);
+    color *= lightMapColor;
 #endif
     fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
 }

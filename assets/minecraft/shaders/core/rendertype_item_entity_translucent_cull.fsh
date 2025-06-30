@@ -21,7 +21,6 @@ void main() {
 	if (!check_alpha(alpha, 250.0)) {
         color *= vertexColor;
     }
-    color = apply_global_emissive(color, lightColor, alpha);
     if (color.a < 0.1) {
         discard;
     }

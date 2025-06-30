@@ -731,8 +731,7 @@
 				"east": {"uv": [1, 0, 15, 16], "rotation": 90, "texture": "#5"},
 				"west": {"uv": [1, 0, 15, 16], "rotation": 270, "texture": "#5"}
 			},
-			"light_emission": 15,
-			"shade": false
+			"light_emission": 15
 		},
 		{
 			"from": [5, 18, -16],
@@ -741,8 +740,7 @@
 				"up": {"uv": [1, 0, 15, 16], "texture": "#5"},
 				"down": {"uv": [1, 0, 15, 16], "rotation": 180, "texture": "#5"}
 			},
-			"light_emission": 15,
-			"shade": false
+			"light_emission": 15
 		}
 	],
 	"display": {
