@@ -18,8 +18,11 @@ out vec4 fragColor;
 void main() {
     vec4 color = texture(Sampler0, texCoord0) * ColorModulator;
     float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
-	if (!check_alpha(alpha, 250.0)) {
+    if (!check_alpha(alpha, 250.0)) {
         color *= vertexColor;
+    }
+    else {
+        color.a = 1.0;
     }
     if (color.a < 0.1) {
         discard;
