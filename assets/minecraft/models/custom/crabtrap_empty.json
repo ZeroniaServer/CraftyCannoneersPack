@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"4": "block/beehive_end",
-		"5": "block/chain",
+		"5": "block/iron_chain",
 		"6": "block/oak_log",
 		"7": "block/iron_block",
 		"particle": "block/beehive_end"
