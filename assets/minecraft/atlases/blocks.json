@@ -278,7 +278,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:entity/signs/oak"
+            "resource": "minecraft:custom/oak"
         },
         {
             "type": "single",
@@ -479,6 +479,14 @@
         {
             "type": "single",
             "resource": "minecraft:lobby/lock"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/bone"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/spyglass_model"
         }
     ]
 }

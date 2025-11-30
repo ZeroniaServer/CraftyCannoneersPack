@@ -8,7 +8,7 @@
 		"8": "block/cauldron_inner",
 		"9": "block/anvil",
 		"10": "block/command_block_back",
-		"12": "item/spyglass_model",
+		"12": "custom/spyglass_model",
 		"particle": "block/chorus_plant"
 	},
 	"elements": [
