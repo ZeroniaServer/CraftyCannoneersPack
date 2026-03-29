@@ -3,7 +3,6 @@
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:projection.glsl>
-#moj_import <minecraft:sample_lightmap.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -23,12 +22,12 @@ void main() {
 
     sphericalVertexDistance = fog_spherical_distance(Position);
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
-    vertexColor = Color * sample_lightmap(Sampler2, UV2);
+    vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
     texCoord0 = UV0;
 
     // no shadow text: 
     if (Color == vec4(78/255., 92/255., 36/255., Color.a)) {
-        vertexColor = sample_lightmap(Sampler2, UV2); // remove color from no shadow marker
+        vertexColor = texelFetch(Sampler2, UV2 / 16, 0); // remove color from no shadow marker
     } else if (Color == vec4(19/255., 23/255., 9/255., Color.a)) {
         vertexColor = vec4(0); // remove shadow
     }
@@ -94,7 +93,7 @@ void main() {
 
     // displace custom gui texture to hide in nametag view
     else if (Color == vec4(123/255., 123/255., 0, Color.a)) {
-        vertexColor = sample_lightmap(Sampler2, UV2);
+        vertexColor = texelFetch(Sampler2, UV2 / 16, 0);
         vec3 newPos = vec3(Position.x, Position.y, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
     }

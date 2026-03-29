@@ -1,10 +1,10 @@
 #version 330
 
 #moj_import <minecraft:utils.vsh>
+#moj_import <minecraft:light.glsl>
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:projection.glsl>
-#moj_import <minecraft:sample_lightmap.glsl>
 
 in vec3 Position;
 in vec2 UV0;
@@ -27,8 +27,8 @@ void main() {
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
     texCoord0 = UV0;
     vertexColor = Color;
-    lightColor = sample_lightmap(Sampler2, UV2);
-    maxLightColor = sample_lightmap(Sampler2, ivec2(240.0, 240.0));
+	lightColor = minecraft_sample_lightmap(Sampler2, UV2);
+	maxLightColor = minecraft_sample_lightmap(Sampler2, ivec2(240.0, 240.0));
 
     // To get rid of potion particles for blast bombs
     if (Color == vec4(0/255., 0/255., 0/255., Color.a)) {
