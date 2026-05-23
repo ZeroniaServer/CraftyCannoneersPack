@@ -493,8 +493,8 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"ground": {
-			"rotation": [90, 0, 90],
-			"translation": [-1.75, 1.25, -0.25],
+			"rotation": [90, 0, 0],
+			"translation": [-0.125, 1.25, 1.75],
 			"scale": [0.3, 0.3, 0.3]
 		},
 		"head": {
