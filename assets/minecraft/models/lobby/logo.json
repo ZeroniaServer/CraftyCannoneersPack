@@ -1,8 +1,7 @@
 {
-	"texture_size": [64, 32],
 	"textures": {
 		"0": "lobby/cclogo",
-		"1": "entity/signs/oak",
+		"1": "custom/oak",
 		"particle": "lobby/cclogo"
 	},
 	"elements": [

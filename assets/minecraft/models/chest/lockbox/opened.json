@@ -6,7 +6,7 @@
 		"3": "block/emerald_block",
 		"4": "custom/skull",
 		"7": "entity/skeleton/skeleton",
-		"8": "item/bone",
+		"8": "custom/bone",
 		"9": "block/raw_gold_block",
 		"particle": "block/bone_block_side"
 	},

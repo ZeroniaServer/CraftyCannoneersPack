@@ -1,4 +1,4 @@
-#version 150
+#version 330
 
 // Copied from light.glsl
 vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {

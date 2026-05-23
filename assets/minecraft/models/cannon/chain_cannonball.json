@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "custom/chain_cannonball",
-		"2": "block/chain",
+		"2": "block/iron_chain",
 		"particle": "custom/chain_cannonball"
 	},
 	"elements": [

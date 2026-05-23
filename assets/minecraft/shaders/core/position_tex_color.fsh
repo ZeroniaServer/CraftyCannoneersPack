@@ -1,4 +1,4 @@
-#version 150
+#version 330
 
 // Can't moj_import in things used during startup, when resource packs don't exist.
 // This is a copy of dynamicimports.glsl
@@ -7,7 +7,6 @@ layout(std140) uniform DynamicTransforms {
     vec4 ColorModulator;
     vec3 ModelOffset;
     mat4 TextureMat;
-    float LineWidth;
 };
 
 uniform sampler2D Sampler0;
