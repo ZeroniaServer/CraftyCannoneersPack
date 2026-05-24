@@ -395,6 +395,15 @@
         ],
         "subtitle": "subtitles.snowman.emerge"
     },
+    "snowmanemerge2": {
+        "sounds": [
+            "item/brush/brush_sand_complete1",
+            "item/brush/brush_sand_complete2",
+            "item/brush/brush_sand_complete3",
+            "item/brush/brush_sand_complete4",
+            "item/brush/brush_sand_complete5"
+        ]
+    },
     "snowmanspeak": {
         "sounds": [
             "entity/snowman/hurt1",

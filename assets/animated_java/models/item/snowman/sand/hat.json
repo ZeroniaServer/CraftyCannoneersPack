@@ -1,8 +1,8 @@
 {
 	"parent": "animated_java:item/snowman/default/hat",
 	"textures": {
-		"9": "block/sand",
-		"10": "block/sand",
+		"9": "block/red_sandstone_bottom",
+		"10": "block/red_sand",
 		"11": "hat/sand_skull",
 		"particle": "block/sand"
 	}
