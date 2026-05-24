@@ -15,3 +15,4 @@ Resource pack for Crafty Cannoneers. Made by Zeronia.
 - [Ts's Move Hearts Shader](https://github.com/McTsts/mc-core-shaders/tree/main/move%20hearts) (thanks to Ts for additional support!)
 - [Dominexis's Atlas Logger](https://github.com/Dominexis/Atlas-Logger)
 - [Zeronia Translators](https://crowdin.com/project/zeronia)
+- [Animated Java](https://animated-java.dev/)
