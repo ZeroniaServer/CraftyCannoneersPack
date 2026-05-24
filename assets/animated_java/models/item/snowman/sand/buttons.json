@@ -1,0 +1,7 @@
+{
+	"parent": "animated_java:item/snowman/default/buttons",
+	"textures": {
+		"6": "custom/sandman",
+		"particle": "custom/sandman"
+	}
+}

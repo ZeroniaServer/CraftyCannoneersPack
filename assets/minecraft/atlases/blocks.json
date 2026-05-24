@@ -487,6 +487,46 @@
         {
             "type": "single",
             "resource": "minecraft:custom/spyglass_model"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/snowman_arm"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/snowman_body"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/snowman_face"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/snowball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/snowman"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/sandman_arm"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/sandman_body"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/sandman_face"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/sandball"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:custom/sandman"
         }
     ]
 }

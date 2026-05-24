@@ -1,0 +1,50 @@
+{
+	"textures": {
+		"1": "minecraft:custom/snowman_face",
+		"particle": "minecraft:custom/snowman_face"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [8, 8, 7],
+			"to": [10, 10, 10],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [4, 0, 6, 2],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [0, 2, 3, 0],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 2, 2],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 0, 3, 2],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [0, 0, 3, 2],
+					"rotation": 270,
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [0, 2, 3, 0],
+					"rotation": 270,
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

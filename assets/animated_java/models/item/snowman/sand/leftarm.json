@@ -1,0 +1,7 @@
+{
+	"parent": "animated_java:item/snowman/default/leftarm",
+	"textures": {
+		"2": "minecraft:custom/sandman_arm",
+		"particle": "minecraft:custom/sandman_arm"
+	}
+}

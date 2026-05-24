@@ -1,0 +1,7 @@
+{
+	"parent": "animated_java:item/snowman/default/snowball",
+	"textures": {
+		"3": "minecraft:custom/sandball",
+		"particle": "minecraft:custom/sandball"
+	}
+}

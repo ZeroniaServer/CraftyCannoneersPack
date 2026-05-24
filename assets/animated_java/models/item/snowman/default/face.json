@@ -1,0 +1,28 @@
+{
+	"textures": {
+		"1": "minecraft:custom/snowman_face",
+		"particle": "minecraft:custom/snowman_face"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [6, 6, 9.9],
+			"to": [12, 12, 9.9],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [6, 8, 8.9]
+			},
+			"faces": {
+				"north": {
+					"uv": [8, 0, 14, 6],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

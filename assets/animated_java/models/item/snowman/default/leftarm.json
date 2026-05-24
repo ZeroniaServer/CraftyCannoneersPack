@@ -1,0 +1,34 @@
+{
+	"textures": {
+		"2": "minecraft:custom/snowman_arm",
+		"particle": "minecraft:custom/snowman_arm"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [-7.5, 21, 8],
+			"to": [6, 25, 8],
+			"rotation": {
+				"angle": -22.5,
+				"axis": "z",
+				"origin": [6, 23, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 4, 13.5],
+					"rotation": 90,
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [4, 0, 0, 13.5],
+					"rotation": 270,
+					"texture": "#2"
+				}
+			}
+		}
+	]
+}

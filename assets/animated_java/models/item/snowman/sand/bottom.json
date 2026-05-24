@@ -1,0 +1,7 @@
+{
+	"parent": "animated_java:item/snowman/default/bottom",
+	"textures": {
+		"0": "minecraft:custom/sandman_body",
+		"particle": "minecraft:custom/sandman_body"
+	}
+}
