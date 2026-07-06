@@ -25,8 +25,7 @@ void main() {
     float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
     if (!check_alpha(alpha, 250.0)) {
         color *= vertexColor;
-    }
-    else {
+    } else {
         color.a = 1.0;
     }
     color *= ColorModulator;
